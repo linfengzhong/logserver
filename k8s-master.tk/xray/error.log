@@ -574,3 +574,23 @@
 2021/06/27 20:49:23 [Warning] core: Xray 1.4.2 started
 2021/06/28 10:23:49 [Warning] transport/internet/websocket: accepting PROXY protocol
 2021/06/28 10:23:49 [Warning] core: Xray 1.4.2 started
+2021/07/10 07:49:19 [Debug] app/log: Logger started
+2021/07/10 07:49:19 [Info] app/dns: DNS: created localhost client
+2021/07/10 07:49:19 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/10 07:49:19 [Debug] app/proxyman/inbound: creating stream worker on 127.0.0.1:31297
+2021/07/10 07:49:19 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:443
+2021/07/10 07:49:19 [Info] transport/internet/websocket: listening TCP(for WS) on 127.0.0.1:31297
+2021/07/10 07:49:19 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/10 07:49:19 [Warning] core: Xray 1.4.2 started
+2021/07/10 07:49:26 [Info] [388766420] proxy/vless/inbound: firstLen = 516
+2021/07/10 07:49:26 [Info] [388766420] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 07:49:26 [Info] [388766420] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 07:49:26 [Info] [388766420] proxy/vless/inbound: realAlpn = 
+2021/07/10 07:49:26 [Info] [388766420] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/10 07:49:28 [Info] [388766420] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 07:49:52 [Info] [3543031583] proxy/vless/inbound: firstLen = 516
+2021/07/10 07:49:52 [Info] [3543031583] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 07:49:52 [Info] [3543031583] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 07:49:52 [Info] [3543031583] proxy/vless/inbound: realAlpn = 
+2021/07/10 07:49:52 [Info] [3543031583] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/10 07:49:55 [Info] [3543031583] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
