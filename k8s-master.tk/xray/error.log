@@ -14299,3 +14299,11 @@
 2021/07/10 21:40:09 [Info] [4088656542] proxy/vless/inbound: realPath = /
 2021/07/10 21:40:10 [Info] [4088656542] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > read tcp 192.168.0.5:443->34.79.68.246:47102: read: connection reset by peer
 2021/07/10 21:40:10 [Info] [4088656542] app/proxyman/inbound: failed to close connection > write tcp 192.168.0.5:443->34.79.68.246:47102: write: broken pipe
+2021/07/10 21:46:43 [Debug] app/log: Logger started
+2021/07/10 21:46:43 [Info] app/dns: DNS: created localhost client
+2021/07/10 21:46:43 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/10 21:46:43 [Debug] app/proxyman/inbound: creating stream worker on 127.0.0.1:31297
+2021/07/10 21:46:43 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:443
+2021/07/10 21:46:43 [Info] transport/internet/websocket: listening TCP(for WS) on 127.0.0.1:31297
+2021/07/10 21:46:43 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/10 21:46:43 [Warning] core: Xray 1.4.2 started
