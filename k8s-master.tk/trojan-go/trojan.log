@@ -14040,3 +14040,5 @@
 [DEBUG] 2021/07/10 16:25:10 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
 [DEBUG] 2021/07/10 16:25:14 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
 [INFO]  2021/07/10 16:25:14 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.24.0.9:44660 tunneling to 13.250.177.223:443 closed sent: 4.79 KiB recv: 1.86 KiB
+[DEBUG] 2021/07/10 16:26:38 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 16:26:38 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.24.0.9:44600 tunneling to clientservices.googleapis.com:443 closed sent: 3.31 KiB recv: 1.03 KiB
