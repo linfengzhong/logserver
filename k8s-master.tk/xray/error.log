@@ -12661,3 +12661,4 @@
 2021/07/10 15:44:20 [Info] [248942186] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
 2021/07/10 15:44:20 [Info] [248942186] proxy/vless/inbound: realName = k8s-master.tk
 2021/07/10 15:44:20 [Info] [248942186] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 15:45:09 [Info] [1995400397] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled

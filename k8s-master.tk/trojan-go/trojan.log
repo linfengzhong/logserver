@@ -13641,3 +13641,6 @@
 [INFO]  2021/07/10 15:44:21 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.24.0.9:43860 tunneling to 13.250.177.223:443 closed sent: 3.67 KiB recv: 1.15 KiB
 [DEBUG] 2021/07/10 15:44:23 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
 [INFO]  2021/07/10 15:44:23 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.24.0.9:43864 tunneling to 13.250.177.223:443 closed sent: 24.09 KiB recv: 1.14 KiB
+[ERROR] 2021/07/10 15:45:08 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:80 read tcp 172.24.0.3:35070->13.67.9.5:443: read: connection reset by peer
+[DEBUG] 2021/07/10 15:45:08 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 15:45:08 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.24.0.9:43784 tunneling to vscode-sync.trafficmanager.net:443 closed sent: 8.50 KiB recv: 35.99 KiB
