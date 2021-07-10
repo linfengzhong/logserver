@@ -6973,3 +6973,9 @@
 [DEBUG] 2021/07/10 10:42:19 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
 [INFO]  2021/07/10 10:42:19 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.23.0.10:52080 tunneling to k8s-master.tk:443 closed sent: 6.27 KiB recv: 882 B
 [INFO]  2021/07/10 10:42:20 redirection done
+[INFO]  2021/07/10 10:42:31 tcp connection from 172.23.0.10:52096
+[DEBUG] 2021/07/10 10:42:31 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/10 10:42:42 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 10:42:42 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.23.0.10:52096 tunneling to k8s-master.tk:10000 closed sent: 16.17 KiB recv: 1.12 KiB
+[INFO]  2021/07/10 10:42:44 tcp connection from 172.23.0.10:52100
+[DEBUG] 2021/07/10 10:42:44 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
