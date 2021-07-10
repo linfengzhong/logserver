@@ -14948,3 +14948,20 @@
 [ERROR] 2021/07/10 18:42:46 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.28.0.12:39024
 [WARN]  2021/07/10 18:42:46 redirecting connection from 172.28.0.12:39024 to nginx:31300
 [INFO]  2021/07/10 18:42:46 redirection done
+[INFO]  2021/07/10 18:45:44 tcp connection from 172.28.0.12:39070
+[DEBUG] 2021/07/10 18:45:44 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /actuator/health HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip] User-Agent:[Mozilla/5.0 zgrab/0.x]] {} <nil> 0 [] false 104.199.212.122 map[] map[] <nil> map[]  /actuator/health <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/10 18:45:44 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/10 18:45:44 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/10 18:45:44 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.28.0.12:39070
+[WARN]  2021/07/10 18:45:44 redirecting connection from 172.28.0.12:39070 to nginx:31300
+[INFO]  2021/07/10 18:45:52 redirection done
+[INFO]  2021/07/10 18:46:21 tcp connection from 172.28.0.12:39080
+[WARN]  2021/07/10 18:46:22 connection with invalid trojan header from 172.28.0.12:39080 | failed to read hash | EOF
+[DEBUG] 2021/07/10 18:46:22 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[WARN]  2021/07/10 18:46:22 redirecting connection from 172.28.0.12:39080 to nginx:31300
+[INFO]  2021/07/10 18:46:22 redirection done
+[INFO]  2021/07/10 18:48:04 tcp connection from 172.28.0.12:39096
+[WARN]  2021/07/10 18:48:04 connection with invalid trojan header from 172.28.0.12:39096 | failed to read hash | EOF
+[DEBUG] 2021/07/10 18:48:04 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[WARN]  2021/07/10 18:48:04 redirecting connection from 172.28.0.12:39096 to nginx:31300
+[INFO]  2021/07/10 18:48:04 redirection done

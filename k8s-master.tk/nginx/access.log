@@ -8093,3 +8093,4 @@
 172.28.0.9 - - [10/Jul/2021:18:34:16 +0800] "GET / HTTP/1.1" 200 16407 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)" "-"
 161.97.151.211 - - [10/Jul/2021:18:42:45 +0800] "GET / HTTP/1.1" 301 169 "-" "libwww-perl/6.05" "-"
 172.28.0.9 - - [10/Jul/2021:18:42:46 +0800] "GET / HTTP/1.1" 200 16407 "-" "libwww-perl/6.05" "-"
+172.28.0.9 - - [10/Jul/2021:18:45:44 +0800] "GET /actuator/health HTTP/1.1" 404 153 "-" "Mozilla/5.0 zgrab/0.x" "-"
