@@ -14105,3 +14105,11 @@
 2021/07/10 19:00:45 [Info] [2994192255] proxy/vless/inbound: realAlpn = 
 2021/07/10 19:00:46 [Info] [2994192255] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
 2021/07/10 19:02:37 [Debug] app/log: Logger closing
+2021/07/10 19:03:09 [Debug] app/log: Logger started
+2021/07/10 19:03:09 [Info] app/dns: DNS: created localhost client
+2021/07/10 19:03:09 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/10 19:03:09 [Debug] app/proxyman/inbound: creating stream worker on 127.0.0.1:31297
+2021/07/10 19:03:09 [Info] transport/internet/websocket: listening TCP(for WS) on 127.0.0.1:31297
+2021/07/10 19:03:09 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/10 19:03:09 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:443
+2021/07/10 19:03:09 [Warning] core: Xray 1.4.2 started
