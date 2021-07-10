@@ -14371,3 +14371,27 @@
 2021/07/10 21:53:33 [Info] [4108733429] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
 2021/07/10 21:53:33 [Info] [569998944] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
 2021/07/10 21:58:08 [Debug] app/log: Logger closing
+2021/07/10 21:58:44 [Debug] app/log: Logger started
+2021/07/10 21:58:44 [Info] app/dns: DNS: created localhost client
+2021/07/10 21:58:44 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/10 21:58:44 [Debug] app/proxyman/inbound: creating stream worker on 127.0.0.1:31297
+2021/07/10 21:58:44 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:443
+2021/07/10 21:58:44 [Info] transport/internet/websocket: listening TCP(for WS) on 127.0.0.1:31297
+2021/07/10 21:58:44 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/10 21:58:44 [Warning] core: Xray 1.4.2 started
+2021/07/10 22:04:17 [Info] [2496650184] proxy/vless/inbound: firstLen = 82
+2021/07/10 22:04:17 [Info] [2496650184] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 22:04:17 [Info] [2496650184] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 22:04:17 [Info] [2496650184] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 22:04:20 [Info] [2496650184] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 22:04:40 [Info] [1998543672] proxy/vless/inbound: firstLen = 0
+2021/07/10 22:04:40 [Info] [1998543672] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/10 22:04:40 [Info] [1998543672] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 22:04:40 [Info] [1998543672] proxy/vless/inbound: realAlpn = 
+2021/07/10 22:04:41 [Info] [1998543672] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 22:12:05 [Info] [4105193901] proxy/vless/inbound: firstLen = 183
+2021/07/10 22:12:05 [Info] [4105193901] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 22:12:05 [Info] [4105193901] proxy/vless/inbound: realName = 
+2021/07/10 22:12:05 [Info] [4105193901] proxy/vless/inbound: realAlpn = 
+2021/07/10 22:12:05 [Info] [4105193901] proxy/vless/inbound: realPath = /
+2021/07/10 22:12:06 [Info] [4105193901] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled

@@ -1256,3 +1256,29 @@
 2021/07/10 21:58:08 [notice] 1#1: signal 17 (SIGCHLD) received from 22
 2021/07/10 21:58:08 [notice] 1#1: worker process 22 exited with code 0
 2021/07/10 21:58:08 [notice] 1#1: exit
+2021/07/10 21:58:44 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 21:58:46 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 21:58:48 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 21:58:49 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 21:58:51 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 21:58:54 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 21:58:59 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 21:59:07 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 21:59:20 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 21:59:47 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 22:00:39 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 22:01:39 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 22:02:40 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 22:03:41 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 22:04:41 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 22:05:42 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 22:06:43 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 22:07:43 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 22:08:44 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 22:09:45 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 22:10:45 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 22:11:46 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 22:12:47 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 22:13:47 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/10 22:14:48 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:38
+2021/07/10 22:15:49 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:38

@@ -15328,3 +15328,31 @@
 [INFO]  2021/07/10 21:53:33 redirection done
 [INFO]  2021/07/10 21:53:33 redirection done
 [INFO]  2021/07/10 21:53:33 redirection done
+[WARN]  2021/07/10 21:58:40 transport server will use plugin and work in plain text mode
+[DEBUG] 2021/07/10 21:58:40 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:224 auth by config file
+[DEBUG] 2021/07/10 21:58:40 github.com/p4gefau1t/trojan-go/statistic/memory.NewAuthenticator:memory.go:232 memory authenticator created
+[DEBUG] 2021/07/10 21:58:40 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:259 trojan server created
+[DEBUG] 2021/07/10 21:58:40 github.com/p4gefau1t/trojan-go/tunnel/mux.NewServer:server.go:92 mux server created
+[DEBUG] 2021/07/10 21:58:40 github.com/p4gefau1t/trojan-go/tunnel/simplesocks.NewServer:server.go:92 simplesocks server created
+[DEBUG] 2021/07/10 21:58:40 github.com/p4gefau1t/trojan-go/tunnel/websocket.NewServer:server.go:166 websocket server created
+[DEBUG] 2021/07/10 21:58:40 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:224 auth by config file
+[DEBUG] 2021/07/10 21:58:40 github.com/p4gefau1t/trojan-go/statistic/memory.NewAuthenticator:memory.go:232 memory authenticator created
+[DEBUG] 2021/07/10 21:58:40 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:259 trojan server created
+[DEBUG] 2021/07/10 21:58:40 github.com/p4gefau1t/trojan-go/tunnel/mux.NewServer:server.go:92 mux server created
+[DEBUG] 2021/07/10 21:58:40 github.com/p4gefau1t/trojan-go/tunnel/simplesocks.NewServer:server.go:92 simplesocks server created
+[INFO]  2021/07/10 22:04:17 tcp connection from 192.168.48.8:52552
+[DEBUG] 2021/07/10 22:04:17 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/10 22:04:20 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 22:04:20 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 192.168.48.8:52552 tunneling to cp.cloudflare.com:80 closed sent: 801 B recv: 88 B
+[INFO]  2021/07/10 22:04:40 tcp connection from 192.168.48.8:52564
+[WARN]  2021/07/10 22:04:41 connection with invalid trojan header from 192.168.48.8:52564 | failed to read hash | EOF
+[DEBUG] 2021/07/10 22:04:41 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[WARN]  2021/07/10 22:04:41 redirecting connection from 192.168.48.8:52564 to nginx:31300
+[ERROR] 2021/07/10 22:04:41 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).worker.func1:redirector.go:59 failed to redirect to target address | dial tcp: lookup nginx on 127.0.0.11:53: no such host
+[INFO]  2021/07/10 22:12:05 tcp connection from 192.168.48.8:52638
+[DEBUG] 2021/07/10 22:12:05 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Accept-Charset:[utf-8] Accept-Encoding:[gzip] Connection:[close] User-Agent:[httpx - Open-source project (github.com/projectdiscovery/httpx)]] {} <nil> 0 [] true 104.199.212.122 map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/10 22:12:05 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/10 22:12:05 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/10 22:12:05 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 192.168.48.8:52638
+[WARN]  2021/07/10 22:12:05 redirecting connection from 192.168.48.8:52638 to nginx:31300
+[ERROR] 2021/07/10 22:12:05 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).worker.func1:redirector.go:59 failed to redirect to target address | dial tcp: lookup nginx on 127.0.0.11:53: no such host
