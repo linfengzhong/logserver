@@ -14129,3 +14129,173 @@
 2021/07/10 19:09:16 [Info] transport/internet/websocket: listening TCP(for WS) on 127.0.0.1:31297
 2021/07/10 19:09:16 [Warning] transport/internet/websocket: accepting PROXY protocol
 2021/07/10 19:09:16 [Warning] core: Xray 1.4.2 started
+2021/07/10 19:27:43 [Info] [3539842029] proxy/vless/inbound: firstLen = 82
+2021/07/10 19:27:43 [Info] [3539842029] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 19:27:43 [Info] [3539842029] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 19:27:43 [Info] [3539842029] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 19:27:44 [Info] [3539842029] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 19:35:44 [Info] [3392296156] proxy/vless/inbound: firstLen = 732
+2021/07/10 19:35:44 [Info] [3392296156] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 19:35:44 [Info] [3392296156] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 19:35:44 [Info] [3392296156] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 19:35:44 [Info] [3392296156] proxy/vless/inbound: realPath = /portainer/
+2021/07/10 19:35:46 [Info] [3392296156] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 19:36:38 [Info] [218977005] proxy/vless/inbound: firstLen = 0
+2021/07/10 19:36:38 [Info] [218977005] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/10 19:36:38 [Info] [218977005] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 19:36:38 [Info] [218977005] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 19:36:39 [Info] [218977005] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 20:36:10 [Info] [1068009811] proxy/vless/inbound: firstLen = 82
+2021/07/10 20:36:10 [Info] [1068009811] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 20:36:10 [Info] [1068009811] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 20:36:10 [Info] [1068009811] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 20:36:12 [Info] [1068009811] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 20:36:13 [Info] [184489260] proxy/vless/inbound: firstLen = 240
+2021/07/10 20:36:13 [Info] [184489260] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 20:36:13 [Info] [184489260] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 20:36:13 [Info] [184489260] proxy/vless/inbound: realAlpn = 
+2021/07/10 20:36:13 [Info] [184489260] proxy/vless/inbound: realPath = /
+2021/07/10 20:36:14 [Info] [184489260] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 20:49:20 [Info] [913108091] proxy/vless/inbound: firstLen = 0
+2021/07/10 20:49:20 [Info] [913108091] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/10 20:49:20 [Info] [913108091] proxy/vless/inbound: realName = 
+2021/07/10 20:49:20 [Info] [913108091] proxy/vless/inbound: realAlpn = 
+2021/07/10 20:49:20 [Info] [913108091] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > tls: client offered only unsupported versions: [302 301]
+2021/07/10 20:58:58 [Info] [4286169476] proxy/vless/inbound: firstLen = 82
+2021/07/10 20:58:58 [Info] [4286169476] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 20:58:58 [Info] [4286169476] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 20:58:58 [Info] [4286169476] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 20:58:59 [Info] [4286169476] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:11:31 [Info] [3741737493] proxy/vless/inbound: firstLen = 449
+2021/07/10 21:11:31 [Info] [3741737493] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:11:31 [Info] [3741737493] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:11:31 [Info] [3741737493] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:11:31 [Info] [3741737493] proxy/vless/inbound: realPath = /
+2021/07/10 21:11:31 [Info] [2122801107] proxy/vless/inbound: firstLen = 456
+2021/07/10 21:11:31 [Info] [2122801107] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:11:31 [Info] [2122801107] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:11:31 [Info] [2122801107] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:11:31 [Info] [2122801107] proxy/vless/inbound: realPath = /css/inputEffect.css
+2021/07/10 21:11:31 [Info] [757325482] proxy/vless/inbound: firstLen = 454
+2021/07/10 21:11:31 [Info] [757325482] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:11:31 [Info] [757325482] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:11:31 [Info] [757325482] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:11:31 [Info] [757325482] proxy/vless/inbound: realPath = /css/normalize.css
+2021/07/10 21:11:31 [Info] [1362274932] proxy/vless/inbound: firstLen = 461
+2021/07/10 21:11:31 [Info] [1362274932] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:11:31 [Info] [1362274932] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:11:31 [Info] [1362274932] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:11:31 [Info] [1362274932] proxy/vless/inbound: realPath = /css/font-awesome.min.css
+2021/07/10 21:11:31 [Info] [2018204069] proxy/vless/inbound: firstLen = 458
+2021/07/10 21:11:31 [Info] [2018204069] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:11:31 [Info] [2018204069] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:11:31 [Info] [2018204069] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:11:31 [Info] [2018204069] proxy/vless/inbound: realPath = /css/sign-up-login.css
+2021/07/10 21:11:31 [Info] [3209893912] proxy/vless/inbound: firstLen = 450
+2021/07/10 21:11:31 [Info] [3209893912] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:11:31 [Info] [3209893912] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:11:31 [Info] [3209893912] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:11:31 [Info] [3209893912] proxy/vless/inbound: realPath = /css/login.css
+2021/07/10 21:11:49 [Info] [2291138795] proxy/vless/inbound: firstLen = 582
+2021/07/10 21:11:49 [Info] [2291138795] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:11:49 [Info] [2291138795] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:11:49 [Info] [2291138795] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:11:49 [Info] [2291138795] proxy/vless/inbound: realPath = /portainer/api/auth
+2021/07/10 21:11:49 [Info] [4073099791] proxy/vless/inbound: firstLen = 565
+2021/07/10 21:11:49 [Info] [4073099791] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:11:49 [Info] [4073099791] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:11:49 [Info] [4073099791] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:11:49 [Info] [4073099791] proxy/vless/inbound: realPath = /portainer/24b23490023e318f9c08cf94253542a0.png
+2021/07/10 21:11:49 [Info] [3040254909] proxy/vless/inbound: firstLen = 674
+2021/07/10 21:11:49 [Info] [3040254909] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:11:49 [Info] [3040254909] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:11:49 [Info] [3040254909] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:11:49 [Info] [3040254909] proxy/vless/inbound: realPath = /portainer/api/tags
+2021/07/10 21:11:49 [Info] [1241454628] proxy/vless/inbound: firstLen = 674
+2021/07/10 21:11:49 [Info] [1241454628] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:11:49 [Info] [1241454628] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:11:49 [Info] [1241454628] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:11:49 [Info] [1241454628] proxy/vless/inbound: realPath = /portainer/api/motd
+2021/07/10 21:11:49 [Info] [2389042254] proxy/vless/inbound: firstLen = 697
+2021/07/10 21:11:49 [Info] [2389042254] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:11:49 [Info] [2389042254] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:11:49 [Info] [2389042254] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:11:49 [Info] [2389042254] proxy/vless/inbound: realPath = /portainer/api/endpoints
+2021/07/10 21:11:49 [Info] [2717068985] proxy/vless/inbound: firstLen = 685
+2021/07/10 21:11:49 [Info] [2717068985] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:11:49 [Info] [2717068985] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:11:49 [Info] [2717068985] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:11:49 [Info] [2717068985] proxy/vless/inbound: realPath = /portainer/api/endpoint_groups
+2021/07/10 21:12:07 [Info] [3741737493] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:12:07 [Info] [757325482] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:12:07 [Info] [2122801107] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:12:07 [Info] [2018204069] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:12:07 [Info] [1362274932] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:12:07 [Info] [3209893912] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:12:23 [Info] [1316463307] proxy/vless/inbound: firstLen = 496
+2021/07/10 21:12:23 [Info] [1316463307] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:12:23 [Info] [1316463307] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:12:23 [Info] [1316463307] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:12:23 [Info] [1316463307] proxy/vless/inbound: realPath = /portainer/f9508a64a1beb81be174e194573f7450.png
+2021/07/10 21:13:07 [Info] [1316463307] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:13:20 [Info] [2717068985] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:13:20 [Info] [3040254909] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:13:20 [Info] [1241454628] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:13:20 [Info] [2389042254] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:13:25 [Info] [2021102390] proxy/vless/inbound: firstLen = 0
+2021/07/10 21:13:25 [Info] [2021102390] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/10 21:13:25 [Info] [2021102390] proxy/vless/inbound: realName = 
+2021/07/10 21:13:25 [Info] [2021102390] proxy/vless/inbound: realAlpn = 
+2021/07/10 21:13:25 [Info] [2021102390] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > read tcp 192.168.0.5:443->167.248.133.54:51990: read: connection reset by peer
+2021/07/10 21:13:26 [Info] [1670521865] proxy/vless/inbound: firstLen = 45
+2021/07/10 21:13:26 [Info] [1670521865] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:13:26 [Info] [1670521865] proxy/vless/inbound: realName = 
+2021/07/10 21:13:26 [Info] [1670521865] proxy/vless/inbound: realAlpn = 
+2021/07/10 21:13:26 [Info] [1670521865] proxy/vless/inbound: realPath = /
+2021/07/10 21:13:27 [Info] [1539932465] proxy/vless/inbound: firstLen = 161
+2021/07/10 21:13:27 [Info] [1539932465] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:13:27 [Info] [1539932465] proxy/vless/inbound: realName = 
+2021/07/10 21:13:27 [Info] [1539932465] proxy/vless/inbound: realAlpn = 
+2021/07/10 21:13:27 [Info] [1539932465] proxy/vless/inbound: realPath = /
+2021/07/10 21:13:27 [Info] [1670521865] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:13:27 [Info] [1670521865] app/proxyman/inbound: failed to close connection > write tcp 192.168.0.5:443->167.248.133.54:51748: write: connection reset by peer
+2021/07/10 21:13:28 [Info] [1539932465] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:13:50 [Info] [4073099791] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:15:18 [Info] [1683494364] proxy/vless/inbound: firstLen = 742
+2021/07/10 21:15:18 [Info] [1683494364] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:15:18 [Info] [1683494364] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:15:18 [Info] [1683494364] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:15:18 [Info] [1683494364] proxy/vless/inbound: realPath = /portainer/api/endpoints/1/docker/volumes
+2021/07/10 21:15:32 [Info] [436656995] proxy/vless/inbound: firstLen = 693
+2021/07/10 21:15:32 [Info] [436656995] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:15:32 [Info] [436656995] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:15:32 [Info] [436656995] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:15:32 [Info] [436656995] proxy/vless/inbound: realPath = /portainer/api/endpoints/1/docker/info
+2021/07/10 21:15:32 [Info] [1883642776] proxy/vless/inbound: firstLen = 743
+2021/07/10 21:15:32 [Info] [1883642776] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:15:32 [Info] [1883642776] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:15:32 [Info] [1883642776] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:15:32 [Info] [1883642776] proxy/vless/inbound: realPath = /portainer/api/stacks
+2021/07/10 21:15:33 [Info] [1951594297] proxy/vless/inbound: firstLen = 696
+2021/07/10 21:15:33 [Info] [1951594297] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:15:33 [Info] [1951594297] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:15:33 [Info] [1951594297] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:15:33 [Info] [1951594297] proxy/vless/inbound: realPath = /portainer/api/endpoints/1/docker/volumes
+2021/07/10 21:15:33 [Info] [952122393] proxy/vless/inbound: firstLen = 697
+2021/07/10 21:15:33 [Info] [952122393] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:15:33 [Info] [952122393] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 21:15:33 [Info] [952122393] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:15:33 [Info] [952122393] proxy/vless/inbound: realPath = /portainer/api/endpoints/1/docker/networks
+2021/07/10 21:16:21 [Info] [1683494364] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:16:21 [Info] [1883642776] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:16:21 [Info] [436656995] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:16:21 [Info] [952122393] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:16:21 [Info] [1951594297] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:16:52 [Info] [2291138795] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 21:40:09 [Info] [4088656542] proxy/vless/inbound: firstLen = 263
+2021/07/10 21:40:09 [Info] [4088656542] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 21:40:09 [Info] [4088656542] proxy/vless/inbound: realName = 
+2021/07/10 21:40:09 [Info] [4088656542] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 21:40:09 [Info] [4088656542] proxy/vless/inbound: realPath = /
+2021/07/10 21:40:10 [Info] [4088656542] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > read tcp 192.168.0.5:443->34.79.68.246:47102: read: connection reset by peer
+2021/07/10 21:40:10 [Info] [4088656542] app/proxyman/inbound: failed to close connection > write tcp 192.168.0.5:443->34.79.68.246:47102: write: broken pipe

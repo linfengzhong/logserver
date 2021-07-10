@@ -1199,3 +1199,17 @@
 2021/07/10 19:09:15 [notice] 1#1: start worker processes
 2021/07/10 19:09:15 [notice] 1#1: start worker process 22
 2021/07/10 19:09:15 [notice] 1#1: start worker process 23
+2021/07/10 21:11:34 [warn] 22#22: *14 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 192.168.0.12, server: k8s-master.tk, request: "GET /portainer/main.2869a84f844a9f465e0e.js HTTP/1.1", upstream: "http://192.168.0.9:9000/main.2869a84f844a9f465e0e.js", host: "k8s-master.tk", referrer: "https://k8s-master.tk/portainer/"
+2021/07/10 21:46:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/10 21:46:10 [notice] 23#23: gracefully shutting down
+2021/07/10 21:46:10 [notice] 23#23: exiting
+2021/07/10 21:46:10 [notice] 23#23: exit
+2021/07/10 21:46:10 [notice] 22#22: gracefully shutting down
+2021/07/10 21:46:10 [notice] 22#22: exiting
+2021/07/10 21:46:10 [notice] 22#22: exit
+2021/07/10 21:46:10 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/10 21:46:10 [notice] 1#1: worker process 23 exited with code 0
+2021/07/10 21:46:10 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/10 21:46:10 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/10 21:46:10 [notice] 1#1: worker process 22 exited with code 0
+2021/07/10 21:46:10 [notice] 1#1: exit
