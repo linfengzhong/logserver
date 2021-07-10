@@ -1852,3 +1852,16 @@
 2021/07/11 07:33:03 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
 2021/07/11 07:34:04 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
 2021/07/11 07:35:04 [emerg] 1#1: invalid number of arguments in "proxy_set_header" directive in /etc/nginx/conf.d/k8s-master.tk.conf:39
+2021/07/11 07:36:17 [emerg] 1#1: invalid parameter "http://master:8080/" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 07:36:22 [emerg] 1#1: invalid parameter "http://master:8080/" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 07:36:25 [emerg] 1#1: invalid parameter "http://master:8080/" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 07:36:27 [emerg] 1#1: invalid parameter "http://master:8080/" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 07:36:29 [emerg] 1#1: invalid parameter "http://master:8080/" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 07:36:32 [emerg] 1#1: invalid parameter "http://master:8080/" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 07:36:36 [emerg] 1#1: invalid parameter "http://master:8080/" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 07:36:44 [emerg] 1#1: invalid parameter "http://master:8080/" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 07:36:57 [emerg] 1#1: invalid parameter "http://master:8080/" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 07:37:24 [emerg] 1#1: invalid parameter "http://master:8080/" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 07:38:16 [emerg] 1#1: invalid parameter "http://master:8080/" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 07:39:16 [emerg] 1#1: invalid parameter "http://master:8080/" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 07:40:17 [emerg] 1#1: invalid parameter "http://master:8080/" in /etc/nginx/conf.d/k8s-master.tk.conf:37

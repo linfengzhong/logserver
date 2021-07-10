@@ -15531,3 +15531,50 @@
 [DEBUG] 2021/07/11 07:23:17 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
 [WARN]  2021/07/11 07:23:17 redirecting connection from 192.168.80.7:36040 to nginx:31300
 [ERROR] 2021/07/11 07:23:17 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).worker.func1:redirector.go:59 failed to redirect to target address | dial tcp: lookup nginx on 127.0.0.11:53: no such host
+[WARN]  2021/07/11 07:36:16 transport server will use plugin and work in plain text mode
+[DEBUG] 2021/07/11 07:36:16 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:224 auth by config file
+[DEBUG] 2021/07/11 07:36:16 github.com/p4gefau1t/trojan-go/statistic/memory.NewAuthenticator:memory.go:232 memory authenticator created
+[DEBUG] 2021/07/11 07:36:16 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:259 trojan server created
+[DEBUG] 2021/07/11 07:36:16 github.com/p4gefau1t/trojan-go/tunnel/mux.NewServer:server.go:92 mux server created
+[DEBUG] 2021/07/11 07:36:16 github.com/p4gefau1t/trojan-go/tunnel/simplesocks.NewServer:server.go:92 simplesocks server created
+[DEBUG] 2021/07/11 07:36:16 github.com/p4gefau1t/trojan-go/tunnel/websocket.NewServer:server.go:166 websocket server created
+[DEBUG] 2021/07/11 07:36:16 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:224 auth by config file
+[DEBUG] 2021/07/11 07:36:16 github.com/p4gefau1t/trojan-go/statistic/memory.NewAuthenticator:memory.go:232 memory authenticator created
+[DEBUG] 2021/07/11 07:36:16 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:259 trojan server created
+[DEBUG] 2021/07/11 07:36:16 github.com/p4gefau1t/trojan-go/tunnel/mux.NewServer:server.go:92 mux server created
+[DEBUG] 2021/07/11 07:36:16 github.com/p4gefau1t/trojan-go/tunnel/simplesocks.NewServer:server.go:92 simplesocks server created
+[INFO]  2021/07/11 07:38:56 tcp connection from 192.168.96.10:47846
+[DEBUG] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate] Connection:[keep-alive] User-Agent:[python-requests/2.25.1] X-Datadog-Parent-Id:[2206101731497016723] X-Datadog-Sampling-Priority:[0] X-Datadog-Trace-Id:[570900619934833965]] {} <nil> 0 [] false k8s-master.tk map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 192.168.96.10:47846
+[WARN]  2021/07/11 07:38:56 redirecting connection from 192.168.96.10:47846 to nginx:31300
+[INFO]  2021/07/11 07:38:56 tcp connection from 192.168.96.10:47848
+[DEBUG] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate] Connection:[keep-alive] User-Agent:[python-requests/2.25.1] X-Datadog-Parent-Id:[7973287130917087249] X-Datadog-Sampling-Priority:[0] X-Datadog-Trace-Id:[1559289078745327185]] {} <nil> 0 [] false k8s-master.tk map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[WARN]  2021/07/11 07:38:56 redirecting connection from 192.168.96.10:47848 to nginx:31300
+[ERROR] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 192.168.96.10:47848
+[INFO]  2021/07/11 07:38:56 tcp connection from 192.168.96.10:47850
+[DEBUG] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate] Connection:[keep-alive] User-Agent:[python-requests/2.25.1] X-Datadog-Parent-Id:[17822900264053392014] X-Datadog-Sampling-Priority:[0] X-Datadog-Trace-Id:[17741130649849226646]] {} <nil> 0 [] false k8s-master.tk map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 192.168.96.10:47850
+[WARN]  2021/07/11 07:38:56 redirecting connection from 192.168.96.10:47850 to nginx:31300
+[INFO]  2021/07/11 07:38:56 tcp connection from 192.168.96.10:47852
+[DEBUG] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate] Connection:[keep-alive] User-Agent:[python-requests/2.25.1] X-Datadog-Parent-Id:[12086845565815532191] X-Datadog-Sampling-Priority:[0] X-Datadog-Trace-Id:[2434243668958894955]] {} <nil> 0 [] false k8s-master.tk map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 192.168.96.10:47852
+[WARN]  2021/07/11 07:38:56 redirecting connection from 192.168.96.10:47852 to nginx:31300
+[INFO]  2021/07/11 07:38:56 tcp connection from 192.168.96.10:47854
+[DEBUG] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate] Connection:[keep-alive] User-Agent:[python-requests/2.25.1] X-Datadog-Parent-Id:[10435141423061924346] X-Datadog-Sampling-Priority:[0] X-Datadog-Trace-Id:[9068268769675920539]] {} <nil> 0 [] false k8s-master.tk map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 192.168.96.10:47854
+[WARN]  2021/07/11 07:38:56 redirecting connection from 192.168.96.10:47854 to nginx:31300
+[ERROR] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).worker.func1:redirector.go:59 failed to redirect to target address | dial tcp: lookup nginx on 127.0.0.11:53: no such host
+[ERROR] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).worker.func1:redirector.go:59 failed to redirect to target address | dial tcp: lookup nginx on 127.0.0.11:53: no such host
+[ERROR] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).worker.func1:redirector.go:59 failed to redirect to target address | dial tcp: lookup nginx on 127.0.0.11:53: no such host
+[ERROR] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).worker.func1:redirector.go:59 failed to redirect to target address | dial tcp: lookup nginx on 127.0.0.11:53: no such host
+[ERROR] 2021/07/11 07:38:56 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).worker.func1:redirector.go:59 failed to redirect to target address | dial tcp: lookup nginx on 127.0.0.11:53: no such host
