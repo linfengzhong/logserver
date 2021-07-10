@@ -14982,3 +14982,41 @@
 [DEBUG] 2021/07/10 18:50:21 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
 [WARN]  2021/07/10 18:50:21 redirecting connection from 172.29.0.12:48608 to nginx:31300
 [INFO]  2021/07/10 18:50:21 redirection done
+[INFO]  2021/07/10 18:54:28 tcp connection from 172.29.0.12:48668
+[WARN]  2021/07/10 18:54:29 connection with invalid trojan header from 172.29.0.12:48668 | failed to read hash | EOF
+[DEBUG] 2021/07/10 18:54:29 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[WARN]  2021/07/10 18:54:29 redirecting connection from 172.29.0.12:48668 to nginx:31300
+[INFO]  2021/07/10 18:54:29 redirection done
+[INFO]  2021/07/10 18:55:52 tcp connection from 172.29.0.12:48686
+[DEBUG] 2021/07/10 18:55:52 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate] Connection:[keep-alive] User-Agent:[python-requests/2.25.1] X-Datadog-Parent-Id:[1953252546915957937] X-Datadog-Sampling-Priority:[0] X-Datadog-Trace-Id:[15193513220833182869]] {} <nil> 0 [] false k8s-master.tk map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/10 18:55:52 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/10 18:55:52 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/10 18:55:52 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.29.0.12:48686
+[WARN]  2021/07/10 18:55:52 redirecting connection from 172.29.0.12:48686 to nginx:31300
+[INFO]  2021/07/10 18:55:52 tcp connection from 172.29.0.12:48688
+[DEBUG] 2021/07/10 18:55:52 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate] Connection:[keep-alive] User-Agent:[python-requests/2.25.1] X-Datadog-Parent-Id:[3150435216250872864] X-Datadog-Sampling-Priority:[0] X-Datadog-Trace-Id:[8895069740102040116]] {} <nil> 0 [] false k8s-master.tk map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/10 18:55:52 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/10 18:55:52 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/10 18:55:52 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.29.0.12:48688
+[WARN]  2021/07/10 18:55:52 redirecting connection from 172.29.0.12:48688 to nginx:31300
+[INFO]  2021/07/10 18:55:53 redirection done
+[INFO]  2021/07/10 18:55:53 redirection done
+[INFO]  2021/07/10 18:55:53 tcp connection from 172.29.0.12:48694
+[DEBUG] 2021/07/10 18:55:53 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate] Connection:[keep-alive] User-Agent:[python-requests/2.25.1] X-Datadog-Parent-Id:[9770458056972173299] X-Datadog-Sampling-Priority:[0] X-Datadog-Trace-Id:[10486097223702380327]] {} <nil> 0 [] false k8s-master.tk map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/10 18:55:53 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/10 18:55:53 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/10 18:55:53 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.29.0.12:48694
+[WARN]  2021/07/10 18:55:53 redirecting connection from 172.29.0.12:48694 to nginx:31300
+[INFO]  2021/07/10 18:55:53 tcp connection from 172.29.0.12:48698
+[DEBUG] 2021/07/10 18:55:53 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate] Connection:[keep-alive] User-Agent:[python-requests/2.25.1] X-Datadog-Parent-Id:[14438824084559643920] X-Datadog-Sampling-Priority:[0] X-Datadog-Trace-Id:[8128769039597537100]] {} <nil> 0 [] false k8s-master.tk map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/10 18:55:53 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/10 18:55:53 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/10 18:55:53 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.29.0.12:48698
+[WARN]  2021/07/10 18:55:53 redirecting connection from 172.29.0.12:48698 to nginx:31300
+[INFO]  2021/07/10 18:55:54 redirection done
+[INFO]  2021/07/10 18:55:54 redirection done
+[INFO]  2021/07/10 19:00:45 tcp connection from 172.29.0.12:48744
+[WARN]  2021/07/10 19:00:46 connection with invalid trojan header from 172.29.0.12:48744 | failed to read hash | EOF
+[DEBUG] 2021/07/10 19:00:46 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[WARN]  2021/07/10 19:00:46 redirecting connection from 172.29.0.12:48744 to nginx:31300
+[INFO]  2021/07/10 19:00:46 redirection done

@@ -14066,3 +14066,42 @@
 2021/07/10 18:50:20 [Info] [3100753518] proxy/vless/inbound: realName = 104.199.212.122
 2021/07/10 18:50:20 [Info] [3100753518] proxy/vless/inbound: realAlpn = 
 2021/07/10 18:50:21 [Info] [3100753518] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 18:54:28 [Info] [2426782747] proxy/vless/inbound: firstLen = 0
+2021/07/10 18:54:28 [Info] [2426782747] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/10 18:54:28 [Info] [2426782747] proxy/vless/inbound: realName = 104.199.212.122
+2021/07/10 18:54:28 [Info] [2426782747] proxy/vless/inbound: realAlpn = 
+2021/07/10 18:54:29 [Info] [2426782747] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 18:55:52 [Info] [2944576142] proxy/vless/inbound: firstLen = 260
+2021/07/10 18:55:52 [Info] [2944576142] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 18:55:52 [Info] [2944576142] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 18:55:52 [Info] [2944576142] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 18:55:52 [Info] [2944576142] proxy/vless/inbound: realPath = /
+2021/07/10 18:55:52 [Info] [3831797542] proxy/vless/inbound: firstLen = 259
+2021/07/10 18:55:52 [Info] [3831797542] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 18:55:52 [Info] [3831797542] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 18:55:52 [Info] [3831797542] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 18:55:52 [Info] [3831797542] proxy/vless/inbound: realPath = /
+2021/07/10 18:55:53 [Info] [2944576142] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > read tcp 172.29.0.12:443->104.155.101.3:57612: read: connection reset by peer
+2021/07/10 18:55:53 [Info] [2944576142] app/proxyman/inbound: failed to close connection > write tcp 172.29.0.12:443->104.155.101.3:57612: write: broken pipe
+2021/07/10 18:55:53 [Info] [3831797542] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > read tcp 172.29.0.12:443->104.155.101.3:57606: read: connection reset by peer
+2021/07/10 18:55:53 [Info] [3831797542] app/proxyman/inbound: failed to close connection > write tcp 172.29.0.12:443->104.155.101.3:57606: write: broken pipe
+2021/07/10 18:55:53 [Info] [963264234] proxy/vless/inbound: firstLen = 260
+2021/07/10 18:55:53 [Info] [963264234] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 18:55:53 [Info] [963264234] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 18:55:53 [Info] [963264234] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 18:55:53 [Info] [963264234] proxy/vless/inbound: realPath = /
+2021/07/10 18:55:53 [Info] [2952270750] proxy/vless/inbound: firstLen = 260
+2021/07/10 18:55:53 [Info] [2952270750] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 18:55:53 [Info] [2952270750] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 18:55:53 [Info] [2952270750] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 18:55:53 [Info] [2952270750] proxy/vless/inbound: realPath = /
+2021/07/10 18:55:54 [Info] [963264234] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > read tcp 172.29.0.12:443->104.155.101.3:46502: read: connection reset by peer
+2021/07/10 18:55:54 [Info] [963264234] app/proxyman/inbound: failed to close connection > write tcp 172.29.0.12:443->104.155.101.3:46502: write: broken pipe
+2021/07/10 18:55:54 [Info] [2952270750] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > read tcp 172.29.0.12:443->34.78.120.99:52352: read: connection reset by peer
+2021/07/10 18:55:54 [Info] [2952270750] app/proxyman/inbound: failed to close connection > write tcp 172.29.0.12:443->34.78.120.99:52352: write: broken pipe
+2021/07/10 19:00:45 [Info] [2994192255] proxy/vless/inbound: firstLen = 0
+2021/07/10 19:00:45 [Info] [2994192255] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/10 19:00:45 [Info] [2994192255] proxy/vless/inbound: realName = 104.199.212.122
+2021/07/10 19:00:45 [Info] [2994192255] proxy/vless/inbound: realAlpn = 
+2021/07/10 19:00:46 [Info] [2994192255] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 19:02:37 [Debug] app/log: Logger closing
