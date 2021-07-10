@@ -6950,3 +6950,26 @@
 [DEBUG] 2021/07/10 10:41:58 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
 [INFO]  2021/07/10 10:41:58 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.23.0.10:52062 tunneling to k8s-master.tk:443 closed sent: 6.27 KiB recv: 882 B
 [INFO]  2021/07/10 10:41:59 redirection done
+[DEBUG] 2021/07/10 10:42:13 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 10:42:13 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.23.0.10:51976 tunneling to www.officeholidays.com:443 closed sent: 188.24 KiB recv: 1.05 KiB
+[DEBUG] 2021/07/10 10:42:13 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 10:42:13 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.23.0.10:51978 tunneling to www.officeholidays.com:443 closed sent: 86.05 KiB recv: 1.05 KiB
+[DEBUG] 2021/07/10 10:42:13 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 10:42:13 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.23.0.10:51984 tunneling to www.officeholidays.com:443 closed sent: 140.10 KiB recv: 1.06 KiB
+[DEBUG] 2021/07/10 10:42:13 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 10:42:13 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.23.0.10:51982 tunneling to www.officeholidays.com:443 closed sent: 51.66 KiB recv: 842 B
+[DEBUG] 2021/07/10 10:42:13 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 10:42:13 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.23.0.10:51972 tunneling to www.officeholidays.com:443 closed sent: 498.26 KiB recv: 841 B
+[DEBUG] 2021/07/10 10:42:13 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 10:42:13 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.23.0.10:51980 tunneling to www.officeholidays.com:443 closed sent: 48.84 KiB recv: 845 B
+[INFO]  2021/07/10 10:42:18 tcp connection from 172.23.0.10:52080
+[DEBUG] 2021/07/10 10:42:18 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/10 10:42:18 tcp connection from 172.23.0.10:52084
+[DEBUG] 2021/07/10 10:42:18 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /grafana/api/live/ws HTTP/1.1 1 1 map[Cache-Control:[no-cache] Connection:[Upgrade] Cookie:[grafana_session=213d2eeb0f787f721d65b596c0440dae; sid=1a7db23f43cb657dcfe914388322a8a6; redirect=1; testing=1; bt=on] Origin:[https://k8s-master.tk] Pragma:[no-cache] Sec-Websocket-Extensions:[x-webkit-deflate-frame] Sec-Websocket-Key:[cM60VNJ112G0nvY/1/DU4w==] Sec-Websocket-Version:[13] Upgrade:[websocket] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15]] {} <nil> 0 [] false k8s-master.tk map[] map[] <nil> map[]  /grafana/api/live/ws <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/10 10:42:18 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/10 10:42:18 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/10 10:42:18 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.23.0.10:52084
+[WARN]  2021/07/10 10:42:18 redirecting connection from 172.23.0.10:52084 to nginx:31300
+[DEBUG] 2021/07/10 10:42:19 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 10:42:19 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.23.0.10:52080 tunneling to k8s-master.tk:443 closed sent: 6.27 KiB recv: 882 B
+[INFO]  2021/07/10 10:42:20 redirection done
