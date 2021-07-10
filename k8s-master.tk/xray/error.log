@@ -14395,3 +14395,150 @@
 2021/07/10 22:12:05 [Info] [4105193901] proxy/vless/inbound: realAlpn = 
 2021/07/10 22:12:05 [Info] [4105193901] proxy/vless/inbound: realPath = /
 2021/07/10 22:12:06 [Info] [4105193901] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 22:16:22 [Debug] app/log: Logger started
+2021/07/10 22:16:22 [Info] app/dns: DNS: created localhost client
+2021/07/10 22:16:22 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/10 22:16:22 [Debug] app/proxyman/inbound: creating stream worker on 127.0.0.1:31297
+2021/07/10 22:16:22 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:443
+2021/07/10 22:16:23 [Info] transport/internet/websocket: listening TCP(for WS) on 127.0.0.1:31297
+2021/07/10 22:16:23 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/10 22:16:23 [Warning] core: Xray 1.4.2 started
+2021/07/10 22:48:30 [Info] [1615596749] proxy/vless/inbound: firstLen = 0
+2021/07/10 22:48:30 [Info] [1615596749] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/10 22:48:30 [Info] [1615596749] proxy/vless/inbound: realName = 
+2021/07/10 22:48:30 [Info] [1615596749] proxy/vless/inbound: realAlpn = 
+2021/07/10 22:48:30 [Info] [1615596749] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > tls: client offered only unsupported versions: [302 301]
+2021/07/10 23:13:07 [Info] [2220806035] proxy/vless/inbound: firstLen = 231
+2021/07/10 23:13:07 [Info] [2220806035] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 23:13:07 [Info] [2220806035] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 23:13:07 [Info] [2220806035] proxy/vless/inbound: realAlpn = 
+2021/07/10 23:13:07 [Info] [2220806035] proxy/vless/inbound: realPath = /
+2021/07/10 23:13:08 [Info] [2220806035] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 02:07:53 [Info] [12995481] proxy/vless/inbound: firstLen = 0
+2021/07/11 02:07:53 [Info] [12995481] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/11 02:07:53 [Info] [12995481] proxy/vless/inbound: realName = 
+2021/07/11 02:07:53 [Info] [12995481] proxy/vless/inbound: realAlpn = 
+2021/07/11 02:07:53 [Info] [12995481] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > tls: first record does not look like a TLS handshake
+2021/07/11 02:07:53 [Info] [1812545574] proxy/vless/inbound: firstLen = 192
+2021/07/11 02:07:53 [Info] [1812545574] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 02:07:53 [Info] [1812545574] proxy/vless/inbound: realName = 
+2021/07/11 02:07:53 [Info] [1812545574] proxy/vless/inbound: realAlpn = 
+2021/07/11 02:07:54 [Info] [1812545574] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 02:44:29 [Info] [684021707] proxy/vless/inbound: firstLen = 0
+2021/07/11 02:44:29 [Info] [684021707] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/11 02:44:29 [Info] [684021707] proxy/vless/inbound: realName = 104.199.212.122
+2021/07/11 02:44:29 [Info] [684021707] proxy/vless/inbound: realAlpn = 
+2021/07/11 02:44:30 [Info] [684021707] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 02:49:37 [Info] [3715064106] proxy/vless/inbound: firstLen = 0
+2021/07/11 02:49:37 [Info] [3715064106] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/11 02:49:37 [Info] [3715064106] proxy/vless/inbound: realName = 
+2021/07/11 02:49:37 [Info] [3715064106] proxy/vless/inbound: realAlpn = 
+2021/07/11 02:49:37 [Info] [3715064106] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > tls: client offered only unsupported versions: [302 301]
+2021/07/11 03:28:12 [Info] [539330162] proxy/vless/inbound: firstLen = 0
+2021/07/11 03:28:12 [Info] [539330162] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/11 03:28:12 [Info] [539330162] proxy/vless/inbound: realName = 
+2021/07/11 03:28:12 [Info] [539330162] proxy/vless/inbound: realAlpn = 
+2021/07/11 03:28:13 [Info] [539330162] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 04:48:42 [Info] [2493972995] proxy/vless/inbound: firstLen = 0
+2021/07/11 04:48:42 [Info] [2493972995] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/11 04:48:42 [Info] [2493972995] proxy/vless/inbound: realName = 
+2021/07/11 04:48:42 [Info] [2493972995] proxy/vless/inbound: realAlpn = 
+2021/07/11 04:48:42 [Info] [2493972995] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > tls: client offered only unsupported versions: [302 301]
+2021/07/11 05:34:53 [Info] [1346786497] proxy/vless/inbound: firstLen = 207
+2021/07/11 05:34:53 [Info] [1346786497] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 05:34:53 [Info] [1346786497] proxy/vless/inbound: realName = 
+2021/07/11 05:34:53 [Info] [1346786497] proxy/vless/inbound: realAlpn = 
+2021/07/11 05:34:53 [Info] [1346786497] proxy/vless/inbound: realPath = /
+2021/07/11 05:34:54 [Info] [1346786497] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 05:47:53 [Info] [1809795090] proxy/vless/inbound: firstLen = 0
+2021/07/11 05:47:53 [Info] [1809795090] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/11 05:47:53 [Info] [1809795090] proxy/vless/inbound: realName = 
+2021/07/11 05:47:53 [Info] [1809795090] proxy/vless/inbound: realAlpn = 
+2021/07/11 05:47:53 [Info] [2043368071] proxy/vless/inbound: firstLen = 0
+2021/07/11 05:47:53 [Info] [2043368071] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/11 05:47:53 [Info] [2043368071] proxy/vless/inbound: realName = 
+2021/07/11 05:47:53 [Info] [2043368071] proxy/vless/inbound: realAlpn = 
+2021/07/11 05:47:53 [Info] [2043368071] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > read tcp 192.168.64.8:443->123.160.221.10:33738: read: connection reset by peer
+2021/07/11 05:47:54 [Info] [1809795090] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 05:47:54 [Info] [3487032434] proxy/vless/inbound: firstLen = 305
+2021/07/11 05:47:54 [Info] [3487032434] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 05:47:54 [Info] [3487032434] proxy/vless/inbound: realName = 
+2021/07/11 05:47:54 [Info] [3487032434] proxy/vless/inbound: realAlpn = 
+2021/07/11 05:47:54 [Info] [3487032434] proxy/vless/inbound: realPath = /
+2021/07/11 05:47:55 [Info] [3487032434] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 05:47:56 [Info] [3409436315] proxy/vless/inbound: firstLen = 330
+2021/07/11 05:47:56 [Info] [3409436315] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 05:47:56 [Info] [3409436315] proxy/vless/inbound: realName = 122.212.199.104.bc.googleusercontent.com
+2021/07/11 05:47:56 [Info] [3409436315] proxy/vless/inbound: realAlpn = 
+2021/07/11 05:47:56 [Info] [3409436315] proxy/vless/inbound: realPath = /
+2021/07/11 05:47:57 [Info] [3409436315] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 05:53:07 [Info] [2620831809] proxy/vless/inbound: firstLen = 0
+2021/07/11 05:53:07 [Info] [2620831809] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/11 05:53:07 [Info] [2620831809] proxy/vless/inbound: realName = 
+2021/07/11 05:53:07 [Info] [2620831809] proxy/vless/inbound: realAlpn = 
+2021/07/11 05:53:07 [Info] [2620831809] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > read tcp 192.168.64.8:443->74.120.14.39:34660: read: connection reset by peer
+2021/07/11 05:53:09 [Info] [2667237860] proxy/vless/inbound: firstLen = 45
+2021/07/11 05:53:09 [Info] [2667237860] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 05:53:09 [Info] [2667237860] proxy/vless/inbound: realName = 
+2021/07/11 05:53:09 [Info] [2667237860] proxy/vless/inbound: realAlpn = 
+2021/07/11 05:53:09 [Info] [2667237860] proxy/vless/inbound: realPath = /
+2021/07/11 05:53:10 [Info] [2667237860] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 05:53:10 [Info] [233319828] proxy/vless/inbound: firstLen = 0
+2021/07/11 05:53:10 [Info] [233319828] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/11 05:53:10 [Info] [233319828] proxy/vless/inbound: realName = 
+2021/07/11 05:53:10 [Info] [233319828] proxy/vless/inbound: realAlpn = 
+2021/07/11 05:53:11 [Info] [233319828] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 05:53:11 [Info] [233319828] app/proxyman/inbound: failed to close connection > write tcp 192.168.64.8:443->74.120.14.39:42586: write: connection reset by peer
+2021/07/11 05:53:11 [Info] [3876475270] proxy/vless/inbound: firstLen = 0
+2021/07/11 05:53:11 [Info] [3876475270] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/11 05:53:11 [Info] [3876475270] proxy/vless/inbound: realName = 
+2021/07/11 05:53:11 [Info] [3876475270] proxy/vless/inbound: realAlpn = 
+2021/07/11 05:53:11 [Info] [3876475270] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > tls: first record does not look like a TLS handshake
+2021/07/11 05:53:12 [Info] [1252224871] proxy/vless/inbound: firstLen = 0
+2021/07/11 05:53:12 [Info] [1252224871] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/11 05:53:12 [Info] [1252224871] proxy/vless/inbound: realName = 
+2021/07/11 05:53:12 [Info] [1252224871] proxy/vless/inbound: realAlpn = 
+2021/07/11 05:53:12 [Info] [1252224871] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > read tcp 192.168.64.8:443->74.120.14.39:37314: read: connection reset by peer
+2021/07/11 05:53:12 [Info] [2495884179] proxy/vless/inbound: firstLen = 0
+2021/07/11 05:53:12 [Info] [2495884179] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/11 05:53:12 [Info] [2495884179] proxy/vless/inbound: realName = 
+2021/07/11 05:53:12 [Info] [2495884179] proxy/vless/inbound: realAlpn = 
+2021/07/11 05:53:12 [Info] [2495884179] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > tls: first record does not look like a TLS handshake
+2021/07/11 05:53:12 [Info] [2587065842] proxy/vless/inbound: firstLen = 0
+2021/07/11 05:53:12 [Info] [2587065842] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/11 05:53:12 [Info] [2587065842] proxy/vless/inbound: realName = 
+2021/07/11 05:53:12 [Info] [2587065842] proxy/vless/inbound: realAlpn = 
+2021/07/11 05:53:12 [Info] [2587065842] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > tls: first record does not look like a TLS handshake
+2021/07/11 06:09:00 [Info] [489906863] proxy/vless/inbound: firstLen = 60
+2021/07/11 06:09:00 [Info] [489906863] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 06:09:00 [Info] [489906863] proxy/vless/inbound: realName = 
+2021/07/11 06:09:00 [Info] [489906863] proxy/vless/inbound: realAlpn = 
+2021/07/11 06:09:00 [Info] [489906863] proxy/vless/inbound: realPath = /
+2021/07/11 06:09:01 [Info] [489906863] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 06:21:49 [Info] [957668069] proxy/vless/inbound: firstLen = 0
+2021/07/11 06:21:49 [Info] [957668069] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/11 06:21:49 [Info] [957668069] proxy/vless/inbound: realName = 
+2021/07/11 06:21:49 [Info] [957668069] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 06:21:50 [Info] [957668069] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 06:49:30 [Info] [2698543398] proxy/vless/inbound: firstLen = 187
+2021/07/11 06:49:30 [Info] [2698543398] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 06:49:30 [Info] [2698543398] proxy/vless/inbound: realName = 104.199.212.122
+2021/07/11 06:49:30 [Info] [2698543398] proxy/vless/inbound: realAlpn = 
+2021/07/11 06:49:32 [Info] [2698543398] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 06:51:03 [Info] [3367175317] proxy/vless/inbound: firstLen = 0
+2021/07/11 06:51:03 [Info] [3367175317] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/11 06:51:03 [Info] [3367175317] proxy/vless/inbound: realName = 
+2021/07/11 06:51:03 [Info] [3367175317] proxy/vless/inbound: realAlpn = 
+2021/07/11 06:51:03 [Info] [3367175317] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > tls: client offered only unsupported versions: [302 301]
+2021/07/11 07:05:53 [Info] [1420401977] proxy/vless/inbound: firstLen = 0
+2021/07/11 07:05:53 [Info] [1420401977] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/11 07:05:53 [Info] [1420401977] proxy/vless/inbound: realName = 
+2021/07/11 07:05:53 [Info] [1420401977] proxy/vless/inbound: realAlpn = 
+2021/07/11 07:05:53 [Info] [1420401977] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > read tcp 192.168.64.8:443->101.251.238.50:54576: read: connection reset by peer
+2021/07/11 07:05:53 [Info] [1420401977] app/proxyman/inbound: failed to close connection > write tcp 192.168.64.8:443->101.251.238.50:54576: write: broken pipe
+2021/07/11 07:05:54 [Info] [3631502738] proxy/vless/inbound: firstLen = 275
+2021/07/11 07:05:54 [Info] [3631502738] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 07:05:54 [Info] [3631502738] proxy/vless/inbound: realName = 
+2021/07/11 07:05:54 [Info] [3631502738] proxy/vless/inbound: realAlpn = 
+2021/07/11 07:05:54 [Info] [3631502738] proxy/vless/inbound: realPath = /
+2021/07/11 07:05:55 [Info] [3631502738] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
