@@ -15514,3 +15514,20 @@
 [ERROR] 2021/07/11 07:05:54 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 192.168.64.8:60534
 [WARN]  2021/07/11 07:05:54 redirecting connection from 192.168.64.8:60534 to nginx:31300
 [ERROR] 2021/07/11 07:05:54 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).worker.func1:redirector.go:59 failed to redirect to target address | dial tcp: lookup nginx on 127.0.0.11:53: no such host
+[WARN]  2021/07/11 07:22:03 transport server will use plugin and work in plain text mode
+[DEBUG] 2021/07/11 07:22:03 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:224 auth by config file
+[DEBUG] 2021/07/11 07:22:03 github.com/p4gefau1t/trojan-go/statistic/memory.NewAuthenticator:memory.go:232 memory authenticator created
+[DEBUG] 2021/07/11 07:22:03 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:259 trojan server created
+[DEBUG] 2021/07/11 07:22:03 github.com/p4gefau1t/trojan-go/tunnel/mux.NewServer:server.go:92 mux server created
+[DEBUG] 2021/07/11 07:22:03 github.com/p4gefau1t/trojan-go/tunnel/simplesocks.NewServer:server.go:92 simplesocks server created
+[DEBUG] 2021/07/11 07:22:03 github.com/p4gefau1t/trojan-go/tunnel/websocket.NewServer:server.go:166 websocket server created
+[DEBUG] 2021/07/11 07:22:03 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:224 auth by config file
+[DEBUG] 2021/07/11 07:22:03 github.com/p4gefau1t/trojan-go/statistic/memory.NewAuthenticator:memory.go:232 memory authenticator created
+[DEBUG] 2021/07/11 07:22:03 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:259 trojan server created
+[DEBUG] 2021/07/11 07:22:03 github.com/p4gefau1t/trojan-go/tunnel/mux.NewServer:server.go:92 mux server created
+[DEBUG] 2021/07/11 07:22:03 github.com/p4gefau1t/trojan-go/tunnel/simplesocks.NewServer:server.go:92 simplesocks server created
+[INFO]  2021/07/11 07:23:16 tcp connection from 192.168.80.7:36040
+[WARN]  2021/07/11 07:23:17 connection with invalid trojan header from 192.168.80.7:36040 | failed to read hash | EOF
+[DEBUG] 2021/07/11 07:23:17 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[WARN]  2021/07/11 07:23:17 redirecting connection from 192.168.80.7:36040 to nginx:31300
+[ERROR] 2021/07/11 07:23:17 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).worker.func1:redirector.go:59 failed to redirect to target address | dial tcp: lookup nginx on 127.0.0.11:53: no such host
