@@ -13802,3 +13802,45 @@
 2021/07/10 17:20:06 [Info] [2823092557] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
 2021/07/10 17:20:06 [Info] [2823092557] proxy/vless/inbound: realName = k8s-master.tk
 2021/07/10 17:20:06 [Info] [2823092557] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 17:21:35 [Info] [3009817069] proxy/vless/inbound: firstLen = 68
+2021/07/10 17:21:35 [Info] [3009817069] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 17:21:35 [Info] [3009817069] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 17:21:35 [Info] [3009817069] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 17:21:35 [Info] [1077147129] proxy/vless/inbound: firstLen = 68
+2021/07/10 17:21:35 [Info] [1077147129] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 17:21:35 [Info] [1077147129] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 17:21:35 [Info] [1077147129] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 17:21:35 [Info] [3394112828] proxy/vless/inbound: firstLen = 68
+2021/07/10 17:21:35 [Info] [3394112828] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 17:21:35 [Info] [3394112828] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 17:21:35 [Info] [3394112828] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 17:22:28 [Info] [2480634732] proxy/vless/inbound: firstLen = 68
+2021/07/10 17:22:28 [Info] [2480634732] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 17:22:28 [Info] [2480634732] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 17:22:28 [Info] [2480634732] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 17:22:34 [Info] [3432247839] proxy/vless/inbound: firstLen = 231
+2021/07/10 17:22:34 [Info] [3432247839] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 17:22:34 [Info] [3432247839] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 17:22:34 [Info] [3432247839] proxy/vless/inbound: realAlpn = 
+2021/07/10 17:22:34 [Info] [3432247839] proxy/vless/inbound: realPath = /
+2021/07/10 17:22:36 [Info] [3432247839] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/10 17:24:08 [Info] [532411707] proxy/vless/inbound: firstLen = 68
+2021/07/10 17:24:08 [Info] [532411707] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 17:24:08 [Info] [532411707] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 17:24:08 [Info] [532411707] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 17:24:42 [Info] [811815916] proxy/vless/inbound: firstLen = 68
+2021/07/10 17:24:42 [Info] [2276276086] proxy/vless/inbound: firstLen = 68
+2021/07/10 17:24:42 [Info] [811815916] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 17:24:42 [Info] [2276276086] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 17:24:42 [Info] [811815916] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 17:24:42 [Info] [2276276086] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 17:24:42 [Info] [811815916] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 17:24:42 [Info] [2276276086] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 17:24:43 [Info] [1726313822] proxy/vless/inbound: firstLen = 68
+2021/07/10 17:24:43 [Info] [1726313822] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 17:24:43 [Info] [1726313822] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 17:24:43 [Info] [1726313822] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/10 17:26:00 [Info] [2960482289] proxy/vless/inbound: firstLen = 68
+2021/07/10 17:26:00 [Info] [2960482289] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/10 17:26:00 [Info] [2960482289] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/10 17:26:00 [Info] [2960482289] proxy/vless/inbound: realAlpn = http/1.1

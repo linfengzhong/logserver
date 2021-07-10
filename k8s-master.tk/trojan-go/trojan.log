@@ -14705,3 +14705,46 @@
 [DEBUG] 2021/07/10 17:20:06 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
 [DEBUG] 2021/07/10 17:20:12 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
 [INFO]  2021/07/10 17:20:12 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.26.0.11:41080 tunneling to 52.74.223.119:443 closed sent: 4.78 KiB recv: 1.73 KiB
+[INFO]  2021/07/10 17:21:35 tcp connection from 172.26.0.11:41120
+[DEBUG] 2021/07/10 17:21:35 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/10 17:21:35 tcp connection from 172.26.0.11:41124
+[DEBUG] 2021/07/10 17:21:35 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/10 17:21:35 tcp connection from 172.26.0.11:41128
+[DEBUG] 2021/07/10 17:21:35 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/10 17:21:37 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:21:37 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.26.0.11:41120 tunneling to 13.229.188.59:443 closed sent: 4.45 KiB recv: 1.15 KiB
+[DEBUG] 2021/07/10 17:21:37 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:21:37 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.26.0.11:41128 tunneling to 13.229.188.59:443 closed sent: 24.23 KiB recv: 1.14 KiB
+[DEBUG] 2021/07/10 17:21:41 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:21:41 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.26.0.11:41124 tunneling to 13.229.188.59:443 closed sent: 28.80 KiB recv: 2.22 KiB
+[INFO]  2021/07/10 17:22:28 tcp connection from 172.26.0.11:41140
+[DEBUG] 2021/07/10 17:22:28 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/10 17:22:33 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:22:33 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.26.0.11:41140 tunneling to 13.229.188.59:443 closed sent: 4.76 KiB recv: 1.72 KiB
+[INFO]  2021/07/10 17:22:34 tcp connection from 172.26.0.11:41144
+[DEBUG] 2021/07/10 17:22:34 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate] Connection:[keep-alive] User-Agent:[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3809.80 Safari/537.36]] {} <nil> 0 [] false k8s-master.tk map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/10 17:22:34 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/10 17:22:34 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/10 17:22:34 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.26.0.11:41144
+[WARN]  2021/07/10 17:22:34 redirecting connection from 172.26.0.11:41144 to nginx:31300
+[INFO]  2021/07/10 17:22:36 redirection done
+[INFO]  2021/07/10 17:24:08 tcp connection from 172.26.0.11:41170
+[DEBUG] 2021/07/10 17:24:08 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/10 17:24:13 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:24:13 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.26.0.11:41170 tunneling to 52.74.223.119:443 closed sent: 4.78 KiB recv: 1.79 KiB
+[INFO]  2021/07/10 17:24:42 tcp connection from 172.26.0.11:41186
+[INFO]  2021/07/10 17:24:42 tcp connection from 172.26.0.11:41184
+[DEBUG] 2021/07/10 17:24:42 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/10 17:24:42 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/10 17:24:43 tcp connection from 172.26.0.11:41196
+[DEBUG] 2021/07/10 17:24:43 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/10 17:24:45 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:24:45 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.26.0.11:41186 tunneling to 52.74.223.119:443 closed sent: 4.38 KiB recv: 1.15 KiB
+[DEBUG] 2021/07/10 17:24:45 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:24:45 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.26.0.11:41196 tunneling to 52.74.223.119:443 closed sent: 3.71 KiB recv: 1.15 KiB
+[DEBUG] 2021/07/10 17:24:45 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:24:45 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.26.0.11:41184 tunneling to 52.74.223.119:443 closed sent: 24.11 KiB recv: 1.14 KiB
+[INFO]  2021/07/10 17:26:00 tcp connection from 172.26.0.11:41214
+[DEBUG] 2021/07/10 17:26:00 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/10 17:26:05 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:26:05 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.26.0.11:41214 tunneling to 13.229.188.59:443 closed sent: 4.80 KiB recv: 1.74 KiB
