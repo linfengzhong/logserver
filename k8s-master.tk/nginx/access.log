@@ -8059,3 +8059,4 @@
 172.23.0.8 - - [10/Jul/2021:15:12:27 +0800] "GET / HTTP/1.1" 200 2808 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11" "-"
 172.23.0.8 - - [10/Jul/2021:15:16:52 +0800] "GET / HTTP/1.1" 200 2808 "-" "-" "-"
 172.23.0.8 - - [10/Jul/2021:15:16:52 +0800] "GET / HTTP/1.1" 200 2808 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)" "-"
+172.24.0.3 - - [10/Jul/2021:15:41:46 +0800] "GET / HTTP/1.1" 200 2808 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36" "-"
