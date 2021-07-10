@@ -14121,3 +14121,11 @@
 2021/07/10 19:07:15 [Warning] transport/internet/websocket: accepting PROXY protocol
 2021/07/10 19:07:15 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:443
 2021/07/10 19:07:15 [Warning] core: Xray 1.4.2 started
+2021/07/10 19:09:15 [Debug] app/log: Logger started
+2021/07/10 19:09:15 [Info] app/dns: DNS: created localhost client
+2021/07/10 19:09:15 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/10 19:09:15 [Debug] app/proxyman/inbound: creating stream worker on 127.0.0.1:31297
+2021/07/10 19:09:15 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:443
+2021/07/10 19:09:16 [Info] transport/internet/websocket: listening TCP(for WS) on 127.0.0.1:31297
+2021/07/10 19:09:16 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/10 19:09:16 [Warning] core: Xray 1.4.2 started
