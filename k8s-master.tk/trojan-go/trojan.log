@@ -14649,3 +14649,59 @@
 [ERROR] 2021/07/10 17:13:41 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:80 read tcp 172.25.0.4:35138->13.67.9.5:443: read: connection reset by peer
 [DEBUG] 2021/07/10 17:13:41 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
 [INFO]  2021/07/10 17:13:41 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.25.0.13:58700 tunneling to vscode-sync.trafficmanager.net:443 closed sent: 5.18 KiB recv: 2.25 KiB
+[INFO]  2021/07/10 17:15:08 tcp connection from 172.25.0.13:58748
+[DEBUG] 2021/07/10 17:15:08 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/10 17:15:08 tcp connection from 172.25.0.13:58752
+[DEBUG] 2021/07/10 17:15:08 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/10 17:15:08 tcp connection from 172.25.0.13:58756
+[DEBUG] 2021/07/10 17:15:08 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/10 17:15:10 tcp connection from 172.25.0.13:58760
+[DEBUG] 2021/07/10 17:15:10 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/10 17:15:10 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:15:10 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.25.0.13:58748 tunneling to 13.229.188.59:443 closed sent: 24.30 KiB recv: 1.14 KiB
+[DEBUG] 2021/07/10 17:15:10 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:15:10 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.25.0.13:58752 tunneling to 13.229.188.59:443 closed sent: 4.38 KiB recv: 1.15 KiB
+[DEBUG] 2021/07/10 17:15:11 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:15:11 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.25.0.13:58756 tunneling to 13.229.188.59:443 closed sent: 9.72 KiB recv: 2.22 KiB
+[DEBUG] 2021/07/10 17:16:25 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:16:25 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.25.0.13:58760 tunneling to vscode-sync.trafficmanager.net:443 closed sent: 5.18 KiB recv: 2.25 KiB
+[WARN]  2021/07/10 17:16:51 transport server will use plugin and work in plain text mode
+[DEBUG] 2021/07/10 17:16:51 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:224 auth by config file
+[DEBUG] 2021/07/10 17:16:51 github.com/p4gefau1t/trojan-go/statistic/memory.NewAuthenticator:memory.go:232 memory authenticator created
+[DEBUG] 2021/07/10 17:16:51 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:259 trojan server created
+[DEBUG] 2021/07/10 17:16:51 github.com/p4gefau1t/trojan-go/tunnel/mux.NewServer:server.go:92 mux server created
+[DEBUG] 2021/07/10 17:16:51 github.com/p4gefau1t/trojan-go/tunnel/simplesocks.NewServer:server.go:92 simplesocks server created
+[DEBUG] 2021/07/10 17:16:51 github.com/p4gefau1t/trojan-go/tunnel/websocket.NewServer:server.go:166 websocket server created
+[DEBUG] 2021/07/10 17:16:51 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:224 auth by config file
+[DEBUG] 2021/07/10 17:16:51 github.com/p4gefau1t/trojan-go/statistic/memory.NewAuthenticator:memory.go:232 memory authenticator created
+[DEBUG] 2021/07/10 17:16:51 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:259 trojan server created
+[DEBUG] 2021/07/10 17:16:51 github.com/p4gefau1t/trojan-go/tunnel/mux.NewServer:server.go:92 mux server created
+[DEBUG] 2021/07/10 17:16:51 github.com/p4gefau1t/trojan-go/tunnel/simplesocks.NewServer:server.go:92 simplesocks server created
+[INFO]  2021/07/10 17:16:58 tcp connection from 172.26.0.11:41008
+[DEBUG] 2021/07/10 17:16:58 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/10 17:17:19 tcp connection from 172.26.0.11:41028
+[DEBUG] 2021/07/10 17:17:19 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/10 17:18:11 tcp connection from 172.26.0.11:41040
+[DEBUG] 2021/07/10 17:18:11 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/10 17:18:11 tcp connection from 172.26.0.11:41044
+[DEBUG] 2021/07/10 17:18:11 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/10 17:18:12 tcp connection from 172.26.0.11:41048
+[DEBUG] 2021/07/10 17:18:12 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/10 17:18:13 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:18:13 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.26.0.11:41040 tunneling to 13.250.177.223:443 closed sent: 24.25 KiB recv: 1.14 KiB
+[DEBUG] 2021/07/10 17:18:14 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:18:14 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.26.0.11:41048 tunneling to 13.250.177.223:443 closed sent: 3.65 KiB recv: 1.15 KiB
+[DEBUG] 2021/07/10 17:18:15 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:18:15 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.26.0.11:41044 tunneling to 13.250.177.223:443 closed sent: 4.41 KiB recv: 1.15 KiB
+[INFO]  2021/07/10 17:18:30 tcp connection from 172.26.0.11:41054
+[DEBUG] 2021/07/10 17:18:30 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/10 17:18:36 tcp connection from 172.26.0.11:41058
+[DEBUG] 2021/07/10 17:18:36 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/10 17:18:37 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:18:37 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.26.0.11:41054 tunneling to 13.250.177.223:443 closed sent: 4.73 KiB recv: 1.76 KiB
+[DEBUG] 2021/07/10 17:18:37 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:18:37 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.26.0.11:41058 tunneling to cp.cloudflare.com:80 closed sent: 807 B recv: 88 B
+[INFO]  2021/07/10 17:20:06 tcp connection from 172.26.0.11:41080
+[DEBUG] 2021/07/10 17:20:06 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/10 17:20:12 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/10 17:20:12 user b668dc59e4ae0e3159d5a767491960b05888e249b21d9d9522996a63 from 172.26.0.11:41080 tunneling to 52.74.223.119:443 closed sent: 4.78 KiB recv: 1.73 KiB
