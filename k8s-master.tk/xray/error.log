@@ -14680,3 +14680,11 @@
 2021/07/11 07:50:43 [Info] [806988914] proxy/vless/inbound: realName = 
 2021/07/11 07:50:43 [Info] [806988914] proxy/vless/inbound: realAlpn = 
 2021/07/11 07:50:43 [Info] [806988914] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > proxy/vless/inbound: failed to fallback request payload > tls: client offered only unsupported versions: [302 301]
+2021/07/11 08:01:12 [Debug] app/log: Logger started
+2021/07/11 08:01:12 [Info] app/dns: DNS: created localhost client
+2021/07/11 08:01:12 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/11 08:01:12 [Debug] app/proxyman/inbound: creating stream worker on 127.0.0.1:31297
+2021/07/11 08:01:12 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:443
+2021/07/11 08:01:13 [Info] transport/internet/websocket: listening TCP(for WS) on 127.0.0.1:31297
+2021/07/11 08:01:13 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/11 08:01:13 [Warning] core: Xray 1.4.2 started

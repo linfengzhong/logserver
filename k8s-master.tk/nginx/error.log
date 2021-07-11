@@ -1901,3 +1901,14 @@
 2021/07/11 07:58:30 [emerg] 1#1: invalid parameter "http://jenkins:8080" in /etc/nginx/conf.d/k8s-master.tk.conf:37
 2021/07/11 07:59:31 [emerg] 1#1: invalid parameter "http://jenkins:8080" in /etc/nginx/conf.d/k8s-master.tk.conf:37
 2021/07/11 08:00:32 [emerg] 1#1: invalid parameter "http://jenkins:8080" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 08:01:13 [emerg] 1#1: invalid parameter "http://jenkins:8080" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 08:01:15 [emerg] 1#1: invalid parameter "http://jenkins:8080" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 08:01:17 [emerg] 1#1: invalid parameter "http://jenkins:8080" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 08:01:19 [emerg] 1#1: invalid parameter "http://jenkins:8080" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 08:01:20 [emerg] 1#1: invalid parameter "http://jenkins:8080" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 08:01:23 [emerg] 1#1: invalid parameter "http://jenkins:8080" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 08:01:27 [emerg] 1#1: invalid parameter "http://jenkins:8080" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 08:01:35 [emerg] 1#1: invalid parameter "http://jenkins:8080" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 08:01:48 [emerg] 1#1: invalid parameter "http://jenkins:8080" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 08:02:15 [emerg] 1#1: invalid parameter "http://jenkins:8080" in /etc/nginx/conf.d/k8s-master.tk.conf:37
+2021/07/11 08:03:07 [emerg] 1#1: invalid parameter "http://jenkins:8080" in /etc/nginx/conf.d/k8s-master.tk.conf:37
