@@ -15930,3 +15930,23 @@
 2021/07/11 09:10:53 [Info] [760914489] proxy/vless/inbound: realAlpn = 
 2021/07/11 09:10:53 [Info] [760914489] proxy/vless/inbound: realPath = /grafana/api/live/ws
 2021/07/11 09:10:55 [Info] [760914489] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 09:11:50 [Debug] app/log: Logger started
+2021/07/11 09:11:50 [Info] app/dns: DNS: created localhost client
+2021/07/11 09:11:50 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/11 09:11:50 [Debug] app/proxyman/inbound: creating stream worker on 127.0.0.1:31297
+2021/07/11 09:11:50 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:443
+2021/07/11 09:11:50 [Info] transport/internet/websocket: listening TCP(for WS) on 127.0.0.1:31297
+2021/07/11 09:11:50 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/11 09:11:50 [Warning] core: Xray 1.4.2 started
+2021/07/11 09:12:00 [Info] [1195360956] proxy/vless/inbound: firstLen = 688
+2021/07/11 09:12:00 [Info] [1195360956] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 09:12:00 [Info] [1195360956] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 09:12:00 [Info] [1195360956] proxy/vless/inbound: realAlpn = 
+2021/07/11 09:12:00 [Info] [1195360956] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 09:12:02 [Info] [1195360956] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 09:12:22 [Info] [2482389754] proxy/vless/inbound: firstLen = 688
+2021/07/11 09:12:22 [Info] [2482389754] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 09:12:22 [Info] [2482389754] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 09:12:22 [Info] [2482389754] proxy/vless/inbound: realAlpn = 
+2021/07/11 09:12:22 [Info] [2482389754] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 09:12:24 [Info] [2482389754] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
