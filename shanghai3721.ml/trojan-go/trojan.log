@@ -17182,3 +17182,78 @@
 [ERROR] 2021/07/11 09:12:22 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 192.168.224.14:40642
 [WARN]  2021/07/11 09:12:22 redirecting connection from 192.168.224.14:40642 to nginx:31300
 [INFO]  2021/07/11 09:12:24 redirection done
+[WARN]  2021/07/11 15:31:43 transport server will use plugin and work in plain text mode
+[DEBUG] 2021/07/11 15:31:43 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:224 auth by config file
+[DEBUG] 2021/07/11 15:31:43 github.com/p4gefau1t/trojan-go/statistic/memory.NewAuthenticator:memory.go:232 memory authenticator created
+[DEBUG] 2021/07/11 15:31:43 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:259 trojan server created
+[DEBUG] 2021/07/11 15:31:43 github.com/p4gefau1t/trojan-go/tunnel/mux.NewServer:server.go:92 mux server created
+[DEBUG] 2021/07/11 15:31:43 github.com/p4gefau1t/trojan-go/tunnel/simplesocks.NewServer:server.go:92 simplesocks server created
+[DEBUG] 2021/07/11 15:31:43 github.com/p4gefau1t/trojan-go/tunnel/websocket.NewServer:server.go:166 websocket server created
+[DEBUG] 2021/07/11 15:31:43 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:224 auth by config file
+[DEBUG] 2021/07/11 15:31:43 github.com/p4gefau1t/trojan-go/statistic/memory.NewAuthenticator:memory.go:232 memory authenticator created
+[DEBUG] 2021/07/11 15:31:43 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:259 trojan server created
+[DEBUG] 2021/07/11 15:31:43 github.com/p4gefau1t/trojan-go/tunnel/mux.NewServer:server.go:92 mux server created
+[DEBUG] 2021/07/11 15:31:43 github.com/p4gefau1t/trojan-go/tunnel/simplesocks.NewServer:server.go:92 simplesocks server created
+[INFO]  2021/07/11 15:32:31 tcp connection from 172.19.0.4:42364
+[DEBUG] 2021/07/11 15:32:31 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Accept:[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-us] Connection:[keep-alive] Cookie:[adminer_permanent=] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15]] {} <nil> 0 [] false shanghai3721.ml map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/11 15:32:31 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/11 15:32:31 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/11 15:32:31 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.4:42364
+[WARN]  2021/07/11 15:32:31 redirecting connection from 172.19.0.4:42364 to nginx:31300
+[INFO]  2021/07/11 15:32:34 tcp connection from 172.19.0.4:42368
+[DEBUG] 2021/07/11 15:32:34 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /css/app.893c7cfa.css HTTP/1.1 1 1 map[Accept:[text/css,*/*;q=0.1] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-us] Connection:[keep-alive] Cookie:[adminer_permanent=] Referer:[https://shanghai3721.ml/] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15]] {} <nil> 0 [] false shanghai3721.ml map[] map[] <nil> map[]  /css/app.893c7cfa.css <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/11 15:32:34 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/11 15:32:34 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/11 15:32:34 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.4:42368
+[WARN]  2021/07/11 15:32:34 redirecting connection from 172.19.0.4:42368 to nginx:31300
+[INFO]  2021/07/11 15:32:35 tcp connection from 172.19.0.4:42372
+[DEBUG] 2021/07/11 15:32:35 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /css/chunk-vendors.8cf7dd44.css HTTP/1.1 1 1 map[Accept:[text/css,*/*;q=0.1] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-us] Connection:[keep-alive] Cookie:[adminer_permanent=] Referer:[https://shanghai3721.ml/] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15]] {} <nil> 0 [] false shanghai3721.ml map[] map[] <nil> map[]  /css/chunk-vendors.8cf7dd44.css <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/11 15:32:35 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/11 15:32:35 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/11 15:32:35 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.4:42372
+[WARN]  2021/07/11 15:32:35 redirecting connection from 172.19.0.4:42372 to nginx:31300
+[INFO]  2021/07/11 15:32:36 tcp connection from 172.19.0.4:42376
+[DEBUG] 2021/07/11 15:32:36 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /js/app.319aaba4.js HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-us] Connection:[keep-alive] Cookie:[adminer_permanent=] Origin:[https://shanghai3721.ml] Referer:[https://shanghai3721.ml/] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15]] {} <nil> 0 [] false shanghai3721.ml map[] map[] <nil> map[]  /js/app.319aaba4.js <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/11 15:32:36 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/11 15:32:36 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/11 15:32:36 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.4:42376
+[WARN]  2021/07/11 15:32:36 redirecting connection from 172.19.0.4:42376 to nginx:31300
+[INFO]  2021/07/11 15:32:36 tcp connection from 172.19.0.4:42380
+[DEBUG] 2021/07/11 15:32:36 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /js/chunk-vendors.56f18896.js HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-us] Connection:[keep-alive] Cookie:[adminer_permanent=] Origin:[https://shanghai3721.ml] Referer:[https://shanghai3721.ml/] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15]] {} <nil> 0 [] false shanghai3721.ml map[] map[] <nil> map[]  /js/chunk-vendors.56f18896.js <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/11 15:32:36 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/11 15:32:36 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/11 15:32:36 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.4:42380
+[WARN]  2021/07/11 15:32:36 redirecting connection from 172.19.0.4:42380 to nginx:31300
+[INFO]  2021/07/11 15:32:45 tcp connection from 172.19.0.4:42384
+[DEBUG] 2021/07/11 15:32:45 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /img/icons/favicon-16x16.png HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-us] Connection:[keep-alive] Cookie:[_pk_id.2.9595=efe347ac06897a07.1625988763.; _pk_ses.2.9595=1; adminer_permanent=] Referer:[https://shanghai3721.ml/] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15]] {} <nil> 0 [] false shanghai3721.ml map[] map[] <nil> map[]  /img/icons/favicon-16x16.png <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/11 15:32:45 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/11 15:32:45 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/11 15:32:45 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.4:42384
+[WARN]  2021/07/11 15:32:45 redirecting connection from 172.19.0.4:42384 to nginx:31300
+[INFO]  2021/07/11 15:32:46 tcp connection from 172.19.0.4:42388
+[DEBUG] 2021/07/11 15:32:46 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /img/icons/safari-pinned-tab.svg HTTP/1.1 1 1 map[Accept:[image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-us] Connection:[keep-alive] Referer:[https://shanghai3721.ml/img/icons/safari-pinned-tab.svg] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko)]] {} <nil> 0 [] false shanghai3721.ml map[] map[] <nil> map[]  /img/icons/safari-pinned-tab.svg <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/11 15:32:46 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/11 15:32:46 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/11 15:32:46 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.4:42388
+[WARN]  2021/07/11 15:32:46 redirecting connection from 172.19.0.4:42388 to nginx:31300
+[INFO]  2021/07/11 15:32:48 redirection done
+[INFO]  2021/07/11 15:32:48 tcp connection from 172.19.0.4:42392
+[DEBUG] 2021/07/11 15:32:48 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /fonts/element-icons.732389de.ttf?__WB_REVISION__=732389ded34cb9c52dd88271f1345af9 HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-us] Connection:[keep-alive] Cookie:[_pk_id.2.9595=efe347ac06897a07.1625988763.; _pk_ses.2.9595=1; adminer_permanent=] Referer:[https://shanghai3721.ml/service-worker.js] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15]] {} <nil> 0 [] false shanghai3721.ml map[] map[] <nil> map[]  /fonts/element-icons.732389de.ttf?__WB_REVISION__=732389ded34cb9c52dd88271f1345af9 <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/11 15:32:48 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/11 15:32:48 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/11 15:32:48 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.4:42392
+[WARN]  2021/07/11 15:32:48 redirecting connection from 172.19.0.4:42392 to nginx:31300
+[INFO]  2021/07/11 15:32:50 tcp connection from 172.19.0.4:42396
+[DEBUG] 2021/07/11 15:32:50 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /index.html?__WB_REVISION__=52a3eff4cd6daf1f6e33e40567e72e62 HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-us] Connection:[keep-alive] Cookie:[_pk_id.2.9595=efe347ac06897a07.1625988763.; _pk_ses.2.9595=1; adminer_permanent=] Referer:[https://shanghai3721.ml/service-worker.js] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15]] {} <nil> 0 [] false shanghai3721.ml map[] map[] <nil> map[]  /index.html?__WB_REVISION__=52a3eff4cd6daf1f6e33e40567e72e62 <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/11 15:32:50 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/11 15:32:50 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/11 15:32:50 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.4:42396
+[WARN]  2021/07/11 15:32:50 redirecting connection from 172.19.0.4:42396 to nginx:31300
+[INFO]  2021/07/11 15:33:23 redirection done
+[INFO]  2021/07/11 15:33:23 redirection done
+[INFO]  2021/07/11 15:33:36 redirection done
+[INFO]  2021/07/11 15:33:36 redirection done
+[INFO]  2021/07/11 15:33:36 redirection done
+[INFO]  2021/07/11 15:33:36 redirection done
+[INFO]  2021/07/11 15:33:36 redirection done
+[INFO]  2021/07/11 15:33:36 redirection done

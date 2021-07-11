@@ -15950,3 +15950,65 @@
 2021/07/11 09:12:22 [Info] [2482389754] proxy/vless/inbound: realAlpn = 
 2021/07/11 09:12:22 [Info] [2482389754] proxy/vless/inbound: realPath = /grafana/api/live/ws
 2021/07/11 09:12:24 [Info] [2482389754] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:31:43 [Debug] app/log: Logger started
+2021/07/11 15:31:43 [Info] app/dns: DNS: created localhost client
+2021/07/11 15:31:43 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/11 15:31:43 [Debug] app/proxyman/inbound: creating stream worker on 127.0.0.1:31297
+2021/07/11 15:31:43 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:443
+2021/07/11 15:31:43 [Info] transport/internet/websocket: listening TCP(for WS) on 127.0.0.1:31297
+2021/07/11 15:31:43 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/11 15:31:43 [Warning] core: Xray 1.4.2 started
+2021/07/11 15:32:31 [Info] [512390261] proxy/vless/inbound: firstLen = 359
+2021/07/11 15:32:31 [Info] [512390261] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:32:31 [Info] [512390261] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:32:31 [Info] [512390261] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:32:31 [Info] [512390261] proxy/vless/inbound: realPath = /
+2021/07/11 15:32:34 [Info] [4286394082] proxy/vless/inbound: firstLen = 369
+2021/07/11 15:32:34 [Info] [4286394082] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:32:34 [Info] [4286394082] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:32:34 [Info] [4286394082] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:32:34 [Info] [4286394082] proxy/vless/inbound: realPath = /css/app.893c7cfa.css
+2021/07/11 15:32:35 [Info] [3578209552] proxy/vless/inbound: firstLen = 379
+2021/07/11 15:32:35 [Info] [3578209552] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:32:35 [Info] [3578209552] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:32:35 [Info] [3578209552] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:32:35 [Info] [3578209552] proxy/vless/inbound: realPath = /css/chunk-vendors.8cf7dd44.css
+2021/07/11 15:32:36 [Info] [204186906] proxy/vless/inbound: firstLen = 385
+2021/07/11 15:32:36 [Info] [204186906] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:32:36 [Info] [204186906] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:32:36 [Info] [204186906] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:32:36 [Info] [204186906] proxy/vless/inbound: realPath = /js/app.319aaba4.js
+2021/07/11 15:32:36 [Info] [437612518] proxy/vless/inbound: firstLen = 395
+2021/07/11 15:32:36 [Info] [437612518] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:32:36 [Info] [437612518] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:32:36 [Info] [437612518] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:32:36 [Info] [437612518] proxy/vless/inbound: realPath = /js/chunk-vendors.56f18896.js
+2021/07/11 15:32:45 [Info] [1026952024] proxy/vless/inbound: firstLen = 423
+2021/07/11 15:32:45 [Info] [1026952024] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:32:45 [Info] [1026952024] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:32:45 [Info] [1026952024] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:32:45 [Info] [1026952024] proxy/vless/inbound: realPath = /img/icons/favicon-16x16.png
+2021/07/11 15:32:46 [Info] [2472494442] proxy/vless/inbound: firstLen = 406
+2021/07/11 15:32:46 [Info] [2472494442] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:32:46 [Info] [2472494442] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:32:46 [Info] [2472494442] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:32:46 [Info] [2472494442] proxy/vless/inbound: realPath = /img/icons/safari-pinned-tab.svg
+2021/07/11 15:32:48 [Info] [2472494442] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:32:48 [Info] [4022643290] proxy/vless/inbound: firstLen = 494
+2021/07/11 15:32:48 [Info] [4022643290] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:32:48 [Info] [4022643290] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:32:48 [Info] [4022643290] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:32:48 [Info] [4022643290] proxy/vless/inbound: realPath = /fonts/element-icons.732389de.ttf
+2021/07/11 15:32:50 [Info] [4073129107] proxy/vless/inbound: firstLen = 472
+2021/07/11 15:32:50 [Info] [4073129107] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:32:50 [Info] [4073129107] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:32:50 [Info] [4073129107] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:32:50 [Info] [4073129107] proxy/vless/inbound: realPath = /index.html
+2021/07/11 15:33:23 [Info] [512390261] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:33:23 [Info] [1026952024] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:33:36 [Info] [4286394082] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:33:36 [Info] [204186906] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:33:36 [Info] [437612518] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:33:36 [Info] [3578209552] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:33:36 [Info] [4073129107] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:33:36 [Info] [4022643290] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
