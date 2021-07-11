@@ -288,3 +288,11 @@
 2021/07/11 21:51:07 [Info] [4243606488] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
 2021/07/11 21:51:07 [Info] [986111949] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
 2021/07/11 21:51:07 [Info] [3808186234] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 21:52:06 [Debug] app/log: Logger started
+2021/07/11 21:52:06 [Info] app/dns: DNS: created localhost client
+2021/07/11 21:52:06 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/11 21:52:06 [Debug] app/proxyman/inbound: creating stream worker on 127.0.0.1:31297
+2021/07/11 21:52:06 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:443
+2021/07/11 21:52:06 [Info] transport/internet/websocket: listening TCP(for WS) on 127.0.0.1:31297
+2021/07/11 21:52:06 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/11 21:52:06 [Warning] core: Xray 1.4.2 started
