@@ -2005,3 +2005,96 @@
 2021/07/11 09:11:47 [notice] 1#1: start worker processes
 2021/07/11 09:11:47 [notice] 1#1: start worker process 22
 2021/07/11 09:11:47 [notice] 1#1: start worker process 23
+2021/07/11 09:24:59 [error] 22#22: *89 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.224.13, server: k8s-master.tk, request: "GET /favicon.ico HTTP/1.1", host: "104.199.212.122"
+2021/07/11 09:52:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/11 09:52:28 [notice] 23#23: gracefully shutting down
+2021/07/11 09:52:28 [notice] 23#23: exiting
+2021/07/11 09:52:28 [notice] 23#23: exit
+2021/07/11 09:52:28 [notice] 22#22: gracefully shutting down
+2021/07/11 09:52:28 [notice] 22#22: exiting
+2021/07/11 09:52:28 [notice] 22#22: exit
+2021/07/11 09:52:28 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/11 09:52:28 [notice] 1#1: worker process 22 exited with code 0
+2021/07/11 09:52:28 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/11 09:52:28 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/11 09:52:28 [notice] 1#1: worker process 23 exited with code 0
+2021/07/11 09:52:28 [notice] 1#1: exit
+2021/07/11 09:52:59 [emerg] 1#1: host not found in upstream "gitea" in /etc/nginx/conf.d/k8s-master.tk.conf:33
+2021/07/11 09:53:04 [notice] 1#1: using the "epoll" event method
+2021/07/11 09:53:04 [notice] 1#1: nginx/1.21.1
+2021/07/11 09:53:04 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/11 09:53:04 [notice] 1#1: OS: Linux 4.18.0-305.7.1.el8_4.x86_64
+2021/07/11 09:53:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/11 09:53:04 [notice] 1#1: start worker processes
+2021/07/11 09:53:04 [notice] 1#1: start worker process 22
+2021/07/11 09:53:04 [notice] 1#1: start worker process 23
+2021/07/11 10:00:57 [error] 23#23: *60 open() "/usr/share/nginx/html/api/jsonws/invoke" failed (2: No such file or directory), client: 192.168.240.12, server: k8s-master.tk, request: "POST /api/jsonws/invoke HTTP/1.1", host: "104.199.212.122:443"
+2021/07/11 10:00:58 [error] 23#23: *61 open() "/usr/share/nginx/html/_ignition/execute-solution" failed (2: No such file or directory), client: 192.168.240.12, server: k8s-master.tk, request: "GET /_ignition/execute-solution HTTP/1.1", host: "104.199.212.122:443"
+2021/07/11 10:01:05 [error] 23#23: *65 open() "/usr/share/nginx/html/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 192.168.240.12, server: k8s-master.tk, request: "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "104.199.212.122:443"
+2021/07/11 10:01:06 [error] 23#23: *66 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 192.168.240.12, server: k8s-master.tk, request: "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1", host: "104.199.212.122:443"
+2021/07/11 10:01:11 [error] 23#23: *68 open() "/usr/share/nginx/html/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 192.168.240.12, server: k8s-master.tk, request: "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "104.199.212.122:443"
+2021/07/11 10:01:11 [error] 23#23: *69 open() "/usr/share/nginx/html/mifs/.;/services/LogService" failed (2: No such file or directory), client: 192.168.240.12, server: k8s-master.tk, request: "POST /mifs/.;/services/LogService HTTP/1.1", host: "104.199.212.122:443", referrer: "https://104.199.212.122:443"
+2021/07/11 10:01:14 [error] 23#23: *70 open() "/usr/share/nginx/html/wp-content/plugins/wp-file-manager/readme.txt" failed (2: No such file or directory), client: 192.168.240.12, server: k8s-master.tk, request: "GET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.1", host: "104.199.212.122:443"
+2021/07/11 10:25:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/11 10:25:01 [notice] 23#23: gracefully shutting down
+2021/07/11 10:25:01 [notice] 23#23: exiting
+2021/07/11 10:25:01 [notice] 23#23: exit
+2021/07/11 10:25:01 [notice] 22#22: gracefully shutting down
+2021/07/11 10:25:01 [notice] 22#22: exiting
+2021/07/11 10:25:01 [notice] 22#22: exit
+2021/07/11 10:25:01 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/11 10:25:01 [notice] 1#1: worker process 23 exited with code 0
+2021/07/11 10:25:01 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/11 10:25:01 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/11 10:25:01 [notice] 1#1: worker process 22 exited with code 0
+2021/07/11 10:25:01 [notice] 1#1: exit
+2021/07/11 10:25:32 [notice] 1#1: using the "epoll" event method
+2021/07/11 10:25:32 [notice] 1#1: nginx/1.21.1
+2021/07/11 10:25:32 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/11 10:25:32 [notice] 1#1: OS: Linux 4.18.0-305.7.1.el8_4.x86_64
+2021/07/11 10:25:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/11 10:25:32 [notice] 1#1: start worker processes
+2021/07/11 10:25:32 [notice] 1#1: start worker process 22
+2021/07/11 10:25:32 [notice] 1#1: start worker process 23
+2021/07/11 10:29:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/11 10:29:29 [notice] 23#23: gracefully shutting down
+2021/07/11 10:29:29 [notice] 23#23: exiting
+2021/07/11 10:29:29 [notice] 23#23: exit
+2021/07/11 10:29:29 [notice] 22#22: gracefully shutting down
+2021/07/11 10:29:29 [notice] 22#22: exiting
+2021/07/11 10:29:29 [notice] 22#22: exit
+2021/07/11 10:29:29 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/11 10:29:29 [notice] 1#1: worker process 23 exited with code 0
+2021/07/11 10:29:29 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/11 10:29:29 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/11 10:29:29 [notice] 1#1: worker process 22 exited with code 0
+2021/07/11 10:29:29 [notice] 1#1: exit
+2021/07/11 10:29:50 [notice] 1#1: using the "epoll" event method
+2021/07/11 10:29:50 [notice] 1#1: nginx/1.21.1
+2021/07/11 10:29:50 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/11 10:29:50 [notice] 1#1: OS: Linux 4.18.0-305.7.1.el8_4.x86_64
+2021/07/11 10:29:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/11 10:29:50 [notice] 1#1: start worker processes
+2021/07/11 10:29:50 [notice] 1#1: start worker process 22
+2021/07/11 10:29:50 [notice] 1#1: start worker process 23
+2021/07/11 10:44:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/11 10:44:49 [notice] 22#22: gracefully shutting down
+2021/07/11 10:44:49 [notice] 23#23: gracefully shutting down
+2021/07/11 10:44:49 [notice] 22#22: exiting
+2021/07/11 10:44:49 [notice] 23#23: exiting
+2021/07/11 10:44:49 [notice] 23#23: exit
+2021/07/11 10:44:49 [notice] 22#22: exit
+2021/07/11 10:44:49 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/11 10:44:49 [notice] 1#1: worker process 22 exited with code 0
+2021/07/11 10:44:49 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/11 10:44:49 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/11 10:44:49 [notice] 1#1: worker process 23 exited with code 0
+2021/07/11 10:44:49 [notice] 1#1: exit
+2021/07/11 10:45:09 [notice] 1#1: using the "epoll" event method
+2021/07/11 10:45:09 [notice] 1#1: nginx/1.21.1
+2021/07/11 10:45:09 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/11 10:45:09 [notice] 1#1: OS: Linux 4.18.0-305.7.1.el8_4.x86_64
+2021/07/11 10:45:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/11 10:45:09 [notice] 1#1: start worker processes
+2021/07/11 10:45:09 [notice] 1#1: start worker process 22
+2021/07/11 10:45:09 [notice] 1#1: start worker process 23
