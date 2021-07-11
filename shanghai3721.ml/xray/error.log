@@ -16138,3 +16138,11 @@
 2021/07/11 17:38:49 [Warning] transport/internet/xtls: ignoring invalid OCSP > common/ocsp: Post "http://zerossl.ocsp.sectigo.com": dial tcp: i/o timeout
 2021/07/11 18:38:49 [Warning] transport/internet/xtls: ignoring invalid OCSP > common/ocsp: Post "http://zerossl.ocsp.sectigo.com": dial tcp: i/o timeout
 2021/07/11 19:38:49 [Warning] transport/internet/xtls: ignoring invalid OCSP > common/ocsp: Post "http://zerossl.ocsp.sectigo.com": dial tcp: i/o timeout
+2021/07/11 20:21:35 [Debug] app/log: Logger started
+2021/07/11 20:21:35 [Info] app/dns: DNS: created localhost client
+2021/07/11 20:21:35 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/11 20:21:35 [Debug] app/proxyman/inbound: creating stream worker on 127.0.0.1:31297
+2021/07/11 20:21:35 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:443
+2021/07/11 20:21:35 [Info] transport/internet/websocket: listening TCP(for WS) on 127.0.0.1:31297
+2021/07/11 20:21:35 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/11 20:21:35 [Warning] core: Xray 1.4.2 started
