@@ -14688,3 +14688,1029 @@
 2021/07/11 08:01:13 [Info] transport/internet/websocket: listening TCP(for WS) on 127.0.0.1:31297
 2021/07/11 08:01:13 [Warning] transport/internet/websocket: accepting PROXY protocol
 2021/07/11 08:01:13 [Warning] core: Xray 1.4.2 started
+2021/07/11 08:09:56 [Debug] app/log: Logger started
+2021/07/11 08:09:56 [Info] app/dns: DNS: created localhost client
+2021/07/11 08:09:56 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/11 08:09:56 [Debug] app/proxyman/inbound: creating stream worker on 127.0.0.1:31297
+2021/07/11 08:09:56 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:443
+2021/07/11 08:09:56 [Info] transport/internet/websocket: listening TCP(for WS) on 127.0.0.1:31297
+2021/07/11 08:09:56 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/11 08:09:56 [Warning] core: Xray 1.4.2 started
+2021/07/11 08:11:44 [Info] [3672812349] proxy/vless/inbound: firstLen = 646
+2021/07/11 08:11:44 [Info] [3672812349] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:11:44 [Info] [3672812349] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:11:44 [Info] [3672812349] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:11:44 [Info] [3672812349] proxy/vless/inbound: realPath = /grafana/d/hYi57Mknz/docker-monitoring
+2021/07/11 08:11:44 [Info] [1942361559] proxy/vless/inbound: firstLen = 671
+2021/07/11 08:11:44 [Info] [1942361559] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:11:44 [Info] [1942361559] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:11:44 [Info] [1942361559] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:11:44 [Info] [1942361559] proxy/vless/inbound: realPath = /grafana/public/build/runtime.cb577348e5e011d82919.js
+2021/07/11 08:11:44 [Info] [988422891] proxy/vless/inbound: firstLen = 692
+2021/07/11 08:11:44 [Info] [988422891] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:11:44 [Info] [988422891] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:11:44 [Info] [988422891] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:11:44 [Info] [988422891] proxy/vless/inbound: realPath = /grafana/public/build/grafana.dark.cb577348e5e011d82919.css
+2021/07/11 08:11:45 [Info] [580563149] proxy/vless/inbound: firstLen = 667
+2021/07/11 08:11:45 [Info] [580563149] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:11:45 [Info] [580563149] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:11:45 [Info] [580563149] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:11:45 [Info] [580563149] proxy/vless/inbound: realPath = /grafana/public/build/app.cb577348e5e011d82919.js
+2021/07/11 08:11:45 [Info] [2564890909] proxy/vless/inbound: firstLen = 675
+2021/07/11 08:11:45 [Info] [2564890909] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:11:45 [Info] [2564890909] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:11:45 [Info] [2564890909] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:11:45 [Info] [2564890909] proxy/vless/inbound: realPath = /grafana/public/build/angular~app.cb577348e5e011d82919.js
+2021/07/11 08:11:45 [Info] [2789973269] proxy/vless/inbound: firstLen = 674
+2021/07/11 08:11:45 [Info] [2789973269] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:11:45 [Info] [2789973269] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:11:45 [Info] [2789973269] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:11:45 [Info] [2789973269] proxy/vless/inbound: realPath = /grafana/public/build/moment~app.cb577348e5e011d82919.js
+2021/07/11 08:11:47 [Info] [1115392864] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:11:47 [Info] [1115392864] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:11:47 [Info] [1115392864] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:11:47 [Info] [1115392864] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:11:47 [Info] [1115392864] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:11:49 [Info] [1115392864] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:11:50 [Info] [256835838] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:11:50 [Info] [256835838] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:11:50 [Info] [256835838] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:11:50 [Info] [256835838] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:11:50 [Info] [256835838] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:11:52 [Info] [256835838] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:11:53 [Info] [2767066610] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:11:53 [Info] [2767066610] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:11:53 [Info] [2767066610] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:11:53 [Info] [2767066610] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:11:53 [Info] [2767066610] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:11:55 [Info] [2767066610] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:12:02 [Info] [2023417667] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:12:02 [Info] [2023417667] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:12:02 [Info] [2023417667] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:12:02 [Info] [2023417667] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:12:02 [Info] [2023417667] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:12:04 [Info] [2023417667] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:12:14 [Info] [3059889880] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:12:14 [Info] [3059889880] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:12:14 [Info] [3059889880] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:12:14 [Info] [3059889880] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:12:14 [Info] [3059889880] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:12:16 [Info] [3059889880] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:12:34 [Info] [177892953] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:12:34 [Info] [177892953] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:12:34 [Info] [177892953] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:12:34 [Info] [177892953] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:12:34 [Info] [177892953] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:12:36 [Info] [177892953] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:12:37 [Info] [3672812349] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:12:37 [Info] [1942361559] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:12:37 [Info] [988422891] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:12:37 [Info] [2789973269] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:12:37 [Info] [580563149] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:12:37 [Info] [2564890909] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:12:44 [Info] [302432271] proxy/vless/inbound: firstLen = 856
+2021/07/11 08:12:44 [Info] [302432271] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:12:44 [Info] [302432271] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:12:44 [Info] [302432271] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:12:44 [Info] [302432271] proxy/vless/inbound: realPath = /grafana/api/datasources/proxy/1/api/v1/query_range
+2021/07/11 08:12:44 [Info] [4100615336] proxy/vless/inbound: firstLen = 743
+2021/07/11 08:12:44 [Info] [4100615336] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:12:44 [Info] [4100615336] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:12:44 [Info] [4100615336] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:12:44 [Info] [4100615336] proxy/vless/inbound: realPath = /grafana/api/annotations
+2021/07/11 08:12:44 [Info] [536234535] proxy/vless/inbound: firstLen = 723
+2021/07/11 08:12:44 [Info] [536234535] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:12:44 [Info] [536234535] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:12:44 [Info] [536234535] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:12:44 [Info] [536234535] proxy/vless/inbound: realPath = /grafana/api/alerts/states-for-dashboard
+2021/07/11 08:12:44 [Info] [2482705369] proxy/vless/inbound: firstLen = 856
+2021/07/11 08:12:44 [Info] [2482705369] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:12:44 [Info] [2482705369] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:12:44 [Info] [2482705369] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:12:44 [Info] [2482705369] proxy/vless/inbound: realPath = /grafana/api/datasources/proxy/1/api/v1/query_range
+2021/07/11 08:12:44 [Info] [1968256033] proxy/vless/inbound: firstLen = 856
+2021/07/11 08:12:44 [Info] [1968256033] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:12:44 [Info] [1968256033] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:12:44 [Info] [1968256033] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:12:44 [Info] [1968256033] proxy/vless/inbound: realPath = /grafana/api/datasources/proxy/1/api/v1/query_range
+2021/07/11 08:12:49 [Info] [1506739914] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:12:49 [Info] [1506739914] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:12:49 [Info] [1506739914] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:12:49 [Info] [1506739914] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:12:49 [Info] [1506739914] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:12:51 [Info] [1506739914] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:13:08 [Info] [36755267] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:13:08 [Info] [36755267] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:13:08 [Info] [36755267] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:13:08 [Info] [36755267] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:13:08 [Info] [36755267] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:13:11 [Info] [36755267] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:13:24 [Info] [1125816656] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:13:24 [Info] [1125816656] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:13:24 [Info] [1125816656] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:13:24 [Info] [1125816656] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:13:24 [Info] [1125816656] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:13:26 [Info] [1125816656] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:13:34 [Info] [2581807926] proxy/vless/inbound: firstLen = 549
+2021/07/11 08:13:34 [Info] [2581807926] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:13:34 [Info] [2581807926] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:13:34 [Info] [2581807926] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:13:34 [Info] [2581807926] proxy/vless/inbound: realPath = /portainer/
+2021/07/11 08:13:43 [Info] [1098494079] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:13:43 [Info] [1098494079] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:13:43 [Info] [1098494079] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:13:43 [Info] [1098494079] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:13:43 [Info] [1098494079] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:13:45 [Info] [1968256033] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:13:45 [Info] [1098494079] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:13:55 [Info] [1891031674] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:13:55 [Info] [1891031674] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:13:55 [Info] [1891031674] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:13:55 [Info] [1891031674] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:13:55 [Info] [1891031674] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:13:57 [Info] [1891031674] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:14:14 [Info] [1884602078] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:14:14 [Info] [1884602078] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:14:14 [Info] [1884602078] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:14:14 [Info] [1884602078] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:14:14 [Info] [1884602078] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:14:15 [Info] [2482705369] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:14:15 [Info] [536234535] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:14:15 [Info] [4100615336] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:14:15 [Info] [3239220286] proxy/vless/inbound: firstLen = 874
+2021/07/11 08:14:15 [Info] [3239220286] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:14:15 [Info] [3239220286] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:14:15 [Info] [3239220286] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:14:15 [Info] [3239220286] proxy/vless/inbound: realPath = /grafana/api/datasources/proxy/1/api/v1/query_range
+2021/07/11 08:14:15 [Info] [257943318] proxy/vless/inbound: firstLen = 874
+2021/07/11 08:14:15 [Info] [257943318] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:14:15 [Info] [257943318] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:14:15 [Info] [257943318] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:14:15 [Info] [257943318] proxy/vless/inbound: realPath = /grafana/api/datasources/proxy/1/api/v1/query_range
+2021/07/11 08:14:16 [Info] [1930309514] proxy/vless/inbound: firstLen = 741
+2021/07/11 08:14:16 [Info] [1930309514] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:14:16 [Info] [1930309514] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:14:16 [Info] [1930309514] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:14:16 [Info] [1930309514] proxy/vless/inbound: realPath = /grafana/api/alerts/states-for-dashboard
+2021/07/11 08:14:16 [Info] [3602356577] proxy/vless/inbound: firstLen = 761
+2021/07/11 08:14:16 [Info] [3602356577] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:14:16 [Info] [3602356577] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:14:16 [Info] [3602356577] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:14:16 [Info] [3602356577] proxy/vless/inbound: realPath = /grafana/api/annotations
+2021/07/11 08:14:16 [Info] [1636227694] proxy/vless/inbound: firstLen = 874
+2021/07/11 08:14:16 [Info] [1636227694] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:14:16 [Info] [1636227694] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:14:16 [Info] [1636227694] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:14:16 [Info] [1636227694] proxy/vless/inbound: realPath = /grafana/api/datasources/proxy/1/api/v1/query_range
+2021/07/11 08:14:16 [Info] [302432271] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:14:16 [Info] [1884602078] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:14:29 [Info] [3961261399] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:14:29 [Info] [3961261399] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:14:29 [Info] [3961261399] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:14:29 [Info] [3961261399] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:14:29 [Info] [3961261399] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:14:30 [Info] [2581807926] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:14:31 [Info] [3961261399] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:14:45 [Info] [3041383249] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:14:45 [Info] [3041383249] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:14:45 [Info] [3041383249] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:14:45 [Info] [3041383249] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:14:45 [Info] [3041383249] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:14:48 [Info] [3041383249] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:15:03 [Info] [130242586] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:15:03 [Info] [130242586] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:15:03 [Info] [130242586] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:15:03 [Info] [130242586] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:15:03 [Info] [130242586] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:15:05 [Info] [130242586] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:15:20 [Info] [459953573] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:15:20 [Info] [459953573] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:15:20 [Info] [459953573] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:15:20 [Info] [459953573] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:15:20 [Info] [459953573] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:15:22 [Info] [459953573] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:15:34 [Info] [3275972838] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:15:34 [Info] [3275972838] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:15:34 [Info] [3275972838] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:15:34 [Info] [3275972838] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:15:34 [Info] [3275972838] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:15:36 [Info] [3275972838] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:15:43 [Info] [1454655340] proxy/vless/inbound: firstLen = 874
+2021/07/11 08:15:43 [Info] [1454655340] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:15:43 [Info] [1454655340] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:15:43 [Info] [1454655340] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:15:43 [Info] [1454655340] proxy/vless/inbound: realPath = /grafana/api/datasources/proxy/1/api/v1/query_range
+2021/07/11 08:15:43 [Info] [4268876511] proxy/vless/inbound: firstLen = 874
+2021/07/11 08:15:43 [Info] [4268876511] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:15:43 [Info] [4268876511] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:15:43 [Info] [4268876511] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:15:43 [Info] [4268876511] proxy/vless/inbound: realPath = /grafana/api/datasources/proxy/1/api/v1/query_range
+2021/07/11 08:15:43 [Info] [257943318] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:15:43 [Info] [1930309514] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:15:43 [Info] [1636227694] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:15:43 [Info] [3602356577] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:15:44 [Info] [499303799] proxy/vless/inbound: firstLen = 874
+2021/07/11 08:15:44 [Info] [499303799] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:15:44 [Info] [499303799] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:15:44 [Info] [499303799] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:15:44 [Info] [499303799] proxy/vless/inbound: realPath = /grafana/api/datasources/proxy/1/api/v1/query_range
+2021/07/11 08:15:44 [Info] [4265357349] proxy/vless/inbound: firstLen = 741
+2021/07/11 08:15:44 [Info] [4265357349] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:15:44 [Info] [4265357349] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:15:44 [Info] [4265357349] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:15:44 [Info] [4265357349] proxy/vless/inbound: realPath = /grafana/api/alerts/states-for-dashboard
+2021/07/11 08:15:44 [Info] [404395447] proxy/vless/inbound: firstLen = 761
+2021/07/11 08:15:44 [Info] [404395447] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:15:44 [Info] [404395447] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:15:44 [Info] [404395447] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 08:15:44 [Info] [404395447] proxy/vless/inbound: realPath = /grafana/api/annotations
+2021/07/11 08:15:44 [Info] [3239220286] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:15:49 [Info] [2956497326] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:15:49 [Info] [2956497326] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:15:49 [Info] [2956497326] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:15:49 [Info] [2956497326] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:15:49 [Info] [2956497326] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:15:51 [Info] [2956497326] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:16:09 [Info] [2862189610] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:16:09 [Info] [2862189610] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:16:09 [Info] [2862189610] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:16:09 [Info] [2862189610] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:16:09 [Info] [2862189610] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:16:11 [Info] [2862189610] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:16:29 [Info] [3177845453] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:16:29 [Info] [3177845453] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:16:29 [Info] [3177845453] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:16:29 [Info] [3177845453] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:16:29 [Info] [3177845453] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:16:31 [Info] [3177845453] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:16:40 [Info] [3229805251] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:16:40 [Info] [3229805251] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:16:40 [Info] [3229805251] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:16:40 [Info] [3229805251] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:16:40 [Info] [3229805251] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:16:42 [Info] [3229805251] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:16:51 [Info] [1477423066] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:16:51 [Info] [1477423066] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:16:51 [Info] [1477423066] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:16:51 [Info] [1477423066] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:16:51 [Info] [1477423066] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:16:53 [Info] [1477423066] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:17:09 [Info] [205578918] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:17:09 [Info] [205578918] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:17:09 [Info] [205578918] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:17:09 [Info] [205578918] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:17:09 [Info] [205578918] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:17:11 [Info] [205578918] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:17:15 [Info] [1454655340] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:17:15 [Info] [499303799] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:17:15 [Info] [4268876511] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:17:15 [Info] [404395447] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:17:15 [Info] [4265357349] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:17:29 [Info] [3421558780] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:17:29 [Info] [3421558780] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:17:29 [Info] [3421558780] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:17:29 [Info] [3421558780] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:17:29 [Info] [3421558780] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:17:31 [Info] [3421558780] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:17:45 [Info] [3550700566] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:17:45 [Info] [3550700566] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:17:45 [Info] [3550700566] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:17:45 [Info] [3550700566] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:17:45 [Info] [3550700566] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:17:47 [Info] [3550700566] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:18:06 [Info] [4185500639] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:18:06 [Info] [4185500639] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:18:06 [Info] [4185500639] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:18:06 [Info] [4185500639] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:18:06 [Info] [4185500639] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:18:08 [Info] [4185500639] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:18:36 [Info] [3899983565] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:18:36 [Info] [3899983565] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:18:36 [Info] [3899983565] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:18:36 [Info] [3899983565] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:18:36 [Info] [3899983565] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:18:38 [Info] [3899983565] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:18:49 [Info] [3910905967] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:18:49 [Info] [3910905967] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:18:49 [Info] [3910905967] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:18:49 [Info] [3910905967] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:18:49 [Info] [3910905967] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:18:51 [Info] [3910905967] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:19:06 [Info] [376256903] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:19:06 [Info] [376256903] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:19:06 [Info] [376256903] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:19:06 [Info] [376256903] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:19:06 [Info] [376256903] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:19:08 [Info] [376256903] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:19:22 [Info] [2292409915] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:19:22 [Info] [2292409915] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:19:22 [Info] [2292409915] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:19:22 [Info] [2292409915] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:19:22 [Info] [2292409915] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:19:24 [Info] [2292409915] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:19:49 [Info] [2205977520] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:19:49 [Info] [2205977520] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:19:49 [Info] [2205977520] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:19:49 [Info] [2205977520] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:19:49 [Info] [2205977520] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:19:51 [Info] [2205977520] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:20:08 [Info] [1318871076] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:20:08 [Info] [1318871076] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:20:08 [Info] [1318871076] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:20:08 [Info] [1318871076] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:20:08 [Info] [1318871076] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:20:10 [Info] [1318871076] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:20:29 [Info] [1088155282] proxy/vless/inbound: firstLen = 140
+2021/07/11 08:20:29 [Info] [1088155282] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:20:29 [Info] [1088155282] proxy/vless/inbound: realName = 104.199.212.122:443
+2021/07/11 08:20:29 [Info] [1088155282] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:20:29 [Info] [1088155282] proxy/vless/inbound: realPath = /
+2021/07/11 08:20:30 [Info] [1836094097] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:20:30 [Info] [1836094097] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:20:30 [Info] [1836094097] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:20:30 [Info] [1836094097] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:20:30 [Info] [1836094097] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:20:31 [Info] [1088155282] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:20:32 [Info] [1836094097] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:20:52 [Info] [418709154] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:20:52 [Info] [418709154] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:20:52 [Info] [418709154] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:20:52 [Info] [418709154] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:20:52 [Info] [418709154] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:20:54 [Info] [418709154] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:21:02 [Info] [222211571] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:21:02 [Info] [222211571] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:21:02 [Info] [222211571] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:21:02 [Info] [222211571] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:21:02 [Info] [222211571] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:21:04 [Info] [222211571] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:21:23 [Info] [2943768010] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:21:23 [Info] [2943768010] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:21:23 [Info] [2943768010] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:21:23 [Info] [2943768010] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:21:23 [Info] [2943768010] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:21:25 [Info] [2943768010] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:21:45 [Info] [4109918429] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:21:45 [Info] [4109918429] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:21:45 [Info] [4109918429] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:21:45 [Info] [4109918429] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:21:45 [Info] [4109918429] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:21:47 [Info] [4109918429] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:22:00 [Info] [3693134960] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:22:00 [Info] [3693134960] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:22:00 [Info] [3693134960] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:22:00 [Info] [3693134960] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:22:00 [Info] [3693134960] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:22:02 [Info] [3693134960] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:22:18 [Info] [2265344075] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:22:18 [Info] [2265344075] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:22:18 [Info] [2265344075] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:22:18 [Info] [2265344075] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:22:18 [Info] [2265344075] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:22:20 [Info] [2265344075] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:22:36 [Info] [1394777321] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:22:36 [Info] [1394777321] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:22:36 [Info] [1394777321] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:22:36 [Info] [1394777321] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:22:36 [Info] [1394777321] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:22:38 [Info] [1394777321] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:22:52 [Info] [46345573] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:22:52 [Info] [46345573] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:22:52 [Info] [46345573] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:22:52 [Info] [46345573] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:22:52 [Info] [46345573] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:22:54 [Info] [46345573] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:23:05 [Info] [1490832951] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:23:05 [Info] [1490832951] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:23:05 [Info] [1490832951] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:23:05 [Info] [1490832951] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:23:05 [Info] [1490832951] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:23:07 [Info] [1490832951] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:23:30 [Info] [2211890782] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:23:30 [Info] [2211890782] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:23:30 [Info] [2211890782] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:23:30 [Info] [2211890782] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:23:30 [Info] [2211890782] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:23:33 [Info] [2211890782] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:23:51 [Info] [1994980200] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:23:51 [Info] [1994980200] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:23:51 [Info] [1994980200] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:23:51 [Info] [1994980200] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:23:51 [Info] [1994980200] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:23:53 [Info] [1994980200] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:24:10 [Info] [2293748726] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:24:10 [Info] [2293748726] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:24:10 [Info] [2293748726] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:24:10 [Info] [2293748726] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:24:10 [Info] [2293748726] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:24:12 [Info] [2293748726] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:24:27 [Info] [1404460241] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:24:27 [Info] [1404460241] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:24:27 [Info] [1404460241] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:24:27 [Info] [1404460241] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:24:27 [Info] [1404460241] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:24:29 [Info] [1404460241] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:24:52 [Info] [1953589824] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:24:52 [Info] [1953589824] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:24:52 [Info] [1953589824] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:24:52 [Info] [1953589824] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:24:52 [Info] [1953589824] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:24:54 [Info] [1953589824] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:25:05 [Info] [168785712] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:25:05 [Info] [168785712] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:25:05 [Info] [168785712] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:25:05 [Info] [168785712] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:25:05 [Info] [168785712] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:25:07 [Info] [168785712] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:25:21 [Info] [1160790287] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:25:21 [Info] [1160790287] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:25:21 [Info] [1160790287] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:25:21 [Info] [1160790287] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:25:21 [Info] [1160790287] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:25:23 [Info] [1160790287] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:25:35 [Info] [2209794964] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:25:35 [Info] [2209794964] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:25:35 [Info] [2209794964] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:25:35 [Info] [2209794964] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:25:35 [Info] [2209794964] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:25:37 [Info] [2209794964] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:25:52 [Info] [4067823317] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:25:52 [Info] [4067823317] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:25:52 [Info] [4067823317] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:25:52 [Info] [4067823317] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:25:52 [Info] [4067823317] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:25:54 [Info] [4067823317] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:26:10 [Info] [4185347487] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:26:10 [Info] [4185347487] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:26:10 [Info] [4185347487] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:26:10 [Info] [4185347487] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:26:10 [Info] [4185347487] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:26:12 [Info] [4185347487] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:26:25 [Info] [339283450] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:26:25 [Info] [339283450] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:26:25 [Info] [339283450] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:26:25 [Info] [339283450] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:26:25 [Info] [339283450] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:26:27 [Info] [339283450] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:26:50 [Info] [756713242] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:26:50 [Info] [756713242] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:26:50 [Info] [756713242] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:26:50 [Info] [756713242] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:26:50 [Info] [756713242] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:26:52 [Info] [756713242] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:27:07 [Info] [3049216819] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:27:07 [Info] [3049216819] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:27:07 [Info] [3049216819] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:27:07 [Info] [3049216819] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:27:07 [Info] [3049216819] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:27:09 [Info] [3049216819] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:27:24 [Info] [464840166] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:27:24 [Info] [464840166] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:27:24 [Info] [464840166] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:27:24 [Info] [464840166] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:27:24 [Info] [464840166] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:27:26 [Info] [464840166] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:27:41 [Info] [2592237871] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:27:41 [Info] [2592237871] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:27:41 [Info] [2592237871] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:27:41 [Info] [2592237871] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:27:41 [Info] [2592237871] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:27:43 [Info] [2592237871] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:27:57 [Info] [3466508692] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:27:57 [Info] [3466508692] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:27:57 [Info] [3466508692] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:27:57 [Info] [3466508692] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:27:57 [Info] [3466508692] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:27:59 [Info] [3466508692] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:28:21 [Info] [1017447944] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:28:21 [Info] [1017447944] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:28:21 [Info] [1017447944] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:28:21 [Info] [1017447944] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:28:21 [Info] [1017447944] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:28:23 [Info] [1017447944] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:28:38 [Info] [1259797912] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:28:38 [Info] [1259797912] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:28:38 [Info] [1259797912] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:28:38 [Info] [1259797912] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:28:38 [Info] [1259797912] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:28:40 [Info] [1259797912] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:28:51 [Info] [180419450] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:28:51 [Info] [180419450] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:28:51 [Info] [180419450] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:28:51 [Info] [180419450] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:28:51 [Info] [180419450] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:28:53 [Info] [180419450] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:29:07 [Info] [2128159122] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:29:07 [Info] [2128159122] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:29:07 [Info] [2128159122] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:29:07 [Info] [2128159122] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:29:07 [Info] [2128159122] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:29:09 [Info] [2128159122] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:29:18 [Info] [1052951408] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:29:18 [Info] [1052951408] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:29:18 [Info] [1052951408] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:29:18 [Info] [1052951408] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:29:18 [Info] [1052951408] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:29:20 [Info] [1052951408] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:29:32 [Info] [2673177241] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:29:32 [Info] [2673177241] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:29:32 [Info] [2673177241] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:29:32 [Info] [2673177241] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:29:32 [Info] [2673177241] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:29:34 [Info] [2673177241] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:29:50 [Info] [4270652404] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:29:50 [Info] [4270652404] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:29:50 [Info] [4270652404] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:29:50 [Info] [4270652404] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:29:50 [Info] [4270652404] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:29:52 [Info] [4270652404] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:30:02 [Info] [3473637475] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:30:02 [Info] [3473637475] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:30:02 [Info] [3473637475] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:30:02 [Info] [3473637475] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:30:02 [Info] [3473637475] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:30:04 [Info] [3473637475] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:30:28 [Info] [3534898242] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:30:28 [Info] [3534898242] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:30:28 [Info] [3534898242] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:30:28 [Info] [3534898242] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:30:28 [Info] [3534898242] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:30:30 [Info] [3534898242] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:30:40 [Info] [756094766] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:30:40 [Info] [756094766] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:30:40 [Info] [756094766] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:30:40 [Info] [756094766] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:30:40 [Info] [756094766] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:30:42 [Info] [756094766] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:30:43 [Info] [3247620247] proxy/vless/inbound: firstLen = 147
+2021/07/11 08:30:43 [Info] [3247620247] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:30:43 [Info] [3247620247] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:30:43 [Info] [3247620247] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:30:43 [Info] [3247620247] proxy/vless/inbound: realPath = /
+2021/07/11 08:30:53 [Info] [3247620247] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:30:55 [Info] [2586152809] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:30:55 [Info] [2586152809] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:30:55 [Info] [2586152809] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:30:55 [Info] [2586152809] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:30:55 [Info] [2586152809] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:30:57 [Info] [2586152809] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:31:12 [Info] [2393049677] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:31:12 [Info] [2393049677] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:31:12 [Info] [2393049677] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:31:12 [Info] [2393049677] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:31:12 [Info] [2393049677] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:31:14 [Info] [2393049677] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:31:24 [Info] [570659961] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:31:24 [Info] [570659961] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:31:24 [Info] [570659961] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:31:24 [Info] [570659961] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:31:24 [Info] [570659961] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:31:26 [Info] [570659961] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:31:41 [Info] [2085799071] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:31:41 [Info] [2085799071] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:31:41 [Info] [2085799071] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:31:41 [Info] [2085799071] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:31:41 [Info] [2085799071] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:31:43 [Info] [2085799071] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:32:00 [Info] [1629135408] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:32:00 [Info] [1629135408] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:32:00 [Info] [1629135408] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:32:00 [Info] [1629135408] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:32:00 [Info] [1629135408] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:32:02 [Info] [1629135408] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:32:16 [Info] [2658655088] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:32:16 [Info] [2658655088] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:32:16 [Info] [2658655088] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:32:16 [Info] [2658655088] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:32:16 [Info] [2658655088] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:32:18 [Info] [2658655088] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:32:34 [Info] [2828007079] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:32:34 [Info] [2828007079] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:32:34 [Info] [2828007079] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:32:34 [Info] [2828007079] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:32:34 [Info] [2828007079] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:32:36 [Info] [2828007079] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:32:48 [Info] [253293366] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:32:48 [Info] [253293366] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:32:48 [Info] [253293366] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:32:48 [Info] [253293366] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:32:48 [Info] [253293366] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:32:50 [Info] [253293366] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:33:05 [Info] [2459864449] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:33:05 [Info] [2459864449] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:33:05 [Info] [2459864449] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:33:05 [Info] [2459864449] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:33:05 [Info] [2459864449] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:33:07 [Info] [2459864449] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:33:24 [Info] [2070762408] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:33:24 [Info] [2070762408] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:33:24 [Info] [2070762408] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:33:24 [Info] [2070762408] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:33:24 [Info] [2070762408] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:33:26 [Info] [2070762408] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:33:47 [Info] [3218211346] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:33:47 [Info] [3218211346] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:33:47 [Info] [3218211346] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:33:47 [Info] [3218211346] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:33:47 [Info] [3218211346] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:33:49 [Info] [3218211346] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:34:01 [Info] [392284193] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:34:01 [Info] [392284193] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:34:01 [Info] [392284193] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:34:01 [Info] [392284193] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:34:01 [Info] [392284193] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:34:03 [Info] [392284193] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:34:22 [Info] [911723501] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:34:22 [Info] [911723501] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:34:22 [Info] [911723501] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:34:22 [Info] [911723501] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:34:22 [Info] [911723501] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:34:24 [Info] [911723501] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:34:53 [Info] [2122180626] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:34:53 [Info] [2122180626] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:34:53 [Info] [2122180626] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:34:53 [Info] [2122180626] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:34:53 [Info] [2122180626] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:34:55 [Info] [2122180626] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:35:08 [Info] [3789563403] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:35:08 [Info] [3789563403] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:35:08 [Info] [3789563403] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:35:08 [Info] [3789563403] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:35:08 [Info] [3789563403] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:35:11 [Info] [3789563403] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:35:30 [Info] [176333851] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:35:30 [Info] [176333851] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:35:30 [Info] [176333851] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:35:30 [Info] [176333851] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:35:30 [Info] [176333851] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:35:32 [Info] [176333851] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:35:52 [Info] [373559978] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:35:52 [Info] [373559978] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:35:52 [Info] [373559978] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:35:52 [Info] [373559978] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:35:52 [Info] [373559978] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:35:54 [Info] [373559978] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:36:08 [Info] [2806574311] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:36:08 [Info] [2806574311] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:36:08 [Info] [2806574311] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:36:08 [Info] [2806574311] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:36:08 [Info] [2806574311] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:36:10 [Info] [2806574311] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:36:30 [Info] [3532736707] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:36:30 [Info] [3532736707] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:36:30 [Info] [3532736707] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:36:30 [Info] [3532736707] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:36:30 [Info] [3532736707] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:36:32 [Info] [3532736707] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:36:47 [Info] [1737539571] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:36:47 [Info] [1737539571] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:36:47 [Info] [1737539571] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:36:47 [Info] [1737539571] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:36:47 [Info] [1737539571] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:36:49 [Info] [1737539571] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:37:04 [Info] [149885026] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:37:04 [Info] [149885026] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:37:04 [Info] [149885026] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:37:04 [Info] [149885026] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:37:04 [Info] [149885026] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:37:06 [Info] [149885026] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:37:23 [Info] [1237428367] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:37:23 [Info] [1237428367] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:37:23 [Info] [1237428367] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:37:23 [Info] [1237428367] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:37:23 [Info] [1237428367] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:37:25 [Info] [1237428367] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:37:37 [Info] [3572478653] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:37:37 [Info] [3572478653] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:37:37 [Info] [3572478653] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:37:37 [Info] [3572478653] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:37:37 [Info] [3572478653] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:37:40 [Info] [3572478653] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:37:58 [Info] [3370543588] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:37:58 [Info] [3370543588] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:37:58 [Info] [3370543588] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:37:58 [Info] [3370543588] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:37:58 [Info] [3370543588] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:38:00 [Info] [3370543588] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:38:14 [Info] [1858334673] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:38:14 [Info] [1858334673] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:38:14 [Info] [1858334673] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:38:14 [Info] [1858334673] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:38:14 [Info] [1858334673] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:38:16 [Info] [1858334673] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:38:34 [Info] [2147520016] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:38:34 [Info] [2147520016] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:38:34 [Info] [2147520016] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:38:34 [Info] [2147520016] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:38:34 [Info] [2147520016] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:38:36 [Info] [2147520016] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:38:51 [Info] [2886007130] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:38:51 [Info] [2886007130] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:38:51 [Info] [2886007130] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:38:51 [Info] [2886007130] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:38:51 [Info] [2886007130] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:38:53 [Info] [2886007130] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:39:07 [Info] [1188742303] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:39:07 [Info] [1188742303] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:39:07 [Info] [1188742303] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:39:07 [Info] [1188742303] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:39:07 [Info] [1188742303] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:39:09 [Info] [1188742303] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:39:24 [Info] [2641835210] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:39:24 [Info] [2641835210] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:39:24 [Info] [2641835210] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:39:24 [Info] [2641835210] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:39:24 [Info] [2641835210] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:39:26 [Info] [2641835210] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:39:36 [Info] [3935487302] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:39:36 [Info] [3935487302] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:39:36 [Info] [3935487302] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:39:36 [Info] [3935487302] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:39:36 [Info] [3935487302] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:39:38 [Info] [3935487302] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:40:01 [Info] [3487455936] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:40:01 [Info] [3487455936] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:40:01 [Info] [3487455936] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:40:01 [Info] [3487455936] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:40:01 [Info] [3487455936] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:40:03 [Info] [3487455936] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:40:32 [Info] [555545521] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:40:32 [Info] [555545521] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:40:32 [Info] [555545521] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:40:32 [Info] [555545521] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:40:32 [Info] [555545521] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:40:34 [Info] [555545521] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:40:55 [Info] [2471621863] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:40:55 [Info] [2471621863] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:40:55 [Info] [2471621863] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:40:55 [Info] [2471621863] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:40:55 [Info] [2471621863] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:40:57 [Info] [2471621863] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:41:25 [Info] [3225048108] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:41:25 [Info] [3225048108] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:41:25 [Info] [3225048108] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:41:25 [Info] [3225048108] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:41:25 [Info] [3225048108] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:41:27 [Info] [3225048108] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:41:38 [Info] [1534861465] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:41:38 [Info] [1534861465] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:41:38 [Info] [1534861465] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:41:38 [Info] [1534861465] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:41:38 [Info] [1534861465] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:41:41 [Info] [1534861465] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:41:55 [Info] [255778906] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:41:55 [Info] [255778906] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:41:55 [Info] [255778906] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:41:55 [Info] [255778906] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:41:55 [Info] [255778906] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:41:57 [Info] [255778906] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:42:22 [Info] [308817722] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:42:22 [Info] [308817722] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:42:22 [Info] [308817722] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:42:22 [Info] [308817722] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:42:22 [Info] [308817722] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:42:24 [Info] [308817722] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:42:41 [Info] [471390074] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:42:41 [Info] [471390074] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:42:41 [Info] [471390074] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:42:41 [Info] [471390074] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:42:41 [Info] [471390074] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:42:43 [Info] [471390074] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:43:00 [Info] [978116345] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:43:00 [Info] [978116345] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:43:00 [Info] [978116345] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:43:00 [Info] [978116345] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:43:00 [Info] [978116345] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:43:03 [Info] [978116345] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:43:22 [Info] [3137960186] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:43:22 [Info] [3137960186] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:43:22 [Info] [3137960186] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:43:22 [Info] [3137960186] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:43:22 [Info] [3137960186] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:43:24 [Info] [3137960186] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:43:40 [Info] [1029685047] proxy/vless/inbound: firstLen = 706
+2021/07/11 08:43:40 [Info] [1029685047] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:43:40 [Info] [1029685047] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:43:40 [Info] [1029685047] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:43:40 [Info] [1029685047] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:43:42 [Info] [1029685047] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:44:00 [Info] [1991924113] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:44:00 [Info] [1991924113] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:44:00 [Info] [1991924113] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:44:00 [Info] [1991924113] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:44:00 [Info] [1991924113] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:44:02 [Info] [1991924113] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:44:21 [Info] [1835994577] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:44:21 [Info] [1835994577] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:44:21 [Info] [1835994577] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:44:21 [Info] [1835994577] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:44:21 [Info] [1835994577] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:44:23 [Info] [1835994577] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:44:40 [Info] [3153040109] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:44:40 [Info] [3153040109] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:44:40 [Info] [3153040109] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:44:40 [Info] [3153040109] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:44:40 [Info] [3153040109] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:44:42 [Info] [3153040109] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:45:00 [Info] [1665984650] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:45:00 [Info] [1665984650] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:45:00 [Info] [1665984650] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:45:00 [Info] [1665984650] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:45:00 [Info] [1665984650] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:45:02 [Info] [1665984650] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:45:22 [Info] [3404693645] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:45:22 [Info] [3404693645] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:45:22 [Info] [3404693645] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:45:22 [Info] [3404693645] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:45:22 [Info] [3404693645] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:45:24 [Info] [3404693645] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:45:35 [Info] [3637736784] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:45:35 [Info] [3637736784] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:45:35 [Info] [3637736784] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:45:35 [Info] [3637736784] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:45:35 [Info] [3637736784] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:45:37 [Info] [3637736784] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:45:42 [Info] [3054053738] proxy/vless/inbound: firstLen = 0
+2021/07/11 08:45:42 [Info] [3054053738] proxy/vless/inbound: fallback starts > proxy/vless/inbound: fallback directly
+2021/07/11 08:45:42 [Info] [3054053738] proxy/vless/inbound: realName = 
+2021/07/11 08:45:42 [Info] [3054053738] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:45:43 [Info] [2419323960] proxy/vless/inbound: firstLen = 112
+2021/07/11 08:45:43 [Info] [2419323960] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:45:43 [Info] [2419323960] proxy/vless/inbound: realName = 104.199.212.122
+2021/07/11 08:45:43 [Info] [2419323960] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:45:43 [Info] [2419323960] proxy/vless/inbound: realPath = /
+2021/07/11 08:45:43 [Info] [3054053738] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:45:53 [Info] [2419323960] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:46:00 [Info] [3061314538] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:46:00 [Info] [3061314538] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:46:00 [Info] [3061314538] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:46:00 [Info] [3061314538] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:46:00 [Info] [3061314538] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:46:02 [Info] [3061314538] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:46:16 [Info] [3418311574] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:46:16 [Info] [3418311574] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:46:16 [Info] [3418311574] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:46:16 [Info] [3418311574] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:46:16 [Info] [3418311574] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:46:18 [Info] [3418311574] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:46:35 [Info] [3052036544] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:46:35 [Info] [3052036544] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:46:35 [Info] [3052036544] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:46:35 [Info] [3052036544] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:46:35 [Info] [3052036544] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:46:37 [Info] [3052036544] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:46:52 [Info] [46115276] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:46:52 [Info] [46115276] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:46:52 [Info] [46115276] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:46:52 [Info] [46115276] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:46:52 [Info] [46115276] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:46:55 [Info] [46115276] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:47:11 [Info] [2061208664] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:47:11 [Info] [2061208664] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:47:11 [Info] [2061208664] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:47:11 [Info] [2061208664] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:47:11 [Info] [2061208664] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:47:13 [Info] [2061208664] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:47:30 [Info] [1522712262] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:47:30 [Info] [1522712262] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:47:30 [Info] [1522712262] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:47:30 [Info] [1522712262] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:47:30 [Info] [1522712262] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:47:32 [Info] [1522712262] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:47:51 [Info] [3593048486] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:47:51 [Info] [3593048486] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:47:51 [Info] [3593048486] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:47:51 [Info] [3593048486] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:47:51 [Info] [3593048486] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:47:54 [Info] [3593048486] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:48:04 [Info] [2352039318] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:48:04 [Info] [2352039318] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:48:04 [Info] [2352039318] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:48:04 [Info] [2352039318] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:48:04 [Info] [2352039318] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:48:06 [Info] [2352039318] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:48:22 [Info] [1232993021] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:48:22 [Info] [1232993021] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:48:22 [Info] [1232993021] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:48:22 [Info] [1232993021] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:48:22 [Info] [1232993021] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:48:24 [Info] [1232993021] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:48:46 [Info] [104909491] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:48:46 [Info] [104909491] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:48:46 [Info] [104909491] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:48:46 [Info] [104909491] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:48:46 [Info] [104909491] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:48:48 [Info] [104909491] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:49:07 [Info] [1230835391] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:49:07 [Info] [1230835391] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:49:07 [Info] [1230835391] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:49:07 [Info] [1230835391] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:49:07 [Info] [1230835391] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:49:09 [Info] [1230835391] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:49:21 [Info] [2911069752] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:49:21 [Info] [2911069752] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:49:21 [Info] [2911069752] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:49:21 [Info] [2911069752] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:49:21 [Info] [2911069752] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:49:23 [Info] [2911069752] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:49:47 [Info] [7261466] proxy/vless/inbound: firstLen = 116
+2021/07/11 08:49:47 [Info] [7261466] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:49:47 [Info] [7261466] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:49:47 [Info] [7261466] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:49:47 [Info] [7261466] proxy/vless/inbound: realPath = /
+2021/07/11 08:49:51 [Info] [169131749] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:49:51 [Info] [169131749] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:49:51 [Info] [169131749] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:49:51 [Info] [169131749] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:49:51 [Info] [169131749] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:49:53 [Info] [169131749] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:50:06 [Info] [1321617387] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:50:06 [Info] [1321617387] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:50:06 [Info] [1321617387] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:50:06 [Info] [1321617387] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:50:06 [Info] [1321617387] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:50:08 [Info] [1321617387] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:50:30 [Info] [1140845260] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:50:30 [Info] [1140845260] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:50:30 [Info] [1140845260] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:50:30 [Info] [1140845260] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:50:30 [Info] [1140845260] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:50:32 [Info] [1140845260] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:50:51 [Info] [1759092609] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:50:51 [Info] [1759092609] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:50:51 [Info] [1759092609] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:50:51 [Info] [1759092609] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:50:51 [Info] [1759092609] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:50:53 [Info] [1759092609] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:51:10 [Info] [1849467814] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:51:10 [Info] [1849467814] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:51:10 [Info] [1849467814] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:51:10 [Info] [1849467814] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:51:10 [Info] [1849467814] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:51:12 [Info] [1849467814] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:51:29 [Info] [2386600919] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:51:29 [Info] [2386600919] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:51:29 [Info] [2386600919] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:51:29 [Info] [2386600919] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:51:29 [Info] [2386600919] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:51:31 [Info] [2386600919] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:51:59 [Info] [4254652968] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:51:59 [Info] [4254652968] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:51:59 [Info] [4254652968] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:51:59 [Info] [4254652968] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:51:59 [Info] [4254652968] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:52:01 [Info] [4254652968] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:52:26 [Info] [1172588320] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:52:26 [Info] [1172588320] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:52:26 [Info] [1172588320] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:52:26 [Info] [1172588320] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:52:26 [Info] [1172588320] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:52:28 [Info] [1172588320] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:52:40 [Info] [2478584249] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:52:40 [Info] [2478584249] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:52:40 [Info] [2478584249] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:52:40 [Info] [2478584249] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:52:40 [Info] [2478584249] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:52:42 [Info] [2478584249] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:53:00 [Info] [1500020817] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:53:00 [Info] [1500020817] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:53:00 [Info] [1500020817] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:53:00 [Info] [1500020817] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:53:00 [Info] [1500020817] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:53:02 [Info] [1500020817] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:53:13 [Info] [4256355774] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:53:13 [Info] [4256355774] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:53:13 [Info] [4256355774] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:53:13 [Info] [4256355774] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:53:13 [Info] [4256355774] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:53:15 [Info] [4256355774] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:53:28 [Info] [2029340974] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:53:28 [Info] [2029340974] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:53:28 [Info] [2029340974] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:53:28 [Info] [2029340974] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:53:28 [Info] [2029340974] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:53:30 [Info] [2029340974] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:53:41 [Info] [2823262275] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:53:41 [Info] [2823262275] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:53:41 [Info] [2823262275] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:53:41 [Info] [2823262275] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:53:41 [Info] [2823262275] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:53:43 [Info] [2823262275] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:53:59 [Info] [1929426234] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:53:59 [Info] [1929426234] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:53:59 [Info] [1929426234] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:53:59 [Info] [1929426234] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:53:59 [Info] [1929426234] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:54:02 [Info] [1929426234] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:54:30 [Info] [1342318831] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:54:30 [Info] [1342318831] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:54:30 [Info] [1342318831] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:54:30 [Info] [1342318831] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:54:30 [Info] [1342318831] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:54:32 [Info] [1342318831] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 08:54:49 [Info] [2896494059] proxy/vless/inbound: firstLen = 688
+2021/07/11 08:54:49 [Info] [2896494059] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 08:54:49 [Info] [2896494059] proxy/vless/inbound: realName = k8s-master.tk
+2021/07/11 08:54:49 [Info] [2896494059] proxy/vless/inbound: realAlpn = 
+2021/07/11 08:54:49 [Info] [2896494059] proxy/vless/inbound: realPath = /grafana/api/live/ws
+2021/07/11 08:54:52 [Info] [2896494059] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
