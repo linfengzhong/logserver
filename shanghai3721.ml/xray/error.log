@@ -16012,3 +16012,128 @@
 2021/07/11 15:33:36 [Info] [3578209552] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
 2021/07/11 15:33:36 [Info] [4073129107] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
 2021/07/11 15:33:36 [Info] [4022643290] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:38:19 [Debug] app/log: Logger started
+2021/07/11 15:38:19 [Info] app/dns: DNS: created localhost client
+2021/07/11 15:38:19 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/11 15:38:19 [Debug] app/proxyman/inbound: creating stream worker on 127.0.0.1:31297
+2021/07/11 15:38:19 [Info] transport/internet/websocket: listening TCP(for WS) on 127.0.0.1:31297
+2021/07/11 15:38:19 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/11 15:38:19 [Info] transport/internet/tcp: listening TCP on 0.0.0.0:443
+2021/07/11 15:38:19 [Warning] core: Xray 1.4.2 started
+2021/07/11 15:41:36 [Info] [1181577394] proxy/vless/inbound: firstLen = 461
+2021/07/11 15:41:36 [Info] [1181577394] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:41:36 [Info] [1181577394] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:41:36 [Info] [1181577394] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:41:36 [Info] [1181577394] proxy/vless/inbound: realPath = /portainer/
+2021/07/11 15:41:38 [Info] [2464424870] proxy/vless/inbound: firstLen = 521
+2021/07/11 15:41:38 [Info] [2464424870] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:41:38 [Info] [2464424870] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:41:38 [Info] [2464424870] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:41:38 [Info] [2464424870] proxy/vless/inbound: realPath = /portainer/5da83cfb4883a59354abeff852cb7394.png
+2021/07/11 15:41:38 [Info] [1599316586] proxy/vless/inbound: firstLen = 460
+2021/07/11 15:41:38 [Info] [1599316586] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:41:38 [Info] [1599316586] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:41:38 [Info] [1599316586] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:41:38 [Info] [1599316586] proxy/vless/inbound: realPath = /portainer/main.2869a84f844a9f465e0e.css
+2021/07/11 15:41:38 [Info] [3824739572] proxy/vless/inbound: firstLen = 443
+2021/07/11 15:41:38 [Info] [3824739572] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:41:38 [Info] [3824739572] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:41:38 [Info] [3824739572] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:41:38 [Info] [3824739572] proxy/vless/inbound: realPath = /portainer/vendor.1.css
+2021/07/11 15:41:38 [Info] [1110306087] proxy/vless/inbound: firstLen = 444
+2021/07/11 15:41:38 [Info] [1110306087] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:41:38 [Info] [1110306087] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:41:38 [Info] [1110306087] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:41:38 [Info] [1110306087] proxy/vless/inbound: realPath = /portainer/main.2869a84f844a9f465e0e.js
+2021/07/11 15:41:38 [Info] [1614386161] proxy/vless/inbound: firstLen = 446
+2021/07/11 15:41:38 [Info] [1614386161] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:41:38 [Info] [1614386161] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:41:38 [Info] [1614386161] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:41:38 [Info] [1614386161] proxy/vless/inbound: realPath = /portainer/vendor.2869a84f844a9f465e0e.js
+2021/07/11 15:42:14 [Info] [2551095477] proxy/vless/inbound: firstLen = 514
+2021/07/11 15:42:14 [Info] [2551095477] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:42:14 [Info] [2551095477] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:42:14 [Info] [2551095477] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:42:14 [Info] [2551095477] proxy/vless/inbound: realPath = /portainer/f9508a64a1beb81be174e194573f7450.png
+2021/07/11 15:42:34 [Info] [3824739572] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:42:34 [Info] [1614386161] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:42:44 [Info] [1110306087] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:42:51 [Info] [2551095477] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:42:51 [Info] [1181577394] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:43:05 [Info] [2464424870] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:43:05 [Info] [1599316586] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:43:17 [Info] [2119210421] proxy/vless/inbound: firstLen = 614
+2021/07/11 15:43:17 [Info] [2119210421] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:43:17 [Info] [2119210421] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:43:17 [Info] [2119210421] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:43:17 [Info] [2119210421] proxy/vless/inbound: realPath = /portainer/api/users/admin/init
+2021/07/11 15:43:27 [Info] [1573787889] proxy/vless/inbound: firstLen = 714
+2021/07/11 15:43:27 [Info] [1573787889] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:43:27 [Info] [1573787889] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:43:27 [Info] [1573787889] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:43:27 [Info] [1573787889] proxy/vless/inbound: realPath = /portainer/api/endpoints
+2021/07/11 15:43:27 [Info] [765541472] proxy/vless/inbound: firstLen = 583
+2021/07/11 15:43:27 [Info] [765541472] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:43:27 [Info] [765541472] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:43:27 [Info] [765541472] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:43:27 [Info] [765541472] proxy/vless/inbound: realPath = /portainer/24b23490023e318f9c08cf94253542a0.png
+2021/07/11 15:43:27 [Info] [2977667601] proxy/vless/inbound: firstLen = 691
+2021/07/11 15:43:27 [Info] [2977667601] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:43:27 [Info] [2977667601] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:43:27 [Info] [2977667601] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:43:27 [Info] [2977667601] proxy/vless/inbound: realPath = /portainer/api/motd
+2021/07/11 15:43:27 [Info] [2083250677] proxy/vless/inbound: firstLen = 702
+2021/07/11 15:43:27 [Info] [2083250677] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:43:27 [Info] [2083250677] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:43:27 [Info] [2083250677] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:43:27 [Info] [2083250677] proxy/vless/inbound: realPath = /portainer/api/endpoint_groups
+2021/07/11 15:43:27 [Info] [4282309293] proxy/vless/inbound: firstLen = 691
+2021/07/11 15:43:27 [Info] [4282309293] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:43:27 [Info] [4282309293] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:43:27 [Info] [4282309293] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:43:27 [Info] [4282309293] proxy/vless/inbound: realPath = /portainer/api/tags
+2021/07/11 15:44:17 [Info] [765541472] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:44:17 [Info] [4282309293] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:44:17 [Info] [2977667601] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:44:17 [Info] [2083250677] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:44:17 [Info] [2119210421] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:44:17 [Info] [1573787889] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:47:31 [Info] [3410613011] proxy/vless/inbound: firstLen = 759
+2021/07/11 15:47:31 [Info] [3410613011] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:47:31 [Info] [3410613011] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:47:31 [Info] [3410613011] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:47:31 [Info] [3410613011] proxy/vless/inbound: realPath = /portainer/api/endpoints/1
+2021/07/11 15:47:32 [Info] [1956945359] proxy/vless/inbound: firstLen = 774
+2021/07/11 15:47:32 [Info] [1956945359] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:47:32 [Info] [1956945359] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:47:32 [Info] [1956945359] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:47:32 [Info] [1956945359] proxy/vless/inbound: realPath = /portainer/api/endpoints/1/docker/plugins
+2021/07/11 15:47:32 [Info] [3798293887] proxy/vless/inbound: firstLen = 821
+2021/07/11 15:47:32 [Info] [3798293887] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:47:32 [Info] [3798293887] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:47:32 [Info] [3798293887] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:47:32 [Info] [3798293887] proxy/vless/inbound: realPath = /portainer/api/stacks
+2021/07/11 15:47:32 [Info] [2736957077] proxy/vless/inbound: firstLen = 771
+2021/07/11 15:47:32 [Info] [2736957077] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:47:32 [Info] [2736957077] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:47:32 [Info] [2736957077] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:47:32 [Info] [2736957077] proxy/vless/inbound: realPath = /portainer/api/endpoints/1/docker/info
+2021/07/11 15:47:32 [Info] [2575664153] proxy/vless/inbound: firstLen = 775
+2021/07/11 15:47:32 [Info] [2575664153] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:47:32 [Info] [2575664153] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:47:32 [Info] [2575664153] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:47:32 [Info] [2575664153] proxy/vless/inbound: realPath = /portainer/api/endpoints/1/docker/networks
+2021/07/11 15:47:32 [Info] [1159749613] proxy/vless/inbound: firstLen = 774
+2021/07/11 15:47:32 [Info] [1159749613] proxy/vless/inbound: fallback starts > proxy/vless/encoding: invalid request version
+2021/07/11 15:47:32 [Info] [1159749613] proxy/vless/inbound: realName = shanghai3721.ml
+2021/07/11 15:47:32 [Info] [1159749613] proxy/vless/inbound: realAlpn = http/1.1
+2021/07/11 15:47:32 [Info] [1159749613] proxy/vless/inbound: realPath = /portainer/api/endpoints/1/docker/volumes
+2021/07/11 15:48:36 [Info] [3798293887] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:48:36 [Info] [1159749613] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:48:36 [Info] [1956945359] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:48:36 [Info] [2575664153] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:48:36 [Info] [3410613011] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 15:48:36 [Info] [2736957077] app/proxyman/inbound: connection ends > proxy/vless/inbound: fallback ends > context canceled
+2021/07/11 16:38:49 [Warning] transport/internet/xtls: ignoring invalid OCSP > common/ocsp: Post "http://zerossl.ocsp.sectigo.com": dial tcp: i/o timeout
+2021/07/11 17:38:49 [Warning] transport/internet/xtls: ignoring invalid OCSP > common/ocsp: Post "http://zerossl.ocsp.sectigo.com": dial tcp: i/o timeout
+2021/07/11 18:38:49 [Warning] transport/internet/xtls: ignoring invalid OCSP > common/ocsp: Post "http://zerossl.ocsp.sectigo.com": dial tcp: i/o timeout
