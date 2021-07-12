@@ -1,0 +1,6 @@
+2021/07/12 11:23:58 [Debug] app/log: Logger started
+2021/07/12 11:23:58 [Info] app/dns: DNS: created localhost client
+2021/07/12 11:23:58 [Debug] app/proxyman/inbound: creating stream worker on 127.0.0.1:443
+2021/07/12 11:23:58 [Info] transport/internet/tcp: listening TCP on 127.0.0.1:443
+2021/07/12 11:23:58 [Warning] transport/internet/tcp: accepting PROXY protocol
+2021/07/12 11:23:58 [Warning] V2Ray 4.40.1 started
