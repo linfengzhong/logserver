@@ -123,3 +123,16 @@
 2021/07/12 12:07:27 [warn] 23#23: *217 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/00/0000000003 while reading upstream, client: 172.23.0.8, server: k8s-master.gq, request: "GET /portainer/main.c6c6209333f2cca389f5.js HTTP/1.1", upstream: "http://172.23.0.5:9000/main.c6c6209333f2cca389f5.js", host: "k8s-master.gq", referrer: "https://k8s-master.gq/portainer/"
 2021/07/12 12:08:04 [error] 23#23: *235 open() "/usr/share/nginx/html/.well-known/resource-that-should-not-exist-whose-status-code-should-not-be-200" failed (2: No such file or directory), client: 172.23.0.8, server: k8s-master.gq, request: "GET /.well-known/resource-that-should-not-exist-whose-status-code-should-not-be-200 HTTP/1.1", host: "k8s-master.gq"
 2021/07/12 12:08:05 [error] 23#23: *88 open() "/usr/share/nginx/html/.well-known/change-password" failed (2: No such file or directory), client: 172.23.0.8, server: k8s-master.gq, request: "GET /.well-known/change-password HTTP/1.1", host: "k8s-master.gq"
+2021/07/12 12:10:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/12 12:10:48 [notice] 22#22: gracefully shutting down
+2021/07/12 12:10:48 [notice] 22#22: exiting
+2021/07/12 12:10:48 [notice] 22#22: exit
+2021/07/12 12:10:48 [notice] 23#23: gracefully shutting down
+2021/07/12 12:10:48 [notice] 23#23: exiting
+2021/07/12 12:10:48 [notice] 23#23: exit
+2021/07/12 12:10:48 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/12 12:10:48 [notice] 1#1: worker process 22 exited with code 0
+2021/07/12 12:10:48 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/12 12:10:48 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/12 12:10:48 [notice] 1#1: worker process 23 exited with code 0
+2021/07/12 12:10:48 [notice] 1#1: exit
