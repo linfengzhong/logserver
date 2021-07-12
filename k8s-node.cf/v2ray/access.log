@@ -717,3 +717,7 @@
 2021/07/12 20:58:26 175.162.124.86:55511 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 35 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
 2021/07/12 20:58:26 175.162.124.86:55518 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 29 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
 2021/07/12 20:58:48 175.162.124.86:55549 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 3 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 21:00:28 175.162.124.86:55592 accepted tcp:cp.cloudflare.com:80 [IPv4-out] email: k8s-node.cf_vmess_ws
+2021/07/12 21:12:29 175.162.124.86:55728 accepted tcp:cp.cloudflare.com:80 [IPv4-out] email: k8s-node.cf_vmess_ws
+2021/07/12 21:17:24 175.162.124.86:55844 accepted tcp:cp.cloudflare.com:80 [IPv4-out] email: k8s-node.cf_vmess_ws
+2021/07/12 21:24:15 175.162.124.86:56087 accepted tcp:cp.cloudflare.com:80 [IPv4-out] email: k8s-node.cf_vmess_ws
