@@ -41,3 +41,6 @@
 2021/07/12 17:20:46 175.162.124.86:51256 accepted tcp:cp.cloudflare.com:80 [VMessWS >> IPv4-out] email: k8s-node.cf_vmess_ws
 2021/07/12 17:26:03 175.162.124.86:51452 accepted tcp:cp.cloudflare.com:80 [VMessWS >> IPv4-out] email: k8s-node.cf_vmess_ws
 2021/07/12 19:39:19 175.162.124.86:54430 accepted tcp:cp.cloudflare.com:80 [VMessWS >> IPv4-out] email: k8s-node.cf_vmess_ws
+2021/07/12 20:54:01 175.162.124.86:55438 rejected  proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:54:07 175.162.124.86:55451 rejected  proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:58:45 175.162.124.86:55548 rejected  proxy/vmess/encoding: invalid user > proxy/vmess: Not Found

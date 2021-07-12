@@ -697,3 +697,23 @@
 2021/07/12 20:51:48 175.162.124.86:55391 accepted tcp:13.229.188.59:443 [IPv4-out] email: k8s-node.cf_vmess_ws
 2021/07/12 20:51:53 175.162.124.86:55393 accepted tcp:vscode-sync.trafficmanager.net:443 [IPv4-out] email: k8s-node.cf_vmess_ws
 2021/07/12 20:52:48 175.162.124.86:55403 accepted tcp:ssl.gstatic.com:443 [IPv4-out] email: k8s-node.cf_vmess_ws
+2021/07/12 20:54:01 175.162.124.86:55411 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 2 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:54:04 175.162.124.86:55439 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 18 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:54:05 175.162.124.86:55414 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 18 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:54:07 175.162.124.86:55452 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 9 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:54:55 175.162.124.86:55455 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 38 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:55:25 175.162.124.86:55463 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 14 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:55:26 175.162.124.86:55466 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 9 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:55:39 175.162.124.86:55470 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 34 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:55:58 175.162.124.86:55480 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 25 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:56:12 175.162.124.86:55474 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 27 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:56:12 175.162.124.86:55473 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 17 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:56:12 175.162.124.86:55476 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 37 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:56:53 175.162.124.86:55487 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 7 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:56:58 175.162.124.86:55490 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 1 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:57:46 175.162.124.86:55497 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 40 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:58:17 175.162.124.86:55502 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 31 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:58:26 175.162.124.86:55509 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 38 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:58:26 175.162.124.86:55511 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 35 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:58:26 175.162.124.86:55518 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 29 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
+2021/07/12 20:58:48 175.162.124.86:55549 rejected  proxy/vmess/encoding: failed to drain connection DrainSize = 2048 41 3 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
