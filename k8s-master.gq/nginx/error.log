@@ -104,3 +104,22 @@
 2021/07/12 11:54:52 [notice] 1#1: signal 17 (SIGCHLD) received from 22
 2021/07/12 11:54:52 [notice] 1#1: worker process 22 exited with code 0
 2021/07/12 11:54:52 [notice] 1#1: exit
+2021/07/12 11:57:24 [notice] 1#1: using the "epoll" event method
+2021/07/12 11:57:24 [notice] 1#1: nginx/1.21.1
+2021/07/12 11:57:24 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/12 11:57:24 [notice] 1#1: OS: Linux 4.18.0-305.3.1.el8_4.x86_64
+2021/07/12 11:57:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/12 11:57:24 [notice] 1#1: start worker processes
+2021/07/12 11:57:24 [notice] 1#1: start worker process 22
+2021/07/12 11:57:24 [notice] 1#1: start worker process 23
+2021/07/12 11:58:51 [error] 23#23: *9 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.23.0.8, server: k8s-master.gq, request: "GET /favicon.ico HTTP/1.1", host: "k8s-master.gq", referrer: "https://k8s-master.gq/"
+2021/07/12 12:02:18 [error] 23#23: *12 open() "/usr/share/nginx/html/login.php" failed (2: No such file or directory), client: 172.23.0.8, server: k8s-master.gq, request: "GET /login.php HTTP/1.1", host: "k8s-master.gq"
+2021/07/12 12:02:18 [error] 23#23: *11 open() "/usr/share/nginx/html/login.html" failed (2: No such file or directory), client: 172.23.0.8, server: k8s-master.gq, request: "GET /login.html HTTP/1.1", host: "k8s-master.gq"
+2021/07/12 12:02:18 [error] 23#23: *13 open() "/usr/share/nginx/html/profile.html" failed (2: No such file or directory), client: 172.23.0.8, server: k8s-master.gq, request: "GET /profile.html HTTP/1.1", host: "k8s-master.gq"
+2021/07/12 12:02:18 [error] 23#23: *14 "/usr/share/nginx/html/login/facebook/index.html" is not found (2: No such file or directory), client: 172.23.0.8, server: k8s-master.gq, request: "GET /login/facebook/ HTTP/1.1", host: "k8s-master.gq"
+2021/07/12 12:05:49 [error] 23#23: *15 upstream prematurely closed connection while reading upstream, client: 172.23.0.8, server: k8s-master.gq, request: "GET /grafana/api/gnet/dashboards/193 HTTP/1.1", upstream: "http://172.23.0.2:3000/api/gnet/dashboards/193", host: "k8s-master.gq", referrer: "https://k8s-master.gq/grafana/dashboard/import"
+2021/07/12 12:07:26 [warn] 23#23: *88 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 172.23.0.8, server: k8s-master.gq, request: "GET /portainer/vendor.1.css HTTP/1.1", upstream: "http://172.23.0.5:9000/vendor.1.css", host: "k8s-master.gq", referrer: "https://k8s-master.gq/portainer/"
+2021/07/12 12:07:27 [warn] 23#23: *211 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/00/0000000002 while reading upstream, client: 172.23.0.8, server: k8s-master.gq, request: "GET /portainer/vendor.c6c6209333f2cca389f5.js HTTP/1.1", upstream: "http://172.23.0.5:9000/vendor.c6c6209333f2cca389f5.js", host: "k8s-master.gq", referrer: "https://k8s-master.gq/portainer/"
+2021/07/12 12:07:27 [warn] 23#23: *217 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/00/0000000003 while reading upstream, client: 172.23.0.8, server: k8s-master.gq, request: "GET /portainer/main.c6c6209333f2cca389f5.js HTTP/1.1", upstream: "http://172.23.0.5:9000/main.c6c6209333f2cca389f5.js", host: "k8s-master.gq", referrer: "https://k8s-master.gq/portainer/"
+2021/07/12 12:08:04 [error] 23#23: *235 open() "/usr/share/nginx/html/.well-known/resource-that-should-not-exist-whose-status-code-should-not-be-200" failed (2: No such file or directory), client: 172.23.0.8, server: k8s-master.gq, request: "GET /.well-known/resource-that-should-not-exist-whose-status-code-should-not-be-200 HTTP/1.1", host: "k8s-master.gq"
+2021/07/12 12:08:05 [error] 23#23: *88 open() "/usr/share/nginx/html/.well-known/change-password" failed (2: No such file or directory), client: 172.23.0.8, server: k8s-master.gq, request: "GET /.well-known/change-password HTTP/1.1", host: "k8s-master.gq"
