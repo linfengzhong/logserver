@@ -11,3 +11,9 @@
 2021/07/12 14:42:41 [Info] transport/internet/tcp: listening TCP on 127.0.0.1:443
 2021/07/12 14:42:41 [Warning] transport/internet/tcp: accepting PROXY protocol
 2021/07/12 14:42:41 [Warning] V2Ray 4.40.1 started
+2021/07/12 14:45:12 [Debug] app/log: Logger started
+2021/07/12 14:45:12 [Info] app/dns: DNS: created localhost client
+2021/07/12 14:45:12 [Debug] app/proxyman/inbound: creating stream worker on 127.0.0.1:443
+2021/07/12 14:45:12 [Info] transport/internet/tcp: listening TCP on 127.0.0.1:443
+2021/07/12 14:45:12 [Warning] transport/internet/tcp: accepting PROXY protocol
+2021/07/12 14:45:12 [Warning] V2Ray 4.40.1 started
