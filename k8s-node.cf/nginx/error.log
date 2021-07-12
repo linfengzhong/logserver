@@ -48,3 +48,27 @@
 2021/07/12 14:45:11 [notice] 1#1: start worker processes
 2021/07/12 14:45:11 [notice] 1#1: start worker process 21
 2021/07/12 14:45:11 [notice] 1#1: start worker process 22
+2021/07/12 14:48:05 [error] 21#21: *6 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.8, server: k8s-node.cf, request: "GET /favicon.ico HTTP/1.1", host: "k8s-node.cf", referrer: "https://k8s-node.cf/"
+2021/07/12 14:48:26 [warn] 21#21: *5 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 172.18.0.8, server: k8s-node.cf, request: "GET /portainer/vendor.c6c6209333f2cca389f5.js HTTP/1.1", upstream: "http://172.18.0.2:9000/vendor.c6c6209333f2cca389f5.js", host: "k8s-node.cf", referrer: "https://k8s-node.cf/portainer/"
+2021/07/12 14:48:27 [warn] 21#21: *14 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/00/0000000002 while reading upstream, client: 172.18.0.8, server: k8s-node.cf, request: "GET /portainer/main.c6c6209333f2cca389f5.js HTTP/1.1", upstream: "http://172.18.0.2:9000/main.c6c6209333f2cca389f5.js", host: "k8s-node.cf", referrer: "https://k8s-node.cf/portainer/"
+2021/07/12 14:50:18 [error] 21#21: *2 upstream prematurely closed connection while reading upstream, client: 172.18.0.8, server: k8s-node.cf, request: "GET /grafana/api/gnet/dashboards/163 HTTP/1.1", upstream: "http://172.18.0.6:3000/api/gnet/dashboards/163", host: "k8s-node.cf", referrer: "https://k8s-node.cf/grafana/dashboard/import"
+2021/07/12 14:50:19 [error] 21#21: *3 upstream prematurely closed connection while reading upstream, client: 172.18.0.8, server: k8s-node.cf, request: "GET /grafana/api/gnet/dashboards/163 HTTP/1.1", upstream: "http://172.18.0.6:3000/api/gnet/dashboards/163", host: "k8s-node.cf", referrer: "https://k8s-node.cf/grafana/dashboard/import"
+2021/07/12 14:50:22 [error] 21#21: *4 upstream prematurely closed connection while reading upstream, client: 172.18.0.8, server: k8s-node.cf, request: "GET /grafana/api/gnet/dashboards/163 HTTP/1.1", upstream: "http://172.18.0.6:3000/api/gnet/dashboards/163", host: "k8s-node.cf", referrer: "https://k8s-node.cf/grafana/dashboard/import"
+2021/07/12 14:50:34 [error] 21#21: *156 upstream prematurely closed connection while reading upstream, client: 172.18.0.8, server: k8s-node.cf, request: "GET /grafana/api/gnet/dashboards/193 HTTP/1.1", upstream: "http://172.18.0.6:3000/api/gnet/dashboards/193", host: "k8s-node.cf", referrer: "https://k8s-node.cf/grafana/dashboard/import"
+2021/07/12 15:19:56 [error] 21#21: *205 "/usr/share/nginx/html/login/facebook/index.html" is not found (2: No such file or directory), client: 172.18.0.8, server: k8s-node.cf, request: "GET /login/facebook/ HTTP/1.1", host: "k8s-node.cf"
+2021/07/12 15:19:56 [error] 21#21: *206 open() "/usr/share/nginx/html/login.php" failed (2: No such file or directory), client: 172.18.0.8, server: k8s-node.cf, request: "GET /login.php HTTP/1.1", host: "k8s-node.cf"
+2021/07/12 15:19:56 [error] 21#21: *207 open() "/usr/share/nginx/html/login.html" failed (2: No such file or directory), client: 172.18.0.8, server: k8s-node.cf, request: "GET /login.html HTTP/1.1", host: "k8s-node.cf"
+2021/07/12 15:19:57 [error] 21#21: *208 open() "/usr/share/nginx/html/profile.html" failed (2: No such file or directory), client: 172.18.0.8, server: k8s-node.cf, request: "GET /profile.html HTTP/1.1", host: "k8s-node.cf"
+2021/07/12 15:25:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/12 15:25:51 [notice] 22#22: gracefully shutting down
+2021/07/12 15:25:51 [notice] 22#22: exiting
+2021/07/12 15:25:51 [notice] 22#22: exit
+2021/07/12 15:25:51 [notice] 21#21: gracefully shutting down
+2021/07/12 15:25:51 [notice] 21#21: exiting
+2021/07/12 15:25:51 [notice] 21#21: exit
+2021/07/12 15:25:52 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/12 15:25:52 [notice] 1#1: worker process 22 exited with code 0
+2021/07/12 15:25:52 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/12 15:25:52 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2021/07/12 15:25:52 [notice] 1#1: worker process 21 exited with code 0
+2021/07/12 15:25:52 [notice] 1#1: exit
