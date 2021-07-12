@@ -673,3 +673,83 @@
 [ERROR] 2021/07/12 12:23:15 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.25.0.8:51894
 [WARN]  2021/07/12 12:23:15 redirecting connection from 172.25.0.8:51894 to nginx:31300
 [INFO]  2021/07/12 12:23:17 redirection done
+[WARN]  2021/07/12 12:24:49 transport server will use plugin and work in plain text mode
+[DEBUG] 2021/07/12 12:24:49 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:224 auth by config file
+[DEBUG] 2021/07/12 12:24:49 github.com/p4gefau1t/trojan-go/statistic/memory.NewAuthenticator:memory.go:232 memory authenticator created
+[DEBUG] 2021/07/12 12:24:49 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:259 trojan server created
+[DEBUG] 2021/07/12 12:24:49 github.com/p4gefau1t/trojan-go/tunnel/mux.NewServer:server.go:92 mux server created
+[DEBUG] 2021/07/12 12:24:49 github.com/p4gefau1t/trojan-go/tunnel/simplesocks.NewServer:server.go:92 simplesocks server created
+[DEBUG] 2021/07/12 12:24:49 github.com/p4gefau1t/trojan-go/tunnel/websocket.NewServer:server.go:166 websocket server created
+[DEBUG] 2021/07/12 12:24:49 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:224 auth by config file
+[DEBUG] 2021/07/12 12:24:49 github.com/p4gefau1t/trojan-go/statistic/memory.NewAuthenticator:memory.go:232 memory authenticator created
+[DEBUG] 2021/07/12 12:24:49 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:259 trojan server created
+[DEBUG] 2021/07/12 12:24:49 github.com/p4gefau1t/trojan-go/tunnel/mux.NewServer:server.go:92 mux server created
+[DEBUG] 2021/07/12 12:24:49 github.com/p4gefau1t/trojan-go/tunnel/simplesocks.NewServer:server.go:92 simplesocks server created
+[INFO]  2021/07/12 12:24:50 tcp connection from 172.26.0.8:46496
+[WARN]  2021/07/12 12:24:50 connection with invalid trojan header from 172.26.0.8:46496 | failed to read hash | EOF
+[DEBUG] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[WARN]  2021/07/12 12:24:50 redirecting connection from 172.26.0.8:46496 to nginx:31300
+[INFO]  2021/07/12 12:24:50 redirection done
+[INFO]  2021/07/12 12:24:50 tcp connection from 172.26.0.8:46500
+[DEBUG] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{POST /grafana/api/datasources/proxy/1/api/v1/query_range HTTP/1.1 1 1 map[Accept:[application/json, text/plain, */*] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-us] Connection:[keep-alive] Content-Length:[97] Content-Type:[application/x-www-form-urlencoded] Cookie:[grafana_session=6147a409b9ab8f817ae974cc4e05702f; _pk_id.1.7344=cfb528e87cdc8ec3.1626062849.; _pk_ses.1.7344=1] Origin:[https://k8s-master.gq] Referer:[https://k8s-master.gq/grafana/d/o_T14om7k/docker-monitoring?orgId=1&refresh=10s] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15] X-Dashboard-Id:[1] X-Grafana-Org-Id:[1] X-Panel-Id:[1]] 0xc000177000 <nil> 97 [] false k8s-master.gq map[] map[] <nil> map[]  /grafana/api/datasources/proxy/1/api/v1/query_range <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.26.0.8:46500
+[WARN]  2021/07/12 12:24:50 redirecting connection from 172.26.0.8:46500 to nginx:31300
+[INFO]  2021/07/12 12:24:50 tcp connection from 172.26.0.8:46508
+[DEBUG] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /grafana/api/annotations?from=1626053087935&to=1626063887935&dashboardId=1 HTTP/1.1 1 1 map[Accept:[application/json, text/plain, */*] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-us] Connection:[keep-alive] Cookie:[grafana_session=6147a409b9ab8f817ae974cc4e05702f; _pk_id.1.7344=cfb528e87cdc8ec3.1626062849.; _pk_ses.1.7344=1] Referer:[https://k8s-master.gq/grafana/d/o_T14om7k/docker-monitoring?orgId=1&refresh=10s] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15] X-Grafana-Org-Id:[1]] {} <nil> 0 [] false k8s-master.gq map[] map[] <nil> map[]  /grafana/api/annotations?from=1626053087935&to=1626063887935&dashboardId=1 <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.26.0.8:46508
+[WARN]  2021/07/12 12:24:50 redirecting connection from 172.26.0.8:46508 to nginx:31300
+[INFO]  2021/07/12 12:24:50 tcp connection from 172.26.0.8:46514
+[DEBUG] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{POST /grafana/api/datasources/proxy/1/api/v1/query_range HTTP/1.1 1 1 map[Accept:[application/json, text/plain, */*] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-us] Connection:[keep-alive] Content-Length:[125] Content-Type:[application/x-www-form-urlencoded] Cookie:[grafana_session=6147a409b9ab8f817ae974cc4e05702f; _pk_id.1.7344=cfb528e87cdc8ec3.1626062849.; _pk_ses.1.7344=1] Origin:[https://k8s-master.gq] Referer:[https://k8s-master.gq/grafana/d/o_T14om7k/docker-monitoring?orgId=1&refresh=10s] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15] X-Dashboard-Id:[1] X-Grafana-Org-Id:[1] X-Panel-Id:[3]] 0xc000032640 <nil> 125 [] false k8s-master.gq map[] map[] <nil> map[]  /grafana/api/datasources/proxy/1/api/v1/query_range <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.26.0.8:46514
+[WARN]  2021/07/12 12:24:50 redirecting connection from 172.26.0.8:46514 to nginx:31300
+[INFO]  2021/07/12 12:24:50 tcp connection from 172.26.0.8:46520
+[DEBUG] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{POST /grafana/api/datasources/proxy/1/api/v1/query_range HTTP/1.1 1 1 map[Accept:[application/json, text/plain, */*] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-us] Connection:[keep-alive] Content-Length:[125] Content-Type:[application/x-www-form-urlencoded] Cookie:[grafana_session=6147a409b9ab8f817ae974cc4e05702f; _pk_id.1.7344=cfb528e87cdc8ec3.1626062849.; _pk_ses.1.7344=1] Origin:[https://k8s-master.gq] Referer:[https://k8s-master.gq/grafana/d/o_T14om7k/docker-monitoring?orgId=1&refresh=10s] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15] X-Dashboard-Id:[1] X-Grafana-Org-Id:[1] X-Panel-Id:[2]] 0xc000032800 <nil> 125 [] false k8s-master.gq map[] map[] <nil> map[]  /grafana/api/datasources/proxy/1/api/v1/query_range <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.26.0.8:46520
+[WARN]  2021/07/12 12:24:50 redirecting connection from 172.26.0.8:46520 to nginx:31300
+[INFO]  2021/07/12 12:24:50 tcp connection from 172.26.0.8:46526
+[WARN]  2021/07/12 12:24:50 connection with invalid trojan header from 172.26.0.8:46526 | failed to read hash | EOF
+[DEBUG] 2021/07/12 12:24:50 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[WARN]  2021/07/12 12:24:50 redirecting connection from 172.26.0.8:46526 to nginx:31300
+[INFO]  2021/07/12 12:24:50 redirection done
+[INFO]  2021/07/12 12:24:58 tcp connection from 172.26.0.8:46548
+[DEBUG] 2021/07/12 12:24:58 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{POST /grafana/api/datasources/proxy/1/api/v1/query_range HTTP/1.1 1 1 map[Accept:[application/json, text/plain, */*] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-us] Connection:[keep-alive] Content-Length:[135] Content-Type:[application/x-www-form-urlencoded] Cookie:[grafana_session=dd48858ba2a8915d9838bcb05f69e182; _pk_id.1.7344=cfb528e87cdc8ec3.1626062849.; _pk_ses.1.7344=1] Origin:[https://k8s-master.gq] Referer:[https://k8s-master.gq/grafana/d/o_T14om7k/docker-monitoring?orgId=1&refresh=10s] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15] X-Dashboard-Id:[1] X-Grafana-Org-Id:[1] X-Panel-Id:[6]] 0xc000177400 <nil> 135 [] false k8s-master.gq map[] map[] <nil> map[]  /grafana/api/datasources/proxy/1/api/v1/query_range <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/12 12:24:58 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/12 12:24:58 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/12 12:24:58 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.26.0.8:46548
+[WARN]  2021/07/12 12:24:58 redirecting connection from 172.26.0.8:46548 to nginx:31300
+[INFO]  2021/07/12 12:25:00 tcp connection from 172.26.0.8:46556
+[DEBUG] 2021/07/12 12:25:00 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /grafana/api/live/ws HTTP/1.1 1 1 map[Cache-Control:[no-cache] Connection:[Upgrade] Cookie:[grafana_session=dd48858ba2a8915d9838bcb05f69e182; _pk_id.1.7344=cfb528e87cdc8ec3.1626062849.; _pk_ses.1.7344=1] Origin:[https://k8s-master.gq] Pragma:[no-cache] Sec-Websocket-Extensions:[x-webkit-deflate-frame] Sec-Websocket-Key:[aK54Z/2uNoWgkhAkycI18w==] Sec-Websocket-Version:[13] Upgrade:[websocket] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15]] {} <nil> 0 [] false k8s-master.gq map[] map[] <nil> map[]  /grafana/api/live/ws <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/12 12:25:00 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/12 12:25:00 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/12 12:25:00 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.26.0.8:46556
+[WARN]  2021/07/12 12:25:00 redirecting connection from 172.26.0.8:46556 to nginx:31300
+[INFO]  2021/07/12 12:25:02 redirection done
+[INFO]  2021/07/12 12:25:19 tcp connection from 172.26.0.8:46614
+[DEBUG] 2021/07/12 12:25:19 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /grafana/api/live/ws HTTP/1.1 1 1 map[Cache-Control:[no-cache] Connection:[Upgrade] Cookie:[grafana_session=dd48858ba2a8915d9838bcb05f69e182; _pk_id.1.7344=cfb528e87cdc8ec3.1626062849.; _pk_ses.1.7344=1] Origin:[https://k8s-master.gq] Pragma:[no-cache] Sec-Websocket-Extensions:[x-webkit-deflate-frame] Sec-Websocket-Key:[4VUYdBO7e0FVjCxD3la9mA==] Sec-Websocket-Version:[13] Upgrade:[websocket] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15]] {} <nil> 0 [] false k8s-master.gq map[] map[] <nil> map[]  /grafana/api/live/ws <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/12 12:25:19 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/12 12:25:19 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/12 12:25:19 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.26.0.8:46614
+[WARN]  2021/07/12 12:25:19 redirecting connection from 172.26.0.8:46614 to nginx:31300
+[INFO]  2021/07/12 12:25:21 redirection done
+[INFO]  2021/07/12 12:25:35 tcp connection from 172.26.0.8:46638
+[DEBUG] 2021/07/12 12:25:35 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /grafana/api/live/ws HTTP/1.1 1 1 map[Cache-Control:[no-cache] Connection:[Upgrade] Cookie:[grafana_session=dd48858ba2a8915d9838bcb05f69e182; _pk_id.1.7344=cfb528e87cdc8ec3.1626062849.; _pk_ses.1.7344=1] Origin:[https://k8s-master.gq] Pragma:[no-cache] Sec-Websocket-Extensions:[x-webkit-deflate-frame] Sec-Websocket-Key:[0IhxsFHV/umbtgXBvrc6TA==] Sec-Websocket-Version:[13] Upgrade:[websocket] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15]] {} <nil> 0 [] false k8s-master.gq map[] map[] <nil> map[]  /grafana/api/live/ws <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/12 12:25:35 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/12 12:25:35 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/12 12:25:35 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.26.0.8:46638
+[WARN]  2021/07/12 12:25:35 redirecting connection from 172.26.0.8:46638 to nginx:31300
+[INFO]  2021/07/12 12:25:38 redirection done
+[INFO]  2021/07/12 12:25:54 tcp connection from 172.26.0.8:46682
+[DEBUG] 2021/07/12 12:25:54 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /grafana/api/live/ws HTTP/1.1 1 1 map[Cache-Control:[no-cache] Connection:[Upgrade] Cookie:[grafana_session=dd48858ba2a8915d9838bcb05f69e182; _pk_id.1.7344=cfb528e87cdc8ec3.1626062849.; _pk_ses.1.7344=1] Origin:[https://k8s-master.gq] Pragma:[no-cache] Sec-Websocket-Extensions:[x-webkit-deflate-frame] Sec-Websocket-Key:[ggQ67XeRVnn7+UkitVK3/Q==] Sec-Websocket-Version:[13] Upgrade:[websocket] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15]] {} <nil> 0 [] false k8s-master.gq map[] map[] <nil> map[]  /grafana/api/live/ws <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/12 12:25:54 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/12 12:25:54 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/12 12:25:54 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.26.0.8:46682
+[WARN]  2021/07/12 12:25:54 redirecting connection from 172.26.0.8:46682 to nginx:31300
+[INFO]  2021/07/12 12:25:56 redirection done
