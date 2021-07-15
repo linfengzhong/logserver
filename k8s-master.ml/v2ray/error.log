@@ -205,3 +205,21 @@
 2021/07/15 18:44:56 [Info] [1873970429] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
 2021/07/15 18:44:56 [Info] [1873970429] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
 2021/07/15 18:44:56 [Info] [1873970429] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/15 19:00:33 [Debug] app/log: Logger started
+2021/07/15 19:00:33 [Info] app/dns: DNS: created localhost client
+2021/07/15 19:00:33 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/15 19:00:33 [Info] transport/internet/websocket: listening TCP(for WS) on 0.0.0.0:443
+2021/07/15 19:00:33 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/15 19:00:33 [Warning] V2Ray 4.40.1 started
+2021/07/15 19:20:39 [Debug] app/log: Logger started
+2021/07/15 19:20:39 [Info] app/dns: DNS: created localhost client
+2021/07/15 19:20:39 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/15 19:20:39 [Info] transport/internet/websocket: listening TCP(for WS) on 0.0.0.0:443
+2021/07/15 19:20:39 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/15 19:20:39 [Warning] V2Ray 4.40.1 started
+2021/07/15 19:46:02 [Debug] app/log: Logger started
+2021/07/15 19:46:02 [Info] app/dns: DNS: created localhost client
+2021/07/15 19:46:02 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/15 19:46:02 [Info] transport/internet/websocket: listening TCP(for WS) on 0.0.0.0:443
+2021/07/15 19:46:02 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/15 19:46:02 [Warning] V2Ray 4.40.1 started
