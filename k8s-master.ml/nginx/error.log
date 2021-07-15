@@ -20,3 +20,39 @@
 2021/07/15 16:54:12 [notice] 1#1: signal 17 (SIGCHLD) received from 23
 2021/07/15 16:54:12 [notice] 1#1: worker process 23 exited with code 0
 2021/07/15 16:54:12 [notice] 1#1: exit
+2021/07/15 16:54:35 [notice] 1#1: using the "epoll" event method
+2021/07/15 16:54:35 [notice] 1#1: nginx/1.21.1
+2021/07/15 16:54:35 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/15 16:54:35 [notice] 1#1: OS: Linux 4.18.0-305.7.1.el8_4.x86_64
+2021/07/15 16:54:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/15 16:54:35 [notice] 1#1: start worker processes
+2021/07/15 16:54:35 [notice] 1#1: start worker process 22
+2021/07/15 16:54:35 [notice] 1#1: start worker process 23
+2021/07/15 17:02:40 [error] 22#22: *2 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.19.0.8, server: k8s-master.ml, request: "GET / HTTP/1.1", host: "104.199.212.122:443"
+2021/07/15 17:02:40 [error] 22#22: *3 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.19.0.8, server: k8s-master.ml, request: "GET / HTTP/1.1", host: "k8s-master.ml"
+2021/07/15 17:11:38 [error] 22#22: *5 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.19.0.8, server: k8s-master.ml, request: "GET / HTTP/1.1", host: "104.199.212.122:443"
+2021/07/15 17:11:38 [error] 22#22: *6 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.19.0.8, server: k8s-master.ml, request: "GET / HTTP/1.1", host: "k8s-master.ml"
+2021/07/15 17:14:34 [error] 22#22: *7 open() "/usr/share/nginx/html/.env" failed (2: No such file or directory), client: 172.19.0.8, server: k8s-master.ml, request: "GET /.env HTTP/1.1", host: "104.199.212.122"
+2021/07/15 17:14:36 [error] 22#22: *8 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.19.0.8, server: k8s-master.ml, request: "POST / HTTP/1.1", host: "104.199.212.122"
+2021/07/15 17:24:18 [error] 22#22: *9 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.19.0.8, server: k8s-master.ml, request: "GET / HTTP/1.1", host: "104.199.212.122"
+2021/07/15 17:37:19 [error] 22#22: *14 open() "/usr/share/nginx/html/owa/auth/logon.aspx" failed (2: No such file or directory), client: 172.19.0.8, server: k8s-master.ml, request: "GET /owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f HTTP/1.1", host: "104.199.212.122"
+2021/07/15 17:39:47 [error] 22#22: *15 open() "/usr/share/nginx/html/cgi-bin/config.exp" failed (2: No such file or directory), client: 172.19.0.8, server: k8s-master.ml, request: "GET /cgi-bin/config.exp HTTP/1.1", host: "104.199.212.122"
+2021/07/15 18:04:06 [error] 22#22: *18 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.19.0.8, server: k8s-master.ml, request: "GET / HTTP/1.1", host: "k8s-master.gq"
+2021/07/15 18:04:08 [error] 22#22: *20 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.19.0.8, server: k8s-master.ml, request: "GET / HTTP/1.1", host: "k8s-master.ml"
+2021/07/15 18:19:46 [error] 22#22: *22 open() "/usr/share/nginx/html/.well-known/security.txt" failed (2: No such file or directory), client: 172.19.0.8, server: k8s-master.ml, request: "GET /.well-known/security.txt HTTP/1.1", host: "www.k8s-master.ml"
+2021/07/15 18:20:18 [error] 22#22: *25 directory index of "/usr/share/nginx/html/" is forbidden, client: 172.19.0.8, server: k8s-master.ml, request: "GET / HTTP/1.1", host: "k8s-master.ml"
+2021/07/15 18:20:19 [error] 22#22: *26 open() "/usr/share/nginx/html/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 172.19.0.8, server: k8s-master.ml, request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "k8s-master.ml"
+2021/07/15 18:20:19 [error] 22#22: *26 open() "/usr/share/nginx/html/apple-touch-icon.png" failed (2: No such file or directory), client: 172.19.0.8, server: k8s-master.ml, request: "GET /apple-touch-icon.png HTTP/1.1", host: "k8s-master.ml"
+2021/07/15 18:21:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/15 18:21:36 [notice] 22#22: gracefully shutting down
+2021/07/15 18:21:36 [notice] 23#23: gracefully shutting down
+2021/07/15 18:21:36 [notice] 22#22: exiting
+2021/07/15 18:21:36 [notice] 23#23: exiting
+2021/07/15 18:21:36 [notice] 23#23: exit
+2021/07/15 18:21:36 [notice] 22#22: exit
+2021/07/15 18:21:36 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/15 18:21:36 [notice] 1#1: worker process 22 exited with code 0
+2021/07/15 18:21:36 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/15 18:21:36 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/15 18:21:36 [notice] 1#1: worker process 23 exited with code 0
+2021/07/15 18:21:36 [notice] 1#1: exit

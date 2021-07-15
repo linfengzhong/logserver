@@ -373,3 +373,244 @@
 [DEBUG] 2021/07/15 16:43:07 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
 [DEBUG] 2021/07/15 16:43:08 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
 [INFO]  2021/07/15 16:43:08 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.18.0.9:53150 tunneling to cp.cloudflare.com:80 closed sent: 801 B recv: 88 B
+[WARN]  2021/07/15 16:54:37 transport server will use plugin and work in plain text mode
+[DEBUG] 2021/07/15 16:54:37 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:224 auth by config file
+[DEBUG] 2021/07/15 16:54:37 github.com/p4gefau1t/trojan-go/statistic/memory.NewAuthenticator:memory.go:232 memory authenticator created
+[DEBUG] 2021/07/15 16:54:37 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:259 trojan server created
+[DEBUG] 2021/07/15 16:54:37 github.com/p4gefau1t/trojan-go/tunnel/mux.NewServer:server.go:92 mux server created
+[DEBUG] 2021/07/15 16:54:37 github.com/p4gefau1t/trojan-go/tunnel/simplesocks.NewServer:server.go:92 simplesocks server created
+[DEBUG] 2021/07/15 16:54:37 github.com/p4gefau1t/trojan-go/tunnel/websocket.NewServer:server.go:166 websocket server created
+[DEBUG] 2021/07/15 16:54:37 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:224 auth by config file
+[DEBUG] 2021/07/15 16:54:37 github.com/p4gefau1t/trojan-go/statistic/memory.NewAuthenticator:memory.go:232 memory authenticator created
+[DEBUG] 2021/07/15 16:54:37 github.com/p4gefau1t/trojan-go/tunnel/trojan.NewServer:server.go:259 trojan server created
+[DEBUG] 2021/07/15 16:54:37 github.com/p4gefau1t/trojan-go/tunnel/mux.NewServer:server.go:92 mux server created
+[DEBUG] 2021/07/15 16:54:37 github.com/p4gefau1t/trojan-go/tunnel/simplesocks.NewServer:server.go:92 simplesocks server created
+[INFO]  2021/07/15 17:02:40 tcp connection from 172.19.0.7:37704
+[DEBUG] 2021/07/15 17:02:40 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Connection:[TE, close] Te:[deflate,gzip;q=0.3] User-Agent:[libwww-perl/6.55]] {} <nil> 0 [] true 104.199.212.122:443 map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/15 17:02:40 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/15 17:02:40 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/15 17:02:40 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.7:37704
+[WARN]  2021/07/15 17:02:40 redirecting connection from 172.19.0.7:37704 to nginx:443
+[INFO]  2021/07/15 17:02:40 redirection done
+[INFO]  2021/07/15 17:02:40 tcp connection from 172.19.0.7:37708
+[DEBUG] 2021/07/15 17:02:40 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Connection:[TE, close] Te:[deflate,gzip;q=0.3] User-Agent:[libwww-perl/6.55]] {} <nil> 0 [] true k8s-master.ml map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/15 17:02:40 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/15 17:02:40 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/15 17:02:40 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.7:37708
+[WARN]  2021/07/15 17:02:40 redirecting connection from 172.19.0.7:37708 to nginx:443
+[INFO]  2021/07/15 17:02:40 redirection done
+[INFO]  2021/07/15 17:11:38 tcp connection from 172.19.0.7:37768
+[DEBUG] 2021/07/15 17:11:38 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Connection:[TE, close] Te:[deflate,gzip;q=0.3] User-Agent:[libwww-perl/6.54]] {} <nil> 0 [] true 104.199.212.122:443 map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/15 17:11:38 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/15 17:11:38 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/15 17:11:38 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.7:37768
+[WARN]  2021/07/15 17:11:38 redirecting connection from 172.19.0.7:37768 to nginx:443
+[INFO]  2021/07/15 17:11:38 redirection done
+[INFO]  2021/07/15 17:11:38 tcp connection from 172.19.0.7:37774
+[DEBUG] 2021/07/15 17:11:38 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Connection:[TE, close] Te:[deflate,gzip;q=0.3] User-Agent:[libwww-perl/6.54]] {} <nil> 0 [] true k8s-master.ml map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/15 17:11:38 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/15 17:11:38 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/15 17:11:38 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.7:37774
+[WARN]  2021/07/15 17:11:38 redirecting connection from 172.19.0.7:37774 to nginx:443
+[INFO]  2021/07/15 17:11:38 redirection done
+[INFO]  2021/07/15 17:11:51 tcp connection from 172.19.0.7:37782
+[DEBUG] 2021/07/15 17:11:51 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/15 17:11:53 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:11:53 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:37782 tunneling to cp.cloudflare.com:80 closed sent: 803 B recv: 88 B
+[INFO]  2021/07/15 17:11:55 tcp connection from 172.19.0.7:37790
+[DEBUG] 2021/07/15 17:11:55 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/15 17:11:56 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:11:56 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:37790 tunneling to cp.cloudflare.com:80 closed sent: 807 B recv: 88 B
+[INFO]  2021/07/15 17:14:34 tcp connection from 172.19.0.7:37820
+[DEBUG] 2021/07/15 17:14:34 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /.env HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate] Connection:[keep-alive] User-Agent:[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36]] {} <nil> 0 [] false 104.199.212.122 map[] map[] <nil> map[]  /.env <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/15 17:14:34 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/15 17:14:34 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/15 17:14:34 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.7:37820
+[WARN]  2021/07/15 17:14:34 redirecting connection from 172.19.0.7:37820 to nginx:443
+[INFO]  2021/07/15 17:14:36 redirection done
+[INFO]  2021/07/15 17:14:36 tcp connection from 172.19.0.7:37824
+[DEBUG] 2021/07/15 17:14:36 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{POST / HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate] Connection:[keep-alive] Content-Length:[20] Content-Type:[application/x-www-form-urlencoded] User-Agent:[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36]] 0xc0000329c0 <nil> 20 [] false 104.199.212.122 map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/15 17:14:36 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/15 17:14:36 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/15 17:14:36 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.7:37824
+[WARN]  2021/07/15 17:14:36 redirecting connection from 172.19.0.7:37824 to nginx:443
+[INFO]  2021/07/15 17:14:37 redirection done
+[INFO]  2021/07/15 17:24:18 tcp connection from 172.19.0.7:37908
+[DEBUG] 2021/07/15 17:24:18 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36]] {} <nil> 0 [] false 104.199.212.122 map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/15 17:24:18 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/15 17:24:18 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/15 17:24:18 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.7:37908
+[WARN]  2021/07/15 17:24:18 redirecting connection from 172.19.0.7:37908 to nginx:443
+[INFO]  2021/07/15 17:24:27 redirection done
+[INFO]  2021/07/15 17:37:19 tcp connection from 172.19.0.7:38016
+[DEBUG] 2021/07/15 17:37:19 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip] User-Agent:[Mozilla/5.0 zgrab/0.x]] {} <nil> 0 [] false 104.199.212.122 map[] map[] <nil> map[]  /owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/15 17:37:19 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/15 17:37:19 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/15 17:37:19 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.7:38016
+[WARN]  2021/07/15 17:37:19 redirecting connection from 172.19.0.7:38016 to nginx:443
+[INFO]  2021/07/15 17:37:28 redirection done
+[INFO]  2021/07/15 17:39:47 tcp connection from 172.19.0.7:38044
+[DEBUG] 2021/07/15 17:39:47 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /cgi-bin/config.exp HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36]] {} <nil> 0 [] false 104.199.212.122 map[] map[] <nil> map[]  /cgi-bin/config.exp <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/15 17:39:47 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/15 17:39:47 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/15 17:39:47 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.7:38044
+[WARN]  2021/07/15 17:39:47 redirecting connection from 172.19.0.7:38044 to nginx:443
+[INFO]  2021/07/15 17:39:55 redirection done
+[INFO]  2021/07/15 17:42:59 tcp connection from 172.19.0.7:38108
+[DEBUG] 2021/07/15 17:42:59 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:04 tcp connection from 172.19.0.7:38112
+[DEBUG] 2021/07/15 17:43:04 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:04 tcp connection from 172.19.0.7:38116
+[DEBUG] 2021/07/15 17:43:04 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:04 tcp connection from 172.19.0.7:38120
+[DEBUG] 2021/07/15 17:43:04 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:04 tcp connection from 172.19.0.7:38124
+[DEBUG] 2021/07/15 17:43:04 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:04 tcp connection from 172.19.0.7:38128
+[DEBUG] 2021/07/15 17:43:04 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:04 tcp connection from 172.19.0.7:38132
+[DEBUG] 2021/07/15 17:43:04 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:04 tcp connection from 172.19.0.7:38136
+[DEBUG] 2021/07/15 17:43:04 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:04 tcp connection from 172.19.0.7:38140
+[DEBUG] 2021/07/15 17:43:04 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:05 tcp connection from 172.19.0.7:38144
+[DEBUG] 2021/07/15 17:43:05 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:05 tcp connection from 172.19.0.7:38148
+[DEBUG] 2021/07/15 17:43:05 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:05 tcp connection from 172.19.0.7:38152
+[DEBUG] 2021/07/15 17:43:05 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/15 17:43:06 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:43:06 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38136 tunneling to www.google.com:443 closed sent: 2.57 KiB recv: 517 B
+[DEBUG] 2021/07/15 17:43:06 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:43:06 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38140 tunneling to www.google.com:443 closed sent: 2.57 KiB recv: 517 B
+[INFO]  2021/07/15 17:43:08 tcp connection from 172.19.0.7:38156
+[DEBUG] 2021/07/15 17:43:08 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:08 tcp connection from 172.19.0.7:38160
+[DEBUG] 2021/07/15 17:43:08 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:08 tcp connection from 172.19.0.7:38164
+[DEBUG] 2021/07/15 17:43:08 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:08 tcp connection from 172.19.0.7:38168
+[DEBUG] 2021/07/15 17:43:08 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:08 tcp connection from 172.19.0.7:38172
+[DEBUG] 2021/07/15 17:43:08 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:08 tcp connection from 172.19.0.7:38176
+[DEBUG] 2021/07/15 17:43:08 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/15 17:43:09 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[DEBUG] 2021/07/15 17:43:09 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:43:09 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38168 tunneling to yt3.ggpht.com:443 closed sent: 5.63 KiB recv: 517 B
+[INFO]  2021/07/15 17:43:09 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38172 tunneling to yt3.ggpht.com:443 closed sent: 5.63 KiB recv: 517 B
+[DEBUG] 2021/07/15 17:43:09 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:43:09 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38164 tunneling to yt3.ggpht.com:443 closed sent: 5.63 KiB recv: 517 B
+[DEBUG] 2021/07/15 17:43:09 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:43:09 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38160 tunneling to yt3.ggpht.com:443 closed sent: 5.63 KiB recv: 517 B
+[DEBUG] 2021/07/15 17:43:09 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:43:09 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38176 tunneling to yt3.ggpht.com:443 closed sent: 5.63 KiB recv: 517 B
+[INFO]  2021/07/15 17:43:12 tcp connection from 172.19.0.7:38182
+[DEBUG] 2021/07/15 17:43:12 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:39 tcp connection from 172.19.0.7:38194
+[DEBUG] 2021/07/15 17:43:39 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:41 tcp connection from 172.19.0.7:38198
+[DEBUG] 2021/07/15 17:43:41 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/15 17:43:41 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:43:41 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38194 tunneling to 13.250.177.223:443 closed sent: 4.35 KiB recv: 1.15 KiB
+[INFO]  2021/07/15 17:43:48 tcp connection from 172.19.0.7:38204
+[DEBUG] 2021/07/15 17:43:48 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[INFO]  2021/07/15 17:43:51 tcp connection from 172.19.0.7:38208
+[DEBUG] 2021/07/15 17:43:51 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/15 17:44:46 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:44:46 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38128 tunneling to www.youtube.com:443 closed sent: 4.81 KiB recv: 581 B
+[DEBUG] 2021/07/15 17:44:46 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:44:46 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38124 tunneling to fonts.googleapis.com:443 closed sent: 3.01 KiB recv: 581 B
+[DEBUG] 2021/07/15 17:44:46 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:44:46 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38116 tunneling to fonts.gstatic.com:443 closed sent: 2.68 KiB recv: 581 B
+[DEBUG] 2021/07/15 17:44:46 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:44:46 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38152 tunneling to fonts.gstatic.com:443 closed sent: 2.68 KiB recv: 581 B
+[ERROR] 2021/07/15 17:45:44 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:80 read tcp 172.19.0.8:59450->13.67.9.5:443: read: connection reset by peer
+[DEBUG] 2021/07/15 17:45:44 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:45:44 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38198 tunneling to vscode-sync.trafficmanager.net:443 closed sent: 5.50 KiB recv: 2.25 KiB
+[DEBUG] 2021/07/15 17:45:53 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:45:53 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38120 tunneling to www.youtube.com:443 closed sent: 160.08 KiB recv: 55.97 KiB
+[DEBUG] 2021/07/15 17:46:03 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:46:03 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38148 tunneling to clients4.google.com:443 closed sent: 7.12 KiB recv: 5.60 KiB
+[DEBUG] 2021/07/15 17:46:03 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:46:03 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38108 tunneling to mtalk.google.com:5228 closed sent: 6.99 KiB recv: 790 B
+[DEBUG] 2021/07/15 17:46:03 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:46:03 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38182 tunneling to www.gstatic.com:443 closed sent: 2.96 KiB recv: 1.25 KiB
+[DEBUG] 2021/07/15 17:46:03 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:46:03 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38132 tunneling to www.google.com:443 closed sent: 3.55 KiB recv: 1.31 KiB
+[DEBUG] 2021/07/15 17:46:03 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:46:03 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38144 tunneling to i.ytimg.com:443 closed sent: 463.67 KiB recv: 3.88 KiB
+[DEBUG] 2021/07/15 17:46:03 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:46:03 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38208 tunneling to avatars.githubusercontent.com:443 closed sent: 819 B recv: 1.12 KiB
+[DEBUG] 2021/07/15 17:46:03 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:46:03 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38156 tunneling to yt3.ggpht.com:443 closed sent: 19.80 KiB recv: 3.05 KiB
+[DEBUG] 2021/07/15 17:46:03 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:46:03 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38204 tunneling to ssl.gstatic.com:443 closed sent: 3.18 KiB recv: 1.22 KiB
+[DEBUG] 2021/07/15 17:46:03 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:46:03 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38112 tunneling to www.google.com:443 closed sent: 45.91 KiB recv: 1.77 KiB
+[INFO]  2021/07/15 17:48:16 tcp connection from 172.19.0.7:38234
+[INFO]  2021/07/15 17:48:16 tcp connection from 172.19.0.7:38236
+[WARN]  2021/07/15 17:48:17 connection with invalid trojan header from 172.19.0.7:38234 | failed to read hash | EOF
+[DEBUG] 2021/07/15 17:48:17 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[WARN]  2021/07/15 17:48:17 redirecting connection from 172.19.0.7:38234 to nginx:443
+[INFO]  2021/07/15 17:48:17 redirection done
+[WARN]  2021/07/15 17:48:17 connection with invalid trojan header from 172.19.0.7:38236 | failed to read hash | EOF
+[DEBUG] 2021/07/15 17:48:17 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[WARN]  2021/07/15 17:48:17 redirecting connection from 172.19.0.7:38236 to nginx:443
+[INFO]  2021/07/15 17:48:17 redirection done
+[INFO]  2021/07/15 17:48:26 tcp connection from 172.19.0.7:38242
+[DEBUG] 2021/07/15 17:48:26 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/15 17:48:27 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:48:27 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38242 tunneling to cp.cloudflare.com:80 closed sent: 0 B recv: 0 B
+[INFO]  2021/07/15 17:50:06 tcp connection from 172.19.0.7:38254
+[DEBUG] 2021/07/15 17:50:06 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/15 17:50:08 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:50:08 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38254 tunneling to cp.cloudflare.com:80 closed sent: 805 B recv: 88 B
+[INFO]  2021/07/15 17:50:26 tcp connection from 172.19.0.7:38264
+[DEBUG] 2021/07/15 17:50:26 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/15 17:50:29 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:50:29 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38264 tunneling to cp.cloudflare.com:80 closed sent: 801 B recv: 88 B
+[INFO]  2021/07/15 17:52:15 tcp connection from 172.19.0.7:38290
+[DEBUG] 2021/07/15 17:52:15 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/15 17:52:16 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 17:52:16 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38290 tunneling to cp.cloudflare.com:80 closed sent: 805 B recv: 88 B
+[INFO]  2021/07/15 18:00:58 tcp connection from 172.19.0.7:38372
+[DEBUG] 2021/07/15 18:00:58 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop.func1:server.go:167 normal trojan connection
+[DEBUG] 2021/07/15 18:00:59 github.com/p4gefau1t/trojan-go/proxy.(*Proxy).relayConnLoop.func1.1:proxy.go:86 conn relay ends
+[INFO]  2021/07/15 18:00:59 user a25b48e89d0e9795520dd3653ef2c7783f877d1853e605c0a838e3f5 from 172.19.0.7:38372 tunneling to cp.cloudflare.com:80 closed sent: 809 B recv: 88 B
+[INFO]  2021/07/15 18:04:06 tcp connection from 172.19.0.7:38408
+[DEBUG] 2021/07/15 18:04:06 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Accept-Encoding:[gzip] Connection:[Keep-Alive] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36]] {} <nil> 0 [] false k8s-master.gq map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/15 18:04:06 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/15 18:04:06 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/15 18:04:06 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.7:38408
+[WARN]  2021/07/15 18:04:06 redirecting connection from 172.19.0.7:38408 to nginx:443
+[INFO]  2021/07/15 18:04:06 redirection done
+[INFO]  2021/07/15 18:04:08 tcp connection from 172.19.0.7:38412
+[DEBUG] 2021/07/15 18:04:08 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Accept-Encoding:[gzip] Connection:[Keep-Alive] User-Agent:[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/537.36]] {} <nil> 0 [] false k8s-master.ml map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/15 18:04:08 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/15 18:04:08 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/15 18:04:08 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.7:38412
+[WARN]  2021/07/15 18:04:08 redirecting connection from 172.19.0.7:38412 to nginx:443
+[INFO]  2021/07/15 18:04:09 redirection done
+[INFO]  2021/07/15 18:19:46 tcp connection from 172.19.0.7:38576
+[DEBUG] 2021/07/15 18:19:46 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /.well-known/security.txt HTTP/1.1 1 1 map[Accept:[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8] Accept-Language:[en-US,en;q=0.5] Connection:[close] User-Agent:[Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0]] {} <nil> 0 [] true www.k8s-master.ml map[] map[] <nil> map[]  /.well-known/security.txt <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/15 18:19:46 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/15 18:19:46 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/15 18:19:46 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.7:38576
+[WARN]  2021/07/15 18:19:46 redirecting connection from 172.19.0.7:38576 to nginx:443
+[INFO]  2021/07/15 18:19:46 redirection done
+[INFO]  2021/07/15 18:20:18 tcp connection from 172.19.0.7:38582
+[DEBUG] 2021/07/15 18:20:18 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET / HTTP/1.1 1 1 map[Accept:[text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8] Accept-Encoding:[gzip, deflate] Accept-Language:[en-us] Connection:[keep-alive] Upgrade-Insecure-Requests:[1] User-Agent:[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15]] {} <nil> 0 [] false k8s-master.ml map[] map[] <nil> map[]  / <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/15 18:20:18 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/15 18:20:18 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/15 18:20:18 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.7:38582
+[WARN]  2021/07/15 18:20:18 redirecting connection from 172.19.0.7:38582 to nginx:443
+[INFO]  2021/07/15 18:20:19 tcp connection from 172.19.0.7:38586
+[DEBUG] 2021/07/15 18:20:19 github.com/p4gefau1t/trojan-go/tunnel/transport.(*Server).acceptLoop.func1:server.go:74 plaintext http request:  &{GET /apple-touch-icon-precomposed.png HTTP/1.1 1 1 map[Accept:[*/*] Accept-Encoding:[gzip, deflate, br] Accept-Language:[en-us] Connection:[keep-alive] User-Agent:[Safari/16611.2.7.1.4 CFNetwork/1240.0.4 Darwin/20.5.0]] {} <nil> 0 [] false k8s-master.ml map[] map[] <nil> map[]  /apple-touch-icon-precomposed.png <nil> <nil> <nil> <nil>}
+[DEBUG] 2021/07/15 18:20:19 github.com/p4gefau1t/trojan-go/tunnel/websocket.(*Server).AcceptConn:server.go:80 invalid http websocket handshake request
+[DEBUG] 2021/07/15 18:20:19 github.com/p4gefau1t/trojan-go/redirector.(*Redirector).Redirect:redirector.go:33 redirect request
+[ERROR] 2021/07/15 18:20:19 github.com/p4gefau1t/trojan-go/tunnel/trojan.(*Server).acceptLoop:server.go:130 trojan failed to accept conn | not a valid websocket handshake request: 172.19.0.7:38586
+[WARN]  2021/07/15 18:20:19 redirecting connection from 172.19.0.7:38586 to nginx:443
+[INFO]  2021/07/15 18:20:50 redirection done
+[INFO]  2021/07/15 18:21:18 redirection done
