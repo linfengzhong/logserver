@@ -1,0 +1,50 @@
+2021/07/23 20:19:05 [notice] 1#1: using the "epoll" event method
+2021/07/23 20:19:05 [notice] 1#1: nginx/1.21.1
+2021/07/23 20:19:05 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/23 20:19:05 [notice] 1#1: OS: Linux 4.18.0-305.10.2.el8_4.x86_64
+2021/07/23 20:19:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/23 20:19:05 [notice] 1#1: start worker processes
+2021/07/23 20:19:05 [notice] 1#1: start worker process 22
+2021/07/23 20:19:05 [notice] 1#1: start worker process 23
+2021/07/23 20:21:03 [warn] 22#22: *4 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 172.18.0.8, server: k8s-master.cf, request: "GET /grafana/public/build/vendors~app.287cd4997284268b2f13.js HTTP/1.1", upstream: "http://172.18.0.3:3000/public/build/vendors~app.287cd4997284268b2f13.js", host: "k8s-master.cf:443", referrer: "http://k8s-master.cf:443/grafana/"
+2021/07/23 20:21:24 [warn] 22#22: *2 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/00/0000000002 while reading upstream, client: 172.18.0.8, server: k8s-master.cf, request: "GET /grafana/public/build/vendors~app.287cd4997284268b2f13.js HTTP/1.1", upstream: "http://172.18.0.3:3000/public/build/vendors~app.287cd4997284268b2f13.js", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/?orgId=1"
+2021/07/23 20:21:24 [warn] 22#22: *58 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/00/0000000003 while reading upstream, client: 172.18.0.8, server: k8s-master.cf, request: "GET /grafana/public/build/app.287cd4997284268b2f13.js HTTP/1.1", upstream: "http://172.18.0.3:3000/public/build/app.287cd4997284268b2f13.js", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/?orgId=1"
+2021/07/23 20:22:29 [warn] 22#22: *54 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/4/00/0000000004 while reading upstream, client: 172.18.0.8, server: k8s-master.cf, request: "GET /portainer/main.c6c6209333f2cca389f5.js HTTP/1.1", upstream: "http://172.18.0.5:9000/main.c6c6209333f2cca389f5.js", host: "k8s-master.cf", referrer: "https://k8s-master.cf/portainer/"
+2021/07/23 20:22:29 [warn] 22#22: *55 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/5/00/0000000005 while reading upstream, client: 172.18.0.8, server: k8s-master.cf, request: "GET /portainer/vendor.c6c6209333f2cca389f5.js HTTP/1.1", upstream: "http://172.18.0.5:9000/vendor.c6c6209333f2cca389f5.js", host: "k8s-master.cf", referrer: "https://k8s-master.cf/portainer/"
+2021/07/23 20:24:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/23 20:24:42 [notice] 23#23: gracefully shutting down
+2021/07/23 20:24:42 [notice] 23#23: exiting
+2021/07/23 20:24:42 [notice] 23#23: exit
+2021/07/23 20:24:42 [notice] 22#22: gracefully shutting down
+2021/07/23 20:24:42 [notice] 22#22: exiting
+2021/07/23 20:24:42 [notice] 22#22: exit
+2021/07/23 20:24:42 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/23 20:24:42 [notice] 1#1: worker process 23 exited with code 0
+2021/07/23 20:24:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/23 20:24:42 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/23 20:24:42 [notice] 1#1: worker process 22 exited with code 0
+2021/07/23 20:24:42 [notice] 1#1: exit
+2021/07/23 20:25:20 [notice] 1#1: using the "epoll" event method
+2021/07/23 20:25:20 [notice] 1#1: nginx/1.21.1
+2021/07/23 20:25:20 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/23 20:25:20 [notice] 1#1: OS: Linux 4.18.0-305.10.2.el8_4.x86_64
+2021/07/23 20:25:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/23 20:25:20 [notice] 1#1: start worker processes
+2021/07/23 20:25:20 [notice] 1#1: start worker process 22
+2021/07/23 20:25:20 [notice] 1#1: start worker process 23
+2021/07/23 20:30:34 [error] 22#22: *134 upstream prematurely closed connection while reading upstream, client: 172.18.0.8, server: k8s-master.cf, request: "GET /grafana/api/gnet/dashboards/193 HTTP/1.1", upstream: "http://172.18.0.9:3000/api/gnet/dashboards/193", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/dashboard/import"
+2021/07/23 20:31:13 [error] 22#22: *136 upstream prematurely closed connection while reading upstream, client: 172.18.0.8, server: k8s-master.cf, request: "GET /grafana/api/gnet/dashboards/193 HTTP/1.1", upstream: "http://172.18.0.9:3000/api/gnet/dashboards/193", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/dashboard/import"
+2021/07/23 20:32:11 [error] 22#22: *138 upstream prematurely closed connection while reading upstream, client: 172.18.0.8, server: k8s-master.cf, request: "GET /grafana/api/gnet/dashboards/11074 HTTP/1.1", upstream: "http://172.18.0.9:3000/api/gnet/dashboards/11074", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/dashboard/import"
+2021/07/23 20:32:21 [warn] 22#22: *140 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.18.0.8, server: k8s-master.cf, request: "POST /grafana/api/dashboards/import HTTP/1.1", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/dashboard/import"
+2021/07/23 20:32:43 [warn] 22#22: *140 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.18.0.8, server: k8s-master.cf, request: "POST /grafana/api/dashboards/db/ HTTP/1.1", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/d/R7P9pcWnk/node-exporter-for-prometheus-dashboard-en-v20201010?orgId=1"
+2021/07/23 20:39:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/23 20:39:32 [notice] 22#22: gracefully shutting down
+2021/07/23 20:39:32 [notice] 23#23: gracefully shutting down
+2021/07/23 20:39:32 [notice] 22#22: exiting
+2021/07/23 20:39:32 [notice] 23#23: exiting
+2021/07/23 20:39:32 [notice] 23#23: exit
+2021/07/23 20:39:32 [notice] 22#22: exit
+2021/07/23 20:39:32 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/23 20:39:32 [notice] 1#1: worker process 22 exited with code 0
+2021/07/23 20:39:32 [notice] 1#1: worker process 23 exited with code 0
+2021/07/23 20:39:32 [notice] 1#1: exit

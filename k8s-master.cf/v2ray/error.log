@@ -1,0 +1,13 @@
+2021/07/23 20:19:07 [Debug] app/log: Logger started
+2021/07/23 20:19:07 [Info] app/dns: DNS: created localhost client
+2021/07/23 20:19:07 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/23 20:19:07 [Info] transport/internet/websocket: listening TCP(for WS) on 0.0.0.0:443
+2021/07/23 20:19:07 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/23 20:19:07 [Warning] V2Ray 4.40.1 started
+2021/07/23 20:24:42 [Debug] app/log: Logger closing
+2021/07/23 20:25:16 [Debug] app/log: Logger started
+2021/07/23 20:25:16 [Info] app/dns: DNS: created localhost client
+2021/07/23 20:25:16 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/23 20:25:16 [Info] transport/internet/websocket: listening TCP(for WS) on 0.0.0.0:443
+2021/07/23 20:25:16 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/23 20:25:16 [Warning] V2Ray 4.40.1 started
