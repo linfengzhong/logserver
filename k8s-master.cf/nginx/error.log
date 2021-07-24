@@ -48,3 +48,68 @@
 2021/07/23 20:39:32 [notice] 1#1: worker process 22 exited with code 0
 2021/07/23 20:39:32 [notice] 1#1: worker process 23 exited with code 0
 2021/07/23 20:39:32 [notice] 1#1: exit
+2021/07/23 20:39:58 [notice] 1#1: using the "epoll" event method
+2021/07/23 20:39:58 [notice] 1#1: nginx/1.21.1
+2021/07/23 20:39:58 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/23 20:39:58 [notice] 1#1: OS: Linux 4.18.0-305.10.2.el8_4.x86_64
+2021/07/23 20:39:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/23 20:39:58 [notice] 1#1: start worker processes
+2021/07/23 20:39:58 [notice] 1#1: start worker process 22
+2021/07/23 20:39:58 [notice] 1#1: start worker process 23
+2021/07/23 20:53:08 [error] 22#22: *123 open() "/usr/share/nginx/html/nagios" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /nagios HTTP/1.1", host: "k8s-master.cf"
+2021/07/23 20:53:09 [error] 22#22: *124 open() "/usr/share/nginx/html/apple-touch-icon-precomposed.png" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /apple-touch-icon-precomposed.png HTTP/1.1", host: "k8s-master.cf"
+2021/07/23 20:53:09 [error] 22#22: *124 open() "/usr/share/nginx/html/apple-touch-icon.png" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /apple-touch-icon.png HTTP/1.1", host: "k8s-master.cf"
+2021/07/23 20:53:09 [error] 22#22: *125 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /favicon.ico HTTP/1.1", host: "k8s-master.cf", referrer: "https://k8s-master.cf/nagios"
+2021/07/23 21:14:00 [error] 22#22: *341 open() "/usr/share/nginx/html/actuator/health" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /actuator/health HTTP/1.1", host: "34.146.230.25"
+2021/07/23 21:49:42 [warn] 22#22: *1502 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 172.18.0.7, server: k8s-master.cf, request: "GET /grafana/public/build/app.287cd4997284268b2f13.js HTTP/1.1", upstream: "http://172.18.0.4:3000/public/build/app.287cd4997284268b2f13.js", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/d/R7P9pcWnk/node-exporter-for-prometheus-dashboard-en-v20201010?orgId=1"
+2021/07/23 21:49:43 [warn] 22#22: *1506 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/00/0000000002 while reading upstream, client: 172.18.0.7, server: k8s-master.cf, request: "GET /grafana/public/build/vendors~app.287cd4997284268b2f13.js HTTP/1.1", upstream: "http://172.18.0.4:3000/public/build/vendors~app.287cd4997284268b2f13.js", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/d/R7P9pcWnk/node-exporter-for-prometheus-dashboard-en-v20201010?orgId=1"
+2021/07/24 00:58:35 [error] 22#22: *1769 open() "/usr/share/nginx/html/remote/fgt_lang" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession HTTP/1.1", host: "34.146.230.25"
+2021/07/24 05:53:28 [warn] 22#22: *2072 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/3/00/0000000003 while reading upstream, client: 172.18.0.7, server: k8s-master.cf, request: "GET /grafana/public/build/app.287cd4997284268b2f13.js HTTP/1.1", upstream: "http://172.18.0.4:3000/public/build/app.287cd4997284268b2f13.js", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/d/R7P9pcWnk/node-exporter-for-prometheus-dashboard-en-v20201010?orgId=1"
+2021/07/24 06:40:03 [error] 22#22: *3292 open() "/usr/share/nginx/html/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1", host: "34.146.230.25"
+2021/07/24 10:30:44 [error] 22#22: *7861 open() "/usr/share/nginx/html/GponForm/diag_Form" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "POST /GponForm/diag_Form?style/ HTTP/1.1", host: "192.168.0.1:443"
+2021/07/24 13:43:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/24 13:43:44 [notice] 23#23: gracefully shutting down
+2021/07/24 13:43:44 [notice] 23#23: exiting
+2021/07/24 13:43:44 [notice] 23#23: exit
+2021/07/24 13:43:44 [notice] 22#22: gracefully shutting down
+2021/07/24 13:43:44 [notice] 22#22: exiting
+2021/07/24 13:43:44 [notice] 22#22: exit
+2021/07/24 13:43:44 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/24 13:43:44 [notice] 1#1: worker process 23 exited with code 0
+2021/07/24 13:43:44 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/24 13:43:44 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/24 13:43:44 [notice] 1#1: worker process 22 exited with code 0
+2021/07/24 13:43:44 [notice] 1#1: exit
+2021/07/24 13:44:24 [notice] 1#1: using the "epoll" event method
+2021/07/24 13:44:24 [notice] 1#1: nginx/1.21.1
+2021/07/24 13:44:24 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/24 13:44:24 [notice] 1#1: OS: Linux 4.18.0-305.10.2.el8_4.x86_64
+2021/07/24 13:44:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/24 13:44:24 [notice] 1#1: start worker processes
+2021/07/24 13:44:24 [notice] 1#1: start worker process 22
+2021/07/24 13:44:24 [notice] 1#1: start worker process 23
+2021/07/24 13:44:26 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.8, server: k8s-master.cf, request: "GET /grafana/api/annotations?from=1627094651175&to=1627105451176&dashboardId=1 HTTP/1.1", upstream: "http://172.18.0.7:3000/api/annotations?from=1627094651175&to=1627105451176&dashboardId=1", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/d/IQU_t5Wnk/docker-monitoring?orgId=1&refresh=10s"
+2021/07/24 13:44:27 [error] 22#22: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.8, server: k8s-master.cf, request: "POST /grafana/api/datasources/proxy/1/api/v1/query_range HTTP/1.1", upstream: "http://172.18.0.7:3000/api/datasources/proxy/1/api/v1/query_range", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/d/IQU_t5Wnk/docker-monitoring?orgId=1&refresh=10s"
+2021/07/24 13:44:27 [error] 22#22: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.8, server: k8s-master.cf, request: "POST /grafana/api/datasources/proxy/1/api/v1/query_range HTTP/1.1", upstream: "http://172.18.0.7:3000/api/datasources/proxy/1/api/v1/query_range", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/d/IQU_t5Wnk/docker-monitoring?orgId=1&refresh=10s"
+2021/07/24 13:44:27 [error] 22#22: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.8, server: k8s-master.cf, request: "POST /grafana/api/datasources/proxy/1/api/v1/query_range HTTP/1.1", upstream: "http://172.18.0.7:3000/api/datasources/proxy/1/api/v1/query_range", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/d/IQU_t5Wnk/docker-monitoring?orgId=1&refresh=10s"
+2021/07/24 13:44:27 [error] 22#22: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.8, server: k8s-master.cf, request: "POST /grafana/api/datasources/proxy/1/api/v1/query_range HTTP/1.1", upstream: "http://172.18.0.7:3000/api/datasources/proxy/1/api/v1/query_range", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/d/IQU_t5Wnk/docker-monitoring?orgId=1&refresh=10s"
+2021/07/24 13:44:27 [error] 22#22: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.8, server: k8s-master.cf, request: "GET /grafana/public/fonts/roboto/Fcx7Wwv8OzT71A3E1XOAjvesZW2xOQ-xsNqO47m55DA.woff2 HTTP/1.1", upstream: "http://172.18.0.7:3000/public/fonts/roboto/Fcx7Wwv8OzT71A3E1XOAjvesZW2xOQ-xsNqO47m55DA.woff2", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/d/IQU_t5Wnk/docker-monitoring?orgId=1&refresh=10s"
+2021/07/24 13:44:27 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.8, server: k8s-master.cf, request: "POST /grafana/api/datasources/proxy/1/api/v1/query_range HTTP/1.1", upstream: "http://172.18.0.7:3000/api/datasources/proxy/1/api/v1/query_range", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/d/IQU_t5Wnk/docker-monitoring?orgId=1&refresh=10s"
+2021/07/24 13:44:27 [error] 22#22: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.8, server: k8s-master.cf, request: "POST /grafana/api/datasources/proxy/1/api/v1/query_range HTTP/1.1", upstream: "http://172.18.0.7:3000/api/datasources/proxy/1/api/v1/query_range", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/d/IQU_t5Wnk/docker-monitoring?orgId=1&refresh=10s"
+2021/07/24 13:44:27 [error] 22#22: *14 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.8, server: k8s-master.cf, request: "GET /grafana/api/live/ws HTTP/1.1", upstream: "http://172.18.0.7:3000/api/live/ws", host: "k8s-master.cf"
+2021/07/24 13:44:27 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.8, server: k8s-master.cf, request: "POST /grafana/api/datasources/proxy/1/api/v1/query_range HTTP/1.1", upstream: "http://172.18.0.7:3000/api/datasources/proxy/1/api/v1/query_range", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/d/IQU_t5Wnk/docker-monitoring?orgId=1&refresh=10s"
+2021/07/24 13:44:27 [error] 22#22: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.8, server: k8s-master.cf, request: "GET /grafana/public/fonts/roboto/oOeFwZNlrTefzLYmlVV1UBJtnKITppOI_IvcXXDNrsc.woff2 HTTP/1.1", upstream: "http://172.18.0.7:3000/public/fonts/roboto/oOeFwZNlrTefzLYmlVV1UBJtnKITppOI_IvcXXDNrsc.woff2", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/d/IQU_t5Wnk/docker-monitoring?orgId=1&refresh=10s"
+2021/07/24 15:11:46 [error] 22#22: *728 open() "/usr/share/nginx/html/bag2" failed (2: No such file or directory), client: 172.18.0.8, server: k8s-master.cf, request: "GET /bag2 HTTP/1.1", host: "34.146.230.25"
+2021/07/24 17:22:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/24 17:22:43 [notice] 22#22: gracefully shutting down
+2021/07/24 17:22:43 [notice] 23#23: gracefully shutting down
+2021/07/24 17:22:43 [notice] 22#22: exiting
+2021/07/24 17:22:43 [notice] 23#23: exiting
+2021/07/24 17:22:43 [notice] 23#23: exit
+2021/07/24 17:22:43 [notice] 22#22: exit
+2021/07/24 17:22:43 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/24 17:22:43 [notice] 1#1: worker process 22 exited with code 0
+2021/07/24 17:22:43 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/24 17:22:43 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/24 17:22:43 [notice] 1#1: worker process 23 exited with code 0
+2021/07/24 17:22:43 [notice] 1#1: exit

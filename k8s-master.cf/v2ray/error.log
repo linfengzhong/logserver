@@ -11,3 +11,427 @@
 2021/07/23 20:25:16 [Info] transport/internet/websocket: listening TCP(for WS) on 0.0.0.0:443
 2021/07/23 20:25:16 [Warning] transport/internet/websocket: accepting PROXY protocol
 2021/07/23 20:25:16 [Warning] V2Ray 4.40.1 started
+2021/07/23 20:40:00 [Debug] app/log: Logger started
+2021/07/23 20:40:00 [Info] app/dns: DNS: created localhost client
+2021/07/23 20:40:00 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/23 20:40:00 [Info] transport/internet/websocket: listening TCP(for WS) on 0.0.0.0:443
+2021/07/23 20:40:00 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/23 20:40:00 [Warning] V2Ray 4.40.1 started
+2021/07/23 20:57:48 [Warning] proxy/vmess/encoding: Critical Warning: potentially invalid user: a non VMessAEAD connection is received. From 2022 Jan 1st, this kind of connection will be rejected by default. You should update or replace your client software now. This message will not be shown for further violation on this inbound.
+2021/07/23 20:57:48 [Info] [751411599] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 20:57:48 [Info] [751411599] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 20:57:48 [Info] [751411599] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 20:57:48 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 20:57:48 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/23 20:57:48 [Info] [751411599] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/23 20:57:48 [Info] [751411599] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/23 20:57:48 [Info] [751411599] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 20:57:48 [Info] [751411599] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 20:57:48 [Info] [751411599] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/23 20:57:48 [Info] [155903888] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 20:57:48 [Info] [155903888] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 20:57:48 [Info] [155903888] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 20:57:48 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 20:57:48 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/23 20:57:48 [Info] [155903888] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/23 20:57:48 [Info] [155903888] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/23 20:57:49 [Info] [155903888] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 20:57:49 [Info] [155903888] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 20:57:49 [Info] [155903888] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/23 20:57:52 [Info] [1462353579] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 20:57:52 [Info] [1462353579] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 20:57:52 [Info] [1462353579] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 20:57:52 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 20:57:52 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/23 20:57:52 [Info] [1462353579] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/23 20:57:52 [Info] [1462353579] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/23 20:57:52 [Info] [1462353579] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 20:57:52 [Info] [1462353579] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 20:57:52 [Info] [1462353579] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/23 20:57:57 [Info] [2584337178] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 20:57:57 [Info] [2584337178] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 20:57:57 [Info] [2584337178] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 20:57:57 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 20:57:57 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/23 20:57:57 [Info] [2584337178] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/23 20:57:57 [Info] [2584337178] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/23 20:57:58 [Info] [2584337178] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 20:57:58 [Info] [2584337178] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 20:57:58 [Info] [2584337178] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/23 21:04:59 [Info] [3071626552] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 21:04:59 [Info] [3071626552] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 21:04:59 [Info] [3071626552] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 21:04:59 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 21:04:59 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/23 21:04:59 [Info] [3071626552] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/23 21:04:59 [Info] [3071626552] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/23 21:04:59 [Info] [3071626552] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 21:04:59 [Info] [3071626552] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 21:04:59 [Info] [3071626552] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/23 21:10:14 [Info] [646529220] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 21:10:14 [Info] [646529220] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 21:10:14 [Info] [646529220] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 21:10:14 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 21:10:14 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/23 21:10:14 [Info] [646529220] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/23 21:10:14 [Info] [646529220] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/23 21:10:14 [Info] [646529220] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 21:10:14 [Info] [646529220] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 21:10:14 [Info] [646529220] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/23 21:11:49 [Info] [2335638911] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 21:11:49 [Info] [2335638911] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 21:11:49 [Info] [2335638911] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 21:11:49 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 21:11:49 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/23 21:11:49 [Info] [2335638911] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/23 21:11:49 [Info] [2335638911] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/23 21:11:49 [Info] [2335638911] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 21:11:49 [Info] [2335638911] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 21:11:49 [Info] [2335638911] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/23 21:15:18 [Info] [731888077] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 21:15:18 [Info] [731888077] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 21:15:18 [Info] [731888077] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 21:15:18 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 21:15:18 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/23 21:15:18 [Info] [731888077] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/23 21:15:18 [Info] [731888077] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/23 21:15:18 [Info] [731888077] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 21:15:18 [Info] [731888077] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 21:15:18 [Info] [731888077] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/23 21:17:26 [Info] [3886479959] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 21:17:26 [Info] [3886479959] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 21:17:26 [Info] [3886479959] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 21:17:26 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 21:17:26 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/23 21:17:26 [Info] [3886479959] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/23 21:17:26 [Info] [3886479959] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/23 21:17:26 [Info] [3886479959] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 21:17:26 [Info] [3886479959] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 21:17:26 [Info] [3886479959] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/23 21:17:28 [Info] [1666321910] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 21:17:28 [Info] [1666321910] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 21:17:28 [Info] [1666321910] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 21:17:28 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 21:17:28 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/23 21:17:28 [Info] [1666321910] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/23 21:17:28 [Info] [1666321910] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/23 21:17:28 [Info] [1666321910] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 21:17:28 [Info] [1666321910] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 21:17:28 [Info] [1666321910] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/23 21:19:57 [Info] [2720158424] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 21:19:57 [Info] [2720158424] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 21:19:57 [Info] [2720158424] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 21:19:57 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 21:19:57 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/23 21:19:57 [Info] [2720158424] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/23 21:19:57 [Info] [2720158424] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/23 21:19:57 [Info] [2720158424] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 21:19:57 [Info] [2720158424] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 21:19:57 [Info] [2720158424] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/23 21:23:47 [Info] [2683816291] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 21:23:47 [Info] [2683816291] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 21:23:47 [Info] [2683816291] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 21:23:47 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 21:23:47 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/23 21:23:47 [Info] [2683816291] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/23 21:23:47 [Info] [2683816291] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/23 21:23:48 [Info] [2683816291] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 21:23:48 [Info] [2683816291] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 21:23:48 [Info] [2683816291] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/23 21:29:00 [Info] [4163532527] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 21:29:00 [Info] [4163532527] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 21:29:00 [Info] [4163532527] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 21:29:00 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 21:29:00 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/23 21:29:00 [Info] [4163532527] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/23 21:29:00 [Info] [4163532527] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/23 21:29:01 [Info] [4163532527] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 21:29:01 [Info] [4163532527] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 21:29:01 [Info] [4163532527] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/23 21:35:55 [Info] [1899571280] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 21:35:55 [Info] [1899571280] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 21:35:55 [Info] [1899571280] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 21:35:55 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 21:35:55 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/23 21:35:55 [Info] [1899571280] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/23 21:35:55 [Info] [1899571280] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/23 21:35:55 [Info] [1899571280] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 21:35:55 [Info] [1899571280] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 21:35:55 [Info] [1899571280] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/23 21:36:01 [Info] [278415897] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 21:36:01 [Info] [278415897] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 21:36:01 [Info] [278415897] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 21:36:01 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 21:36:01 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/23 21:36:01 [Info] [278415897] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/23 21:36:01 [Info] [278415897] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/23 21:36:01 [Info] [278415897] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 21:36:01 [Info] [278415897] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 21:36:01 [Info] [278415897] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/23 21:36:39 [Info] [3949086531] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 21:36:39 [Info] [3949086531] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 21:36:39 [Info] [3949086531] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 21:36:39 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 21:36:39 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/23 21:36:39 [Info] [3949086531] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/23 21:36:39 [Info] [3949086531] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/23 21:36:40 [Info] [3949086531] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 21:36:40 [Info] [3949086531] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 21:36:40 [Info] [3949086531] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/23 21:36:41 [Info] [2748365228] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 21:36:41 [Info] [2748365228] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 21:36:41 [Info] [2748365228] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 21:36:41 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 21:36:41 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/23 21:36:41 [Info] [2748365228] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/23 21:36:41 [Info] [2748365228] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/23 21:36:42 [Info] [2748365228] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 21:36:42 [Info] [2748365228] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 21:36:42 [Info] [2748365228] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/23 21:36:54 [Info] [2971074762] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/23 21:36:54 [Info] [2971074762] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/23 21:36:54 [Info] [2971074762] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/23 21:36:54 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/23 21:36:54 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/23 21:36:54 [Info] [2971074762] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/23 21:36:54 [Info] [2971074762] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/23 21:36:54 [Info] [2971074762] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/23 21:36:54 [Info] [2971074762] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/23 21:36:54 [Info] [2971074762] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 05:59:37 [Info] [1554170584] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 05:59:37 [Info] [1554170584] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 05:59:37 [Info] [1554170584] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 05:59:37 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 05:59:37 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/24 05:59:37 [Info] [1554170584] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/24 05:59:37 [Info] [1554170584] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/24 05:59:37 [Info] [1554170584] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 05:59:37 [Info] [1554170584] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 05:59:37 [Info] [1554170584] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 05:59:39 [Info] [3877340837] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 05:59:39 [Info] [3877340837] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 05:59:39 [Info] [3877340837] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 05:59:39 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 05:59:39 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/24 05:59:39 [Info] [3877340837] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/24 05:59:39 [Info] [3877340837] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/24 05:59:39 [Info] [3877340837] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 05:59:39 [Info] [3877340837] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 05:59:39 [Info] [3877340837] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 05:59:41 [Info] [3850928563] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 05:59:41 [Info] [3850928563] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 05:59:41 [Info] [3850928563] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 05:59:41 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 05:59:41 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/24 05:59:41 [Info] [3850928563] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/24 05:59:41 [Info] [3850928563] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/24 05:59:41 [Info] [3850928563] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 05:59:41 [Info] [3850928563] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 05:59:41 [Info] [3850928563] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 05:59:43 [Info] [195607092] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 05:59:43 [Info] [195607092] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 05:59:43 [Info] [195607092] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 05:59:43 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 05:59:43 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/24 05:59:43 [Info] [195607092] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/24 05:59:43 [Info] [195607092] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/24 05:59:43 [Info] [195607092] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 05:59:43 [Info] [195607092] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 05:59:43 [Info] [195607092] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 05:59:45 [Info] [1562528134] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 05:59:45 [Info] [1562528134] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 05:59:45 [Info] [1562528134] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 05:59:45 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 05:59:45 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/24 05:59:45 [Info] [1562528134] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/24 05:59:45 [Info] [1562528134] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/24 05:59:45 [Info] [1562528134] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 05:59:45 [Info] [1562528134] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 05:59:45 [Info] [1562528134] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 05:59:46 [Info] [3532075519] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 05:59:46 [Info] [3532075519] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 05:59:46 [Info] [3532075519] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 05:59:46 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 05:59:46 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/24 05:59:46 [Info] [3532075519] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/24 05:59:46 [Info] [3532075519] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/24 05:59:46 [Info] [3532075519] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 05:59:46 [Info] [3532075519] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 05:59:46 [Info] [3532075519] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 09:46:00 [Info] [1976369446] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 09:46:00 [Info] [1976369446] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 09:46:00 [Info] [1976369446] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 09:46:00 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 09:46:00 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/24 09:46:00 [Info] [1976369446] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/24 09:46:00 [Info] [1976369446] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/24 09:46:00 [Info] [1976369446] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 09:46:00 [Info] [1976369446] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 09:46:00 [Info] [1976369446] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 09:46:05 [Info] [1692732023] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 09:46:05 [Info] [1692732023] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 09:46:05 [Info] [1692732023] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 09:46:05 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 09:46:05 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/24 09:46:05 [Info] [1692732023] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/24 09:46:05 [Info] [1692732023] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/24 09:46:06 [Info] [1692732023] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 09:46:06 [Info] [1692732023] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 09:46:06 [Info] [1692732023] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 11:28:17 [Info] [2447851199] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 11:28:17 [Info] [2447851199] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 11:28:17 [Info] [2447851199] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 11:28:17 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 11:28:17 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/24 11:28:17 [Info] [2447851199] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/24 11:28:17 [Info] [2447851199] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/24 11:28:17 [Info] [2447851199] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 11:28:17 [Info] [2447851199] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 11:28:17 [Info] [2447851199] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 13:44:21 [Debug] app/log: Logger started
+2021/07/24 13:44:21 [Info] app/dns: DNS: created localhost client
+2021/07/24 13:44:21 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/24 13:44:21 [Info] transport/internet/websocket: listening TCP(for WS) on 0.0.0.0:443
+2021/07/24 13:44:21 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/24 13:44:21 [Warning] V2Ray 4.40.1 started
+2021/07/24 14:06:08 [Warning] proxy/vmess/encoding: Critical Warning: potentially invalid user: a non VMessAEAD connection is received. From 2022 Jan 1st, this kind of connection will be rejected by default. You should update or replace your client software now. This message will not be shown for further violation on this inbound.
+2021/07/24 14:06:08 [Info] [1829399418] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 14:06:08 [Info] [1829399418] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 14:06:08 [Info] [1829399418] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 14:06:08 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 14:06:08 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/24 14:06:08 [Info] [1829399418] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/24 14:06:08 [Info] [1829399418] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/24 14:06:09 [Info] [1829399418] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 14:06:09 [Info] [1829399418] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 14:06:09 [Info] [1829399418] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 14:06:13 [Info] [2921100494] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 14:06:13 [Info] [2921100494] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 14:06:13 [Info] [2921100494] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 14:06:13 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 14:06:13 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/24 14:06:13 [Info] [2921100494] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/24 14:06:13 [Info] [2921100494] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/24 14:06:13 [Info] [2921100494] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 14:06:13 [Info] [2921100494] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 14:06:13 [Info] [2921100494] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 14:06:14 [Info] [712298766] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 14:06:14 [Info] [712298766] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 14:06:14 [Info] [712298766] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 14:06:14 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 14:06:14 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/24 14:06:14 [Info] [712298766] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/24 14:06:14 [Info] [712298766] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/24 14:06:14 [Info] [712298766] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 14:06:14 [Info] [712298766] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 14:06:14 [Info] [712298766] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 14:06:16 [Info] [549593246] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 14:06:16 [Info] [549593246] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 14:06:16 [Info] [549593246] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 14:06:16 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 14:06:16 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/24 14:06:16 [Info] [549593246] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/24 14:06:16 [Info] [549593246] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/24 14:06:16 [Info] [549593246] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 14:06:16 [Info] [549593246] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 14:06:16 [Info] [549593246] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 15:28:58 [Info] [2401433505] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 15:28:58 [Info] [2401433505] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 15:28:58 [Info] [2401433505] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 15:28:58 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 15:28:58 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/24 15:28:58 [Info] [2401433505] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/24 15:28:58 [Info] [2401433505] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/24 15:28:58 [Info] [2401433505] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 15:28:58 [Info] [2401433505] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 15:28:58 [Info] [2401433505] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 15:29:04 [Info] [2391371330] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 15:29:04 [Info] [2391371330] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 15:29:04 [Info] [2391371330] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 15:29:04 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 15:29:04 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/24 15:29:04 [Info] [2391371330] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/24 15:29:04 [Info] [2391371330] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/24 15:29:04 [Info] [2391371330] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 15:29:04 [Info] [2391371330] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 15:29:04 [Info] [2391371330] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 15:29:07 [Info] [2106469095] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 15:29:07 [Info] [2106469095] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 15:29:07 [Info] [2106469095] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 15:29:07 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 15:29:07 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/24 15:29:07 [Info] [2106469095] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/24 15:29:07 [Info] [2106469095] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/24 15:29:07 [Info] [2106469095] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 15:29:07 [Info] [2106469095] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 15:29:07 [Info] [2106469095] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 15:52:55 [Info] [2905009826] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 15:52:55 [Info] [2905009826] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 15:52:55 [Info] [2905009826] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 15:52:55 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 15:52:55 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/24 15:52:55 [Info] [2905009826] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/24 15:52:55 [Info] [2905009826] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/24 15:52:56 [Info] [2905009826] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 15:52:56 [Info] [2905009826] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 15:52:56 [Info] [2905009826] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 16:01:46 [Info] [2425234967] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 16:01:46 [Info] [2425234967] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 16:01:46 [Info] [2425234967] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 16:01:46 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 16:01:46 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/24 16:01:46 [Info] [2425234967] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/24 16:01:46 [Info] [2425234967] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/24 16:01:49 [Info] [2425234967] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 16:01:49 [Info] [2425234967] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 16:01:49 [Info] [2425234967] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 16:56:58 [Info] [581194500] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 16:56:58 [Info] [581194500] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 16:56:58 [Info] [581194500] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 16:56:58 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 16:56:58 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/24 16:56:58 [Info] [581194500] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/24 16:56:58 [Info] [581194500] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/24 16:56:58 [Info] [581194500] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 16:56:58 [Info] [581194500] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 16:56:58 [Info] [581194500] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 16:58:17 [Info] [3551116259] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 16:58:17 [Info] [3551116259] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 16:58:17 [Info] [3551116259] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 16:58:17 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 16:58:17 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/24 16:58:17 [Info] [3551116259] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/24 16:58:17 [Info] [3551116259] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/24 16:58:17 [Info] [3551116259] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 16:58:17 [Info] [3551116259] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 16:58:17 [Info] [3551116259] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 16:58:24 [Info] [4022505522] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 16:58:24 [Info] [4022505522] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 16:58:24 [Info] [4022505522] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 16:58:24 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 16:58:24 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.133.229 104.16.132.229]
+2021/07/24 16:58:24 [Info] [4022505522] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/24 16:58:24 [Info] [4022505522] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/24 16:58:24 [Info] [4022505522] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 16:58:24 [Info] [4022505522] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 16:58:24 [Info] [4022505522] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 16:59:59 [Info] [281646896] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 16:59:59 [Info] [281646896] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 16:59:59 [Info] [281646896] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 16:59:59 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 16:59:59 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/24 16:59:59 [Info] [281646896] proxy/freedom: dialing to tcp:104.16.132.229:80
+2021/07/24 16:59:59 [Info] [281646896] transport/internet/tcp: dialing TCP to tcp:104.16.132.229:80
+2021/07/24 16:59:59 [Info] [281646896] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 16:59:59 [Info] [281646896] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 16:59:59 [Info] [281646896] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/24 17:00:22 [Info] [4120544513] proxy/vmess/inbound: received request for tcp:cp.cloudflare.com:80
+2021/07/24 17:00:22 [Info] [4120544513] app/dispatcher: default route for tcp:cp.cloudflare.com:80
+2021/07/24 17:00:22 [Info] [4120544513] proxy/freedom: opening connection to tcp:cp.cloudflare.com:80
+2021/07/24 17:00:22 [Debug] app/dns: domain cp.cloudflare.com will use DNS in order: [localhost]
+2021/07/24 17:00:22 [Info] app/dns: Localhost got answer: cp.cloudflare.com -> [104.16.132.229 104.16.133.229]
+2021/07/24 17:00:22 [Info] [4120544513] proxy/freedom: dialing to tcp:104.16.133.229:80
+2021/07/24 17:00:22 [Info] [4120544513] transport/internet/tcp: dialing TCP to tcp:104.16.133.229:80
+2021/07/24 17:00:23 [Info] [4120544513] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
+2021/07/24 17:00:23 [Info] [4120544513] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/24 17:00:23 [Info] [4120544513] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
