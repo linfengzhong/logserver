@@ -331,3 +331,23 @@
 2021/07/25 18:31:09 [notice] 1#1: signal 17 (SIGCHLD) received from 23
 2021/07/25 18:31:09 [notice] 1#1: worker process 23 exited with code 0
 2021/07/25 18:31:09 [notice] 1#1: exit
+2021/07/25 18:32:32 [notice] 1#1: using the "epoll" event method
+2021/07/25 18:32:32 [notice] 1#1: nginx/1.21.1
+2021/07/25 18:32:32 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/25 18:32:32 [notice] 1#1: OS: Linux 4.18.0-305.10.2.el8_4.x86_64
+2021/07/25 18:32:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/25 18:32:32 [notice] 1#1: start worker processes
+2021/07/25 18:32:32 [notice] 1#1: start worker process 22
+2021/07/25 18:32:32 [notice] 1#1: start worker process 23
+2021/07/25 20:06:24 [warn] 22#22: *2205 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.27.0.8, server: k8s-master.cf, request: "POST /grafana/api/dashboards/db/ HTTP/1.1", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/d/R7P9pcWnk/node-exporter-for-prometheus-dashboard-en-v20201010?orgId=1&var-origin_prometheus=&var-job=linux&var-hostname=All&var-node=34.146.230.25:9100&var-device=All&var-interval=2m&var-maxmount=%2F&var-show_hostname=k8s-master.cf&var-total=7"
+2021/07/25 21:55:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/25 21:55:39 [notice] 22#22: gracefully shutting down
+2021/07/25 21:55:39 [notice] 22#22: exiting
+2021/07/25 21:55:39 [notice] 23#23: gracefully shutting down
+2021/07/25 21:55:39 [notice] 22#22: exit
+2021/07/25 21:55:39 [notice] 23#23: exiting
+2021/07/25 21:55:39 [notice] 23#23: exit
+2021/07/25 21:55:39 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/25 21:55:39 [notice] 1#1: worker process 22 exited with code 0
+2021/07/25 21:55:39 [notice] 1#1: worker process 23 exited with code 0
+2021/07/25 21:55:39 [notice] 1#1: exit
