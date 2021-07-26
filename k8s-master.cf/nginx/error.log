@@ -414,3 +414,88 @@
 2021/07/25 22:27:23 [notice] 1#1: signal 17 (SIGCHLD) received from 22
 2021/07/25 22:27:23 [notice] 1#1: worker process 22 exited with code 0
 2021/07/25 22:27:23 [notice] 1#1: exit
+2021/07/25 22:27:45 [notice] 1#1: using the "epoll" event method
+2021/07/25 22:27:45 [notice] 1#1: nginx/1.21.1
+2021/07/25 22:27:45 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/25 22:27:45 [notice] 1#1: OS: Linux 4.18.0-305.10.2.el8_4.x86_64
+2021/07/25 22:27:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/25 22:27:45 [notice] 1#1: start worker processes
+2021/07/25 22:27:45 [notice] 1#1: start worker process 22
+2021/07/25 22:27:45 [notice] 1#1: start worker process 23
+2021/07/25 22:35:32 [error] 22#22: *340 upstream prematurely closed connection while reading upstream, client: 172.31.0.7, server: k8s-master.cf, request: "GET /grafana/api/gnet/dashboards/249 HTTP/1.1", upstream: "http://172.31.0.4:3000/api/gnet/dashboards/249", host: "k8s-master.cf", referrer: "https://k8s-master.cf/grafana/dashboard/import"
+2021/07/25 23:13:01 [error] 22#22: *967 open() "/usr/share/nginx/html/apple-touch-icon-120x120-precomposed.png" failed (2: No such file or directory), client: 172.31.0.7, server: k8s-master.cf, request: "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1", host: "k8s-master.cf"
+2021/07/25 23:13:01 [error] 22#22: *967 open() "/usr/share/nginx/html/apple-touch-icon-120x120.png" failed (2: No such file or directory), client: 172.31.0.7, server: k8s-master.cf, request: "GET /apple-touch-icon-120x120.png HTTP/1.1", host: "k8s-master.cf"
+2021/07/25 23:17:04 [error] 22#22: *1130 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 172.31.0.7, server: k8s-master.cf, request: "GET /robots.txt HTTP/1.1", host: "34.146.230.25"
+2021/07/25 23:17:05 [error] 22#22: *1131 open() "/usr/share/nginx/html/sitemap.xml" failed (2: No such file or directory), client: 172.31.0.7, server: k8s-master.cf, request: "GET /sitemap.xml HTTP/1.1", host: "34.146.230.25"
+2021/07/25 23:17:06 [error] 22#22: *1132 open() "/usr/share/nginx/html/.well-known/security.txt" failed (2: No such file or directory), client: 172.31.0.7, server: k8s-master.cf, request: "GET /.well-known/security.txt HTTP/1.1", host: "34.146.230.25"
+2021/07/25 23:17:07 [error] 22#22: *1133 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.7, server: k8s-master.cf, request: "GET /favicon.ico HTTP/1.1", host: "34.146.230.25"
+2021/07/25 23:21:13 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/25 23:21:13 [notice] 23#23: gracefully shutting down
+2021/07/25 23:21:13 [notice] 23#23: exiting
+2021/07/25 23:21:13 [notice] 23#23: exit
+2021/07/25 23:21:13 [notice] 22#22: gracefully shutting down
+2021/07/25 23:21:13 [notice] 22#22: exiting
+2021/07/25 23:21:13 [notice] 22#22: exit
+2021/07/25 23:21:13 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/25 23:21:13 [notice] 1#1: worker process 23 exited with code 0
+2021/07/25 23:21:13 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/25 23:21:13 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/25 23:21:13 [notice] 1#1: worker process 22 exited with code 0
+2021/07/25 23:21:13 [notice] 1#1: exit
+2021/07/25 23:21:52 [notice] 1#1: using the "epoll" event method
+2021/07/25 23:21:52 [notice] 1#1: nginx/1.21.1
+2021/07/25 23:21:52 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/25 23:21:52 [notice] 1#1: OS: Linux 4.18.0-305.10.2.el8_4.x86_64
+2021/07/25 23:21:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/25 23:21:52 [notice] 1#1: start worker processes
+2021/07/25 23:21:52 [notice] 1#1: start worker process 22
+2021/07/25 23:21:52 [notice] 1#1: start worker process 23
+2021/07/26 00:26:24 [error] 22#22: *155 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.3, server: k8s-master.cf, request: "GET /favicon.ico HTTP/1.1", host: "k8s-master.cf"
+2021/07/26 01:36:47 [error] 22#22: *171 open() "/usr/share/nginx/html/actuator/health" failed (2: No such file or directory), client: 172.31.0.3, server: k8s-master.cf, request: "GET /actuator/health HTTP/1.1", host: "34.146.230.25"
+2021/07/26 02:05:58 [error] 22#22: *180 open() "/usr/share/nginx/html/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 172.31.0.3, server: k8s-master.cf, request: "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "34.146.230.25:443"
+2021/07/26 02:06:01 [error] 22#22: *181 open() "/usr/share/nginx/html/api/jsonws/invoke" failed (2: No such file or directory), client: 172.31.0.3, server: k8s-master.cf, request: "POST /api/jsonws/invoke HTTP/1.1", host: "34.146.230.25:443"
+2021/07/26 02:06:03 [error] 22#22: *182 open() "/usr/share/nginx/html/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 172.31.0.3, server: k8s-master.cf, request: "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "34.146.230.25:443"
+2021/07/26 02:06:07 [error] 22#22: *183 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 172.31.0.3, server: k8s-master.cf, request: "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1", host: "34.146.230.25:443"
+2021/07/26 02:06:08 [error] 22#22: *185 open() "/usr/share/nginx/html/mifs/.;/services/LogService" failed (2: No such file or directory), client: 172.31.0.3, server: k8s-master.cf, request: "POST /mifs/.;/services/LogService HTTP/1.1", host: "34.146.230.25:443", referrer: "https://34.146.230.25:443"
+2021/07/26 02:06:13 [error] 22#22: *186 open() "/usr/share/nginx/html/wp-content/plugins/wp-file-manager/readme.txt" failed (2: No such file or directory), client: 172.31.0.3, server: k8s-master.cf, request: "GET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.1", host: "34.146.230.25:443"
+2021/07/26 02:06:13 [error] 22#22: *187 "/usr/share/nginx/html/console/index.html" is not found (2: No such file or directory), client: 172.31.0.3, server: k8s-master.cf, request: "GET /console/ HTTP/1.1", host: "34.146.230.25:443"
+2021/07/26 02:06:14 [error] 22#22: *188 open() "/usr/share/nginx/html/Autodiscover/Autodiscover.xml" failed (2: No such file or directory), client: 172.31.0.3, server: k8s-master.cf, request: "POST /Autodiscover/Autodiscover.xml HTTP/1.1", host: "34.146.230.25:443"
+2021/07/26 06:40:17 [error] 22#22: *265 open() "/usr/share/nginx/html/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application" failed (2: No such file or directory), client: 172.31.0.3, server: k8s-master.cf, request: "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1", host: "34.146.230.25"
+2021/07/26 10:52:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/26 10:52:42 [notice] 23#23: gracefully shutting down
+2021/07/26 10:52:42 [notice] 23#23: exiting
+2021/07/26 10:52:42 [notice] 23#23: exit
+2021/07/26 10:52:42 [notice] 22#22: gracefully shutting down
+2021/07/26 10:52:42 [notice] 22#22: exiting
+2021/07/26 10:52:42 [notice] 22#22: exit
+2021/07/26 10:52:42 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/26 10:52:42 [notice] 1#1: worker process 23 exited with code 0
+2021/07/26 10:52:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/26 10:52:42 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/26 10:52:42 [notice] 1#1: worker process 22 exited with code 0
+2021/07/26 10:52:42 [notice] 1#1: exit
+2021/07/26 10:53:23 [notice] 1#1: using the "epoll" event method
+2021/07/26 10:53:23 [notice] 1#1: nginx/1.21.1
+2021/07/26 10:53:23 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/26 10:53:23 [notice] 1#1: OS: Linux 4.18.0-305.10.2.el8_4.x86_64
+2021/07/26 10:53:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/26 10:53:23 [notice] 1#1: start worker processes
+2021/07/26 10:53:23 [notice] 1#1: start worker process 22
+2021/07/26 10:53:23 [notice] 1#1: start worker process 23
+2021/07/26 15:30:22 [error] 22#22: *1610 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 172.31.0.7, server: k8s-master.cf, request: "GET /robots.txt HTTP/1.1", host: "34.146.230.25"
+2021/07/26 15:30:22 [error] 22#22: *1611 open() "/usr/share/nginx/html/sitemap.xml" failed (2: No such file or directory), client: 172.31.0.7, server: k8s-master.cf, request: "GET /sitemap.xml HTTP/1.1", host: "34.146.230.25"
+2021/07/26 15:30:23 [error] 22#22: *1612 open() "/usr/share/nginx/html/.well-known/security.txt" failed (2: No such file or directory), client: 172.31.0.7, server: k8s-master.cf, request: "GET /.well-known/security.txt HTTP/1.1", host: "34.146.230.25"
+2021/07/26 15:30:24 [error] 22#22: *1613 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.7, server: k8s-master.cf, request: "GET /favicon.ico HTTP/1.1", host: "34.146.230.25"
+2021/07/26 15:57:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/26 15:57:23 [notice] 22#22: gracefully shutting down
+2021/07/26 15:57:23 [notice] 23#23: gracefully shutting down
+2021/07/26 15:57:23 [notice] 22#22: exiting
+2021/07/26 15:57:23 [notice] 23#23: exiting
+2021/07/26 15:57:23 [notice] 22#22: exit
+2021/07/26 15:57:23 [notice] 23#23: exit
+2021/07/26 15:57:23 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/26 15:57:23 [notice] 1#1: worker process 23 exited with code 0
+2021/07/26 15:57:23 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/26 15:57:23 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/26 15:57:23 [notice] 1#1: worker process 22 exited with code 0
+2021/07/26 15:57:23 [notice] 1#1: exit
