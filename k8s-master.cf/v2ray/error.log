@@ -948,3 +948,9 @@
 2021/07/26 15:30:03 [Info] [2664070561] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1000 (normal)
 2021/07/26 15:30:03 [Info] [2664070561] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
 2021/07/26 15:30:03 [Info] [2664070561] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/07/26 15:58:02 [Debug] app/log: Logger started
+2021/07/26 15:58:02 [Info] app/dns: DNS: created localhost client
+2021/07/26 15:58:02 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/26 15:58:02 [Info] transport/internet/websocket: listening TCP(for WS) on 0.0.0.0:443
+2021/07/26 15:58:02 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/26 15:58:02 [Warning] V2Ray 4.40.1 started
