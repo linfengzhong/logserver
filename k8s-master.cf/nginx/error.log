@@ -604,3 +604,151 @@
 2021/07/26 18:21:28 [notice] 1#1: signal 17 (SIGCHLD) received from 21
 2021/07/26 18:21:28 [notice] 1#1: worker process 21 exited with code 0
 2021/07/26 18:21:28 [notice] 1#1: exit
+2021/07/26 18:53:28 [notice] 1#1: using the "epoll" event method
+2021/07/26 18:53:28 [notice] 1#1: nginx/1.21.1
+2021/07/26 18:53:28 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/26 18:53:28 [notice] 1#1: OS: Linux 4.18.0-305.10.2.el8_4.x86_64
+2021/07/26 18:53:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/26 18:53:28 [notice] 1#1: start worker processes
+2021/07/26 18:53:28 [notice] 1#1: start worker process 22
+2021/07/26 18:53:28 [notice] 1#1: start worker process 23
+2021/07/26 19:08:03 [error] 22#22: *759 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /favicon.ico HTTP/1.1", host: "34.146.230.25:443"
+2021/07/26 19:16:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/26 19:16:24 [notice] 23#23: gracefully shutting down
+2021/07/26 19:16:24 [notice] 23#23: exiting
+2021/07/26 19:16:24 [notice] 22#22: gracefully shutting down
+2021/07/26 19:16:24 [notice] 22#22: exiting
+2021/07/26 19:16:24 [notice] 23#23: exit
+2021/07/26 19:16:24 [notice] 22#22: exit
+2021/07/26 19:16:24 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/26 19:16:24 [notice] 1#1: worker process 22 exited with code 0
+2021/07/26 19:16:24 [notice] 1#1: worker process 23 exited with code 0
+2021/07/26 19:16:24 [notice] 1#1: exit
+2021/07/26 19:17:03 [notice] 1#1: using the "epoll" event method
+2021/07/26 19:17:03 [notice] 1#1: nginx/1.21.1
+2021/07/26 19:17:03 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/26 19:17:03 [notice] 1#1: OS: Linux 4.18.0-305.10.2.el8_4.x86_64
+2021/07/26 19:17:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/26 19:17:03 [notice] 1#1: start worker processes
+2021/07/26 19:17:03 [notice] 1#1: start worker process 22
+2021/07/26 19:17:03 [notice] 1#1: start worker process 23
+2021/07/26 19:17:05 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.7, server: k8s-master.cf, request: "GET /grafana/api/live/ws HTTP/1.1", upstream: "http://172.18.0.9:3000/api/live/ws", host: "k8s-master.cf"
+2021/07/26 20:06:21 [error] 22#22: *515 open() "/usr/share/nginx/html/GponForm/diag_Form" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "POST /GponForm/diag_Form?style/ HTTP/1.1", host: "192.168.0.1:443"
+2021/07/26 23:15:52 [error] 22#22: *750 open() "/usr/share/nginx/html/owa/auth/logon.aspx" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /owa/auth/logon.aspx HTTP/1.1", host: "34.146.230.25:443"
+2021/07/27 06:36:01 [error] 22#22: *976 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /favicon.ico HTTP/1.1", host: "34.146.230.25:443"
+2021/07/27 08:20:55 [error] 22#22: *1430 open() "/usr/share/nginx/html/remote/fgt_lang" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET ///remote/fgt_lang?lang=/../../../..//////////dev/ HTTP/1.1", host: "34.146.230.25"
+2021/07/27 10:32:48 [error] 22#22: *2056 open() "/usr/share/nginx/html/actuator/health" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /actuator/health HTTP/1.1", host: "34.146.230.25"
+2021/07/27 16:48:21 [error] 22#22: *4179 open() "/usr/share/nginx/html/api/jsonws/invoke" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "POST /api/jsonws/invoke HTTP/1.1", host: "34.146.230.25:443"
+2021/07/27 16:48:21 [error] 22#22: *4180 open() "/usr/share/nginx/html/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "34.146.230.25:443"
+2021/07/27 16:48:23 [error] 22#22: *4183 open() "/usr/share/nginx/html/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "34.146.230.25:443"
+2021/07/27 16:48:25 [error] 22#22: *4184 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1", host: "34.146.230.25:443"
+2021/07/27 16:48:29 [error] 22#22: *4186 "/usr/share/nginx/html/console/index.html" is not found (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /console/ HTTP/1.1", host: "34.146.230.25:443"
+2021/07/27 16:48:31 [error] 22#22: *4187 open() "/usr/share/nginx/html/mifs/.;/services/LogService" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "POST /mifs/.;/services/LogService HTTP/1.1", host: "34.146.230.25:443", referrer: "https://34.146.230.25:443"
+2021/07/27 16:48:32 [error] 22#22: *4188 open() "/usr/share/nginx/html/wp-content/plugins/wp-file-manager/readme.txt" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.1", host: "34.146.230.25:443"
+2021/07/27 16:48:33 [error] 22#22: *4189 open() "/usr/share/nginx/html/_ignition/execute-solution" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /_ignition/execute-solution HTTP/1.1", host: "34.146.230.25:443"
+2021/07/27 16:48:33 [error] 22#22: *4191 open() "/usr/share/nginx/html/Autodiscover/Autodiscover.xml" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "POST /Autodiscover/Autodiscover.xml HTTP/1.1", host: "34.146.230.25:443"
+2021/07/27 17:38:48 [error] 22#22: *4485 open() "/usr/share/nginx/html/cgi-bin/config.exp" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /cgi-bin/config.exp HTTP/1.1", host: "34.146.230.25"
+2021/07/27 17:46:57 [error] 22#22: *4535 open() "/usr/share/nginx/html/owa/auth/logon.aspx" failed (2: No such file or directory), client: 172.18.0.7, server: k8s-master.cf, request: "GET /owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f HTTP/1.1", host: "34.146.230.25"
+2021/07/27 17:59:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/27 17:59:59 [notice] 22#22: gracefully shutting down
+2021/07/27 17:59:59 [notice] 23#23: gracefully shutting down
+2021/07/27 17:59:59 [notice] 22#22: exiting
+2021/07/27 17:59:59 [notice] 23#23: exiting
+2021/07/27 17:59:59 [notice] 22#22: exit
+2021/07/27 17:59:59 [notice] 23#23: exit
+2021/07/27 18:00:00 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/27 18:00:00 [notice] 1#1: worker process 23 exited with code 0
+2021/07/27 18:00:00 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/27 18:00:00 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/27 18:00:00 [notice] 1#1: worker process 22 exited with code 0
+2021/07/27 18:00:00 [notice] 1#1: exit
+2021/07/27 18:00:41 [notice] 1#1: using the "epoll" event method
+2021/07/27 18:00:41 [notice] 1#1: nginx/1.21.1
+2021/07/27 18:00:41 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/27 18:00:41 [notice] 1#1: OS: Linux 4.18.0-305.10.2.el8_4.x86_64
+2021/07/27 18:00:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/27 18:00:41 [notice] 1#1: start worker processes
+2021/07/27 18:00:41 [notice] 1#1: start worker process 22
+2021/07/27 18:00:41 [notice] 1#1: start worker process 23
+2021/07/27 18:08:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/27 18:08:44 [notice] 23#23: gracefully shutting down
+2021/07/27 18:08:44 [notice] 23#23: exiting
+2021/07/27 18:08:44 [notice] 23#23: exit
+2021/07/27 18:08:44 [notice] 22#22: gracefully shutting down
+2021/07/27 18:08:44 [notice] 22#22: exiting
+2021/07/27 18:08:44 [notice] 22#22: exit
+2021/07/27 18:08:44 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/27 18:08:44 [notice] 1#1: worker process 23 exited with code 0
+2021/07/27 18:08:44 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/27 18:08:44 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/27 18:08:44 [notice] 1#1: worker process 22 exited with code 0
+2021/07/27 18:08:44 [notice] 1#1: exit
+2021/07/27 18:09:25 [notice] 1#1: using the "epoll" event method
+2021/07/27 18:09:25 [notice] 1#1: nginx/1.21.1
+2021/07/27 18:09:25 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/27 18:09:25 [notice] 1#1: OS: Linux 4.18.0-305.10.2.el8_4.x86_64
+2021/07/27 18:09:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/27 18:09:25 [notice] 1#1: start worker processes
+2021/07/27 18:09:25 [notice] 1#1: start worker process 22
+2021/07/27 18:09:25 [notice] 1#1: start worker process 23
+2021/07/27 18:15:41 [error] 22#22: *41 open() "/usr/share/nginx/html/.env" failed (2: No such file or directory), client: 172.18.0.8, server: k8s-master.cf, request: "GET /.env HTTP/1.1", host: "34.146.230.25"
+2021/07/27 18:47:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/27 18:47:48 [notice] 22#22: gracefully shutting down
+2021/07/27 18:47:48 [notice] 22#22: exiting
+2021/07/27 18:47:48 [notice] 23#23: gracefully shutting down
+2021/07/27 18:47:48 [notice] 23#23: exiting
+2021/07/27 18:47:48 [notice] 22#22: exit
+2021/07/27 18:47:48 [notice] 23#23: exit
+2021/07/27 18:47:48 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/27 18:47:48 [notice] 1#1: worker process 22 exited with code 0
+2021/07/27 18:47:48 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/27 18:47:48 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/27 18:47:48 [notice] 1#1: worker process 23 exited with code 0
+2021/07/27 18:47:48 [notice] 1#1: exit
+2021/07/27 18:48:29 [notice] 1#1: using the "epoll" event method
+2021/07/27 18:48:29 [notice] 1#1: nginx/1.21.1
+2021/07/27 18:48:29 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/27 18:48:29 [notice] 1#1: OS: Linux 4.18.0-305.10.2.el8_4.x86_64
+2021/07/27 18:48:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/27 18:48:29 [notice] 1#1: start worker processes
+2021/07/27 18:48:29 [notice] 1#1: start worker process 22
+2021/07/27 18:48:29 [notice] 1#1: start worker process 23
+2021/07/27 18:48:31 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.6, server: k8s-master.cf, request: "GET /grafana/api/live/ws HTTP/1.1", upstream: "http://172.18.0.9:3000/api/live/ws", host: "k8s-master.cf"
+2021/07/27 22:54:43 [error] 22#22: *437 open() "/usr/share/nginx/html/.git/config" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "HEAD /.git/config HTTP/1.1", host: "k8s-master.cf"
+2021/07/27 22:54:44 [error] 22#22: *438 open() "/usr/share/nginx/html/.git/config" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "HEAD /.git/config HTTP/1.1", host: "k8s-master.cf"
+2021/07/28 00:53:10 [error] 22#22: *571 open() "/usr/share/nginx/html/.env" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /.env HTTP/1.1", host: "34.146.230.25"
+2021/07/28 05:07:19 [error] 22#22: *675 open() "/usr/share/nginx/html/ReportServer" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /ReportServer HTTP/1.1", host: "34.146.230.25"
+2021/07/28 05:43:22 [error] 22#22: *690 open() "/usr/share/nginx/html/login" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /login HTTP/1.1", host: "34.146.230.25"
+2021/07/28 05:56:44 [error] 22#22: *757 open() "/usr/share/nginx/html/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "34.146.230.25:443"
+2021/07/28 05:56:44 [error] 22#22: *758 open() "/usr/share/nginx/html/api/jsonws/invoke" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "POST /api/jsonws/invoke HTTP/1.1", host: "34.146.230.25:443"
+2021/07/28 05:56:50 [error] 22#22: *759 open() "/usr/share/nginx/html/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "34.146.230.25:443"
+2021/07/28 05:56:55 [error] 22#22: *761 open() "/usr/share/nginx/html/mifs/.;/services/LogService" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "POST /mifs/.;/services/LogService HTTP/1.1", host: "34.146.230.25:443", referrer: "https://34.146.230.25:443"
+2021/07/28 05:56:58 [error] 22#22: *762 open() "/usr/share/nginx/html/wp-content/plugins/wp-file-manager/readme.txt" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.1", host: "34.146.230.25:443"
+2021/07/28 06:41:57 [error] 22#22: *1067 open() "/usr/share/nginx/html/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1", host: "34.146.230.25"
+2021/07/28 08:11:02 [error] 22#22: *1541 open() "/usr/share/nginx/html/.json" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /.json HTTP/1.1", host: "34.146.230.25"
+2021/07/28 08:11:02 [error] 22#22: *1542 open() "/usr/share/nginx/html/server-status" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /server-status HTTP/1.1", host: "34.146.230.25"
+2021/07/28 08:11:03 [error] 22#22: *1543 open() "/usr/share/nginx/html/config.json" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /config.json HTTP/1.1", host: "34.146.230.25"
+2021/07/28 08:11:03 [error] 22#22: *1544 open() "/usr/share/nginx/html/.env" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /.env HTTP/1.1", host: "34.146.230.25"
+2021/07/28 08:11:03 [error] 22#22: *1545 open() "/usr/share/nginx/html/.git/config" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /.git/config HTTP/1.1", host: "34.146.230.25"
+2021/07/28 08:11:04 [error] 22#22: *1546 "/usr/share/nginx/html/idx_config/index.html" is not found (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /idx_config/ HTTP/1.1", host: "34.146.230.25"
+2021/07/28 08:11:04 [error] 22#22: *1547 open() "/usr/share/nginx/html/telescope/requests" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /telescope/requests HTTP/1.1", host: "34.146.230.25"
+2021/07/28 08:19:31 [error] 22#22: *1550 open() "/usr/share/nginx/html/Telerik.Web.UI.WebResource.axd" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /Telerik.Web.UI.WebResource.axd?type=rau HTTP/1.1", host: "34.146.230.25"
+2021/07/28 09:13:27 [error] 22#22: *1564 open() "/usr/share/nginx/html/.env" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /.env HTTP/1.1", host: "34.146.230.25"
+2021/07/28 11:06:58 [error] 22#22: *2090 open() "/usr/share/nginx/html/GponForm/diag_Form" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "POST /GponForm/diag_Form?style/ HTTP/1.1", host: "192.168.0.1:443"
+2021/07/28 12:14:23 [error] 22#22: *2437 open() "/usr/share/nginx/html/actuator/health" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /actuator/health HTTP/1.1", host: "34.146.230.25"
+2021/07/28 12:18:55 [error] 22#22: *2459 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /robots.txt HTTP/1.1", host: "34.146.230.25"
+2021/07/28 12:40:26 [error] 22#22: *2518 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /favicon.ico HTTP/1.1", host: "34.146.230.25:443"
+2021/07/28 13:51:52 [error] 22#22: *2846 open() "/usr/share/nginx/html/remote/login" failed (2: No such file or directory), client: 172.18.0.6, server: k8s-master.cf, request: "GET /remote/login HTTP/1.1", host: "34.146.230.25"
+2021/07/28 15:08:54 [warn] 22#22: *3127 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/1/00/0000000001 while reading upstream, client: 172.18.0.6, server: k8s-master.cf, request: "GET /portainer/main.c6c6209333f2cca389f5.js HTTP/1.1", upstream: "http://172.18.0.2:9000/main.c6c6209333f2cca389f5.js", host: "k8s-master.cf", referrer: "https://k8s-master.cf/portainer/"
+2021/07/28 15:08:54 [warn] 22#22: *3126 an upstream response is buffered to a temporary file /var/cache/nginx/proxy_temp/2/00/0000000002 while reading upstream, client: 172.18.0.6, server: k8s-master.cf, request: "GET /portainer/vendor.c6c6209333f2cca389f5.js HTTP/1.1", upstream: "http://172.18.0.2:9000/vendor.c6c6209333f2cca389f5.js", host: "k8s-master.cf", referrer: "https://k8s-master.cf/portainer/"
+2021/07/28 16:55:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/28 16:55:49 [notice] 22#22: gracefully shutting down
+2021/07/28 16:55:49 [notice] 22#22: exiting
+2021/07/28 16:55:49 [notice] 22#22: exit
+2021/07/28 16:55:49 [notice] 23#23: gracefully shutting down
+2021/07/28 16:55:49 [notice] 23#23: exiting
+2021/07/28 16:55:49 [notice] 23#23: exit
+2021/07/28 16:55:49 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/28 16:55:49 [notice] 1#1: worker process 22 exited with code 0
+2021/07/28 16:55:49 [notice] 1#1: worker process 23 exited with code 0
+2021/07/28 16:55:49 [notice] 1#1: exit
