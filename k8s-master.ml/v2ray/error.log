@@ -3400,3 +3400,9 @@
 2021/07/29 10:41:38 [Info] [2247206473] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
 2021/07/29 10:41:40 [Info] [1006519244] app/proxyman/inbound: connection ends > proxy/vmess/inbound: invalid request from 175.171.179.176:54361 > proxy/vmess/encoding: failed to drain connection DrainSize = 317 16 4 > proxy/vmess/encoding: invalid user > proxy/vmess: Not Found
 2021/07/29 10:41:40 [Info] [1006519244] app/proxyman/inbound: failed to close connection > transport/internet/websocket: failed to close connection > transport/internet/websocket: websocket: close sent
+2021/07/29 10:45:01 [Debug] app/log: Logger started
+2021/07/29 10:45:01 [Info] app/dns: DNS: created localhost client
+2021/07/29 10:45:01 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/07/29 10:45:01 [Info] transport/internet/websocket: listening TCP(for WS) on 0.0.0.0:443
+2021/07/29 10:45:01 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/07/29 10:45:01 [Warning] V2Ray 4.40.1 started
