@@ -792,3 +792,86 @@
 2021/07/28 17:56:54 [notice] 1#1: worker process 22 exited with code 0
 2021/07/28 17:56:54 [notice] 1#1: worker process 23 exited with code 0
 2021/07/28 17:56:54 [notice] 1#1: exit
+2021/07/28 17:57:15 [notice] 1#1: using the "epoll" event method
+2021/07/28 17:57:15 [notice] 1#1: nginx/1.21.1
+2021/07/28 17:57:15 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/28 17:57:15 [notice] 1#1: OS: Linux 4.18.0-305.10.2.el8_4.x86_64
+2021/07/28 17:57:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/28 17:57:15 [notice] 1#1: start worker processes
+2021/07/28 17:57:15 [notice] 1#1: start worker process 22
+2021/07/28 17:57:15 [notice] 1#1: start worker process 23
+2021/07/28 19:43:27 [error] 22#22: *196 open() "/usr/share/nginx/html/bag2" failed (2: No such file or directory), client: 172.20.0.7, server: k8s-master.cf, request: "GET /bag2 HTTP/1.1", host: "34.146.230.25"
+2021/07/28 20:17:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/28 20:17:03 [notice] 22#22: gracefully shutting down
+2021/07/28 20:17:03 [notice] 22#22: exiting
+2021/07/28 20:17:03 [notice] 23#23: gracefully shutting down
+2021/07/28 20:17:03 [notice] 23#23: exiting
+2021/07/28 20:17:03 [notice] 22#22: exit
+2021/07/28 20:17:03 [notice] 23#23: exit
+2021/07/28 20:17:03 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/28 20:17:03 [notice] 1#1: worker process 23 exited with code 0
+2021/07/28 20:17:03 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/28 20:17:03 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/28 20:17:03 [notice] 1#1: worker process 22 exited with code 0
+2021/07/28 20:17:03 [notice] 1#1: exit
+2021/07/29 07:58:14 [notice] 1#1: using the "epoll" event method
+2021/07/29 07:58:14 [notice] 1#1: nginx/1.21.1
+2021/07/29 07:58:14 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/07/29 07:58:14 [notice] 1#1: OS: Linux 4.18.0-305.10.2.el8_4.x86_64
+2021/07/29 07:58:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/07/29 07:58:14 [notice] 1#1: start worker processes
+2021/07/29 07:58:14 [notice] 1#1: start worker process 22
+2021/07/29 07:58:14 [notice] 1#1: start worker process 23
+2021/07/29 15:12:58 [error] 23#23: *165 "/usr/share/nginx/html/owa/index.html" is not found (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /owa/ HTTP/1.1", host: "34.146.230.25"
+2021/07/29 15:34:57 [error] 23#23: *172 open() "/usr/share/nginx/html/actuator/health" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /actuator/health HTTP/1.1", host: "34.146.230.25"
+2021/07/29 17:48:12 [error] 23#23: *220 open() "/usr/share/nginx/html/owa/auth/logon.aspx" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f HTTP/1.1", host: "34.146.230.25"
+2021/07/29 18:16:10 [error] 23#23: *250 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /robots.txt HTTP/1.1", host: "34.146.230.25"
+2021/07/29 18:16:11 [error] 23#23: *251 open() "/usr/share/nginx/html/sitemap.xml" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /sitemap.xml HTTP/1.1", host: "34.146.230.25"
+2021/07/29 18:16:12 [error] 23#23: *252 open() "/usr/share/nginx/html/.well-known/security.txt" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /.well-known/security.txt HTTP/1.1", host: "34.146.230.25"
+2021/07/29 18:16:16 [error] 23#23: *253 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /favicon.ico HTTP/1.1", host: "34.146.230.25"
+2021/07/29 19:04:06 [error] 23#23: *298 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /robots.txt HTTP/1.1", host: "34.146.230.25"
+2021/07/29 19:04:07 [error] 23#23: *299 open() "/usr/share/nginx/html/sitemap.xml" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /sitemap.xml HTTP/1.1", host: "34.146.230.25"
+2021/07/29 19:04:08 [error] 23#23: *300 open() "/usr/share/nginx/html/.well-known/security.txt" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /.well-known/security.txt HTTP/1.1", host: "34.146.230.25"
+2021/07/29 19:04:10 [error] 23#23: *301 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /favicon.ico HTTP/1.1", host: "34.146.230.25"
+2021/07/29 20:04:05 [error] 23#23: *324 open() "/usr/share/nginx/html/_ignition/execute-solution" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /_ignition/execute-solution HTTP/1.1", host: "34.146.230.25:443"
+2021/07/29 20:04:05 [error] 23#23: *325 open() "/usr/share/nginx/html/Autodiscover/Autodiscover.xml" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "POST /Autodiscover/Autodiscover.xml HTTP/1.1", host: "34.146.230.25:443"
+2021/07/29 20:04:08 [error] 23#23: *326 open() "/usr/share/nginx/html/api/jsonws/invoke" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "POST /api/jsonws/invoke HTTP/1.1", host: "34.146.230.25:443"
+2021/07/29 20:04:12 [error] 23#23: *328 open() "/usr/share/nginx/html/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "34.146.230.25:443"
+2021/07/29 20:04:12 [error] 23#23: *329 open() "/usr/share/nginx/html/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "34.146.230.25:443"
+2021/07/29 20:04:17 [error] 23#23: *330 "/usr/share/nginx/html/console/index.html" is not found (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /console/ HTTP/1.1", host: "34.146.230.25:443"
+2021/07/29 20:04:17 [error] 23#23: *331 open() "/usr/share/nginx/html/wp-content/plugins/wp-file-manager/readme.txt" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.1", host: "34.146.230.25:443"
+2021/07/29 20:04:20 [error] 23#23: *332 open() "/usr/share/nginx/html/mifs/.;/services/LogService" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "POST /mifs/.;/services/LogService HTTP/1.1", host: "34.146.230.25:443", referrer: "https://34.146.230.25:443"
+2021/07/29 23:35:45 [error] 23#23: *390 "/usr/share/nginx/html/solr/index.html" is not found (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /solr/ HTTP/1.1", host: "34.146.230.25"
+2021/07/30 02:10:49 [error] 23#23: *442 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /favicon.ico HTTP/1.1", host: "34.146.230.25:443"
+2021/07/30 06:43:18 [error] 23#23: *561 open() "/usr/share/nginx/html/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1", host: "34.146.230.25"
+2021/07/30 09:14:43 [error] 23#23: *602 "/usr/share/nginx/html/webfig/index.html" is not found (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /webfig/ HTTP/1.1", host: "34.146.230.25"
+2021/07/30 11:50:57 [error] 23#23: *690 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /robots.txt HTTP/1.1", host: "34.146.230.25"
+2021/07/30 11:50:58 [error] 23#23: *691 open() "/usr/share/nginx/html/sitemap.xml" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /sitemap.xml HTTP/1.1", host: "34.146.230.25"
+2021/07/30 11:50:59 [error] 23#23: *692 open() "/usr/share/nginx/html/.well-known/security.txt" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /.well-known/security.txt HTTP/1.1", host: "34.146.230.25"
+2021/07/30 11:50:59 [error] 23#23: *693 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /favicon.ico HTTP/1.1", host: "34.146.230.25"
+2021/07/30 12:43:11 [error] 23#23: *711 open() "/usr/share/nginx/html/GponForm/diag_Form" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "POST /GponForm/diag_Form?style/ HTTP/1.1", host: "192.168.0.1:443"
+2021/07/30 13:10:11 [error] 23#23: *719 open() "/usr/share/nginx/html/api/jsonws/invoke" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "POST /api/jsonws/invoke HTTP/1.1", host: "34.146.230.25:443"
+2021/07/30 13:10:13 [error] 23#23: *720 open() "/usr/share/nginx/html/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "34.146.230.25:443"
+2021/07/30 13:10:13 [error] 23#23: *721 open() "/usr/share/nginx/html/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "34.146.230.25:443"
+2021/07/30 13:10:18 [error] 23#23: *723 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1", host: "34.146.230.25:443"
+2021/07/30 13:10:20 [error] 23#23: *724 open() "/usr/share/nginx/html/mifs/.;/services/LogService" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "POST /mifs/.;/services/LogService HTTP/1.1", host: "34.146.230.25:443", referrer: "https://34.146.230.25:443"
+2021/07/30 13:10:21 [error] 23#23: *725 open() "/usr/share/nginx/html/wp-content/plugins/wp-file-manager/readme.txt" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.1", host: "34.146.230.25:443"
+2021/07/30 13:10:22 [error] 23#23: *726 "/usr/share/nginx/html/console/index.html" is not found (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /console/ HTTP/1.1", host: "34.146.230.25:443"
+2021/07/30 13:10:24 [error] 23#23: *727 open() "/usr/share/nginx/html/Autodiscover/Autodiscover.xml" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "POST /Autodiscover/Autodiscover.xml HTTP/1.1", host: "34.146.230.25:443"
+2021/07/30 13:10:24 [error] 23#23: *728 open() "/usr/share/nginx/html/_ignition/execute-solution" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /_ignition/execute-solution HTTP/1.1", host: "34.146.230.25:443"
+2021/07/30 15:39:55 [error] 23#23: *774 open() "/usr/share/nginx/html/actuator/health" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /actuator/health HTTP/1.1", host: "34.146.230.25"
+2021/07/30 17:50:11 [error] 23#23: *824 open() "/usr/share/nginx/html/owa/auth/logon.aspx" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f HTTP/1.1", host: "34.146.230.25"
+2021/07/30 20:56:35 [error] 23#23: *1362 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.21.0.7, server: k8s-master.cf, request: "GET /favicon.ico HTTP/1.1", host: "k8s-master.cf", referrer: "https://k8s-master.cf/"
+2021/07/30 21:00:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/07/30 21:00:39 [notice] 22#22: gracefully shutting down
+2021/07/30 21:00:39 [notice] 22#22: exiting
+2021/07/30 21:00:39 [notice] 23#23: gracefully shutting down
+2021/07/30 21:00:39 [notice] 23#23: exiting
+2021/07/30 21:00:39 [notice] 22#22: exit
+2021/07/30 21:00:39 [notice] 23#23: exit
+2021/07/30 21:00:39 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/07/30 21:00:39 [notice] 1#1: worker process 23 exited with code 0
+2021/07/30 21:00:39 [notice] 1#1: signal 29 (SIGIO) received
+2021/07/30 21:00:39 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/07/30 21:00:39 [notice] 1#1: worker process 22 exited with code 0
+2021/07/30 21:00:39 [notice] 1#1: exit
