@@ -875,3 +875,14 @@
 2021/07/30 21:00:39 [notice] 1#1: signal 17 (SIGCHLD) received from 22
 2021/07/30 21:00:39 [notice] 1#1: worker process 22 exited with code 0
 2021/07/30 21:00:39 [notice] 1#1: exit
+2021/07/30 21:01:03 [emerg] 1#1: host not found in upstream "rancher" in /etc/nginx/conf.d/k8s-master.cf.conf:29
+2021/07/30 21:01:06 [emerg] 1#1: host not found in upstream "rancher" in /etc/nginx/conf.d/k8s-master.cf.conf:29
+2021/07/30 21:01:07 [emerg] 1#1: host not found in upstream "rancher" in /etc/nginx/conf.d/k8s-master.cf.conf:29
+2021/07/30 21:01:08 [emerg] 1#1: host not found in upstream "rancher" in /etc/nginx/conf.d/k8s-master.cf.conf:29
+2021/07/30 21:01:09 [emerg] 1#1: host not found in upstream "rancher" in /etc/nginx/conf.d/k8s-master.cf.conf:29
+2021/07/30 21:01:11 [emerg] 1#1: host not found in upstream "rancher" in /etc/nginx/conf.d/k8s-master.cf.conf:29
+2021/07/30 21:01:15 [emerg] 1#1: host not found in upstream "rancher" in /etc/nginx/conf.d/k8s-master.cf.conf:29
+2021/07/30 21:01:22 [emerg] 1#1: host not found in upstream "rancher" in /etc/nginx/conf.d/k8s-master.cf.conf:29
+2021/07/30 21:01:36 [emerg] 1#1: host not found in upstream "rancher" in /etc/nginx/conf.d/k8s-master.cf.conf:29
+2021/07/30 21:02:02 [emerg] 1#1: host not found in upstream "rancher" in /etc/nginx/conf.d/k8s-master.cf.conf:29
+2021/07/30 21:02:54 [emerg] 1#1: host not found in upstream "rancher" in /etc/nginx/conf.d/k8s-master.cf.conf:29
