@@ -2577,3 +2577,9 @@
 2021/08/04 08:24:29 [Info] transport/internet/websocket: listening TCP(for WS) on 0.0.0.0:443
 2021/08/04 08:24:29 [Warning] transport/internet/websocket: accepting PROXY protocol
 2021/08/04 08:24:29 [Warning] V2Ray 4.40.1 started
+2021/08/04 08:31:52 [Debug] app/log: Logger started
+2021/08/04 08:31:52 [Info] app/dns: DNS: created localhost client
+2021/08/04 08:31:52 [Debug] app/proxyman/inbound: creating stream worker on 0.0.0.0:443
+2021/08/04 08:31:52 [Info] transport/internet/websocket: listening TCP(for WS) on 0.0.0.0:443
+2021/08/04 08:31:52 [Warning] transport/internet/websocket: accepting PROXY protocol
+2021/08/04 08:31:52 [Warning] V2Ray 4.40.1 started
